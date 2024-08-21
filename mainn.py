@@ -120,6 +120,6 @@ elif asal == "Kota Bandung" and tujuan == "Kota Sukabumi":
 elif asal == "Kota Bandung" and tujuan == "Kota Tasikmalaya":
      st.write ("Jumlah Maksimalnya adalah", 30, "liter")
 
-elif asal == "Kota Bandung" and tujuan == "Kota DKI Jakarta":
+elif asal == "Kota Bandung" and tujuan == "DKI Jakarta":
      st.write ("Jumlah Maksimalnya adalah", 40, "liter")
 
