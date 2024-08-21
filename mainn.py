@@ -8,6 +8,7 @@ Ini adalah aplikasi mengecek kebutuhan BBM Perjalanan Dinas
 
 original_list = ["Pilih Kabupaten/Kota",
                  "Kab. Bandung", 
+                 "Kab. Bandung Barat",
                  "Kab. Bekasi",
                  "Kab. Bogor",
                  "Kab. Ciamis",
