@@ -37,7 +37,7 @@ original_list = ["Pilih Kabupaten/Kota",
                  "DKI Jakarta"]
 
 
-asal = st.text_input("Masukan Tempat Asal", original_list)
+asal = st.selectbox("Masukan Tempat Asal",original_list)
 tujuan = st.selectbox("Masukan Tempat Tujuan",original_list)
 
 if asal == "Kota Bandung" and tujuan == "Kab. Bandung":
