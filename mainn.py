@@ -125,7 +125,7 @@ elif asal == "Kota Bandung" and tujuan == "DKI Jakarta":
      st.write ("Jumlah Maksimalnya adalah", 40, "liter")
 
 elif asal == "Kab. Bandung" and tujuan == "Kab. Bandung":
-     st.write ("Jumlah Maksimalnya adalah", 40, "liter")
+     st.write ("Jumlah Maksimalnya adalah", 0, "liter")
 
 elif asal == "Kab. Bandung" and tujuan == "Kab. Bandung Barat":
      st.write ("Jumlah Maksimalnya adalah", 15, "liter")
