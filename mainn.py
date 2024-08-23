@@ -1655,855 +1655,768 @@ elif asal == "Kab. Tasikmalaya" and tujuan == "Kota Tasikmalaya":
 elif asal == "Kab. Tasikmalaya" and tujuan == "DKI Jakarta":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-
-elif asal == "Kota. Bandung" and tujuan == "Kab. Bandung":
+elif asal == "Kota Banjar" and tujuan == "Kab. Bandung":
      st.write ("Jumlah Maksimalnya adalah", 20, "liter")
 
-elif asal == "Kota. Bandung" and tujuan == "Kab. Bandung Barat":
+elif asal == "Kota Banjar" and tujuan == "Kab. Bandung Barat":
      st.write ("Jumlah Maksimalnya adalah", 10, "liter")
      
-elif asal == "Kota. Bandung" and tujuan == "Kab. Bekasi":
+elif asal == "Kota Banjar" and tujuan == "Kab. Bekasi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Bandung" and tujuan == "Kab. Bogor":
+elif asal == "Kota Banjar" and tujuan == "Kab. Bogor":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Bandung" and tujuan == "Kab. Ciamis":
+elif asal == "Kota Banjar" and tujuan == "Kab. Ciamis":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
      
-elif asal == "Kota. Bandung" and tujuan == "Kab. Cianjur":
+elif asal == "Kota Banjar" and tujuan == "Kab. Cianjur":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Bandung" and tujuan == "Kab. Cirebon":
+elif asal == "Kota Banjar" and tujuan == "Kab. Cirebon":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
 
-elif asal == "Kota. Bandung" and tujuan == "Kab. Garut":
+elif asal == "Kota Banjar" and tujuan == "Kab. Garut":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
      
-elif asal == "Kota. Bandung" and tujuan == "Kab. Indramayu":
+elif asal == "Kota Banjar" and tujuan == "Kab. Indramayu":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
 
-elif asal == "Kota. Bandung" and tujuan == "Kab. Karawang":
+elif asal == "Kota Banjar" and tujuan == "Kab. Karawang":
      st.write ("Jumlah Maksimalnya adalah", 20, "liter")
 
-elif asal == "Kota. Bandung" and tujuan == "Kab. Kuningan":
+elif asal == "Kota Banjar" and tujuan == "Kab. Kuningan":
      st.write ("Jumlah Maksimalnya adalah", 50, "liter")
      
-elif asal == "Kota. Bandung" and tujuan == "Kab. Majalengka":
+elif asal == "Kota Banjar" and tujuan == "Kab. Majalengka":
      st.write ("Jumlah Maksimalnya adalah", 50, "liter")
 
-elif asal == "Kota. Bandung" and tujuan == "Kab. Pangandaran":
+elif asal == "Kota Banjar" and tujuan == "Kab. Pangandaran":
      st.write ("Jumlah Maksimalnya adalah", 50, "liter")
 
-elif asal == "Kota. Bandung" and tujuan == "Kab. Purwakarta":
+elif asal == "Kota Banjar" and tujuan == "Kab. Purwakarta":
      st.write ("Jumlah Maksimalnya adalah", 0, "liter")
      
-elif asal == "Kota. Bandung" and tujuan == "Kab. Subang":
+elif asal == "Kota Banjar" and tujuan == "Kab. Subang":
      st.write ("Jumlah Maksimalnya adalah", 25, "liter")
 
-elif asal == "Kota. Bandung" and tujuan == "Kab. Sukabumi":
+elif asal == "Kota Banjar" and tujuan == "Kab. Sukabumi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Bandung" and tujuan == "Kab. Sumedang":
+elif asal == "Kota Banjar" and tujuan == "Kab. Sumedang":
      st.write ("Jumlah Maksimalnya adalah", 40, "liter")
      
-elif asal == "Kota. Bandung" and tujuan == "Kab. Tasikmalaya":
+elif asal == "Kota Banjar" and tujuan == "Kab. Tasikmalaya":
      st.write ("Jumlah Maksimalnya adalah", 30, "liter")
 
-elif asal == "Kota. Bandung" and tujuan == "Kota Bandung":
+elif asal == "Kota Banjar" and tujuan == "Kota Bandung":
      st.write ("Jumlah Maksimalnya adalah", 25, "liter")
 
-elif asal == "Kota. Bandung" and tujuan == "Kota Banjar":
+elif asal == "Kota Banjar" and tujuan == "Kota Banjar":
      st.write ("Jumlah Maksimalnya adalah", 56, "liter")
      
-elif asal == "Kota. Bandung" and tujuan == "Kota Bekasi":
+elif asal == "Kota Banjar" and tujuan == "Kota Bekasi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Bandung" and tujuan == "Kota Bogor":
+elif asal == "Kota Banjar" and tujuan == "Kota Bogor":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
 
-elif asal == "Kota. Bandung" and tujuan == "Kota Cimahi":
+elif asal == "Kota Banjar" and tujuan == "Kota Cimahi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")     
 
-elif asal == "Kota. Bandung" and tujuan == "Kota Cirebon":
+elif asal == "Kota Banjar" and tujuan == "Kota Cirebon":
      st.write ("Jumlah Maksimalnya adalah", 61, "liter")
      
-elif asal == "Kota. Bandung" and tujuan == "Kota Depok":
+elif asal == "Kota Banjar" and tujuan == "Kota Depok":
      st.write ("Jumlah Maksimalnya adalah", 30, "liter")
 
-elif asal == "Kota. Bandung" and tujuan == "Kota Sukabumi":
+elif asal == "Kota Banjar" and tujuan == "Kota Sukabumi":
      st.write ("Jumlah Maksimalnya adalah", 46, "liter")
 
-elif asal == "Kota. Bandung" and tujuan == "Kota Tasikmalaya":
+elif asal == "Kota Banjar" and tujuan == "Kota Tasikmalaya":
      st.write ("Jumlah Maksimalnya adalah", 40, "liter")
 
-elif asal == "Kota. Bandung" and tujuan == "DKI Jakarta":
+elif asal == "Kota Banjar" and tujuan == "DKI Jakarta":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
 
-elif asal == "Kota. Banjar" and tujuan == "Kab. Bandung":
+elif asal == "Kota Bekasi" and tujuan == "Kab. Bandung":
      st.write ("Jumlah Maksimalnya adalah", 20, "liter")
 
-elif asal == "Kota. Banjar" and tujuan == "Kab. Bandung Barat":
+elif asal == "Kota Bekasi" and tujuan == "Kab. Bandung Barat":
      st.write ("Jumlah Maksimalnya adalah", 10, "liter")
      
-elif asal == "Kota. Banjar" and tujuan == "Kab. Bekasi":
+elif asal == "Kota Bekasi" and tujuan == "Kab. Bekasi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Banjar" and tujuan == "Kab. Bogor":
+elif asal == "Kota Bekasi" and tujuan == "Kab. Bogor":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Banjar" and tujuan == "Kab. Ciamis":
+elif asal == "Kota Bekasi" and tujuan == "Kab. Ciamis":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
      
-elif asal == "Kota. Banjar" and tujuan == "Kab. Cianjur":
+elif asal == "Kota Bekasi" and tujuan == "Kab. Cianjur":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Banjar" and tujuan == "Kab. Cirebon":
+elif asal == "Kota Bekasi" and tujuan == "Kab. Cirebon":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
 
-elif asal == "Kota. Banjar" and tujuan == "Kab. Garut":
+elif asal == "Kota Bekasi" and tujuan == "Kab. Garut":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
      
-elif asal == "Kota. Banjar" and tujuan == "Kab. Indramayu":
+elif asal == "Kota Bekasi" and tujuan == "Kab. Indramayu":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
 
-elif asal == "Kota. Banjar" and tujuan == "Kab. Karawang":
+elif asal == "Kota Bekasi" and tujuan == "Kab. Karawang":
      st.write ("Jumlah Maksimalnya adalah", 20, "liter")
 
-elif asal == "Kota. Banjar" and tujuan == "Kab. Kuningan":
+elif asal == "Kota Bekasi" and tujuan == "Kab. Kuningan":
      st.write ("Jumlah Maksimalnya adalah", 50, "liter")
      
-elif asal == "Kota. Banjar" and tujuan == "Kab. Majalengka":
+elif asal == "Kota Bekasi" and tujuan == "Kab. Majalengka":
      st.write ("Jumlah Maksimalnya adalah", 50, "liter")
 
-elif asal == "Kota. Banjar" and tujuan == "Kab. Pangandaran":
+elif asal == "Kota Bekasi" and tujuan == "Kab. Pangandaran":
      st.write ("Jumlah Maksimalnya adalah", 50, "liter")
 
-elif asal == "Kota. Banjar" and tujuan == "Kab. Purwakarta":
+elif asal == "Kota Bekasi" and tujuan == "Kab. Purwakarta":
      st.write ("Jumlah Maksimalnya adalah", 0, "liter")
      
-elif asal == "Kota. Banjar" and tujuan == "Kab. Subang":
+elif asal == "Kota Bekasi" and tujuan == "Kab. Subang":
      st.write ("Jumlah Maksimalnya adalah", 25, "liter")
 
-elif asal == "Kota. Banjar" and tujuan == "Kab. Sukabumi":
+elif asal == "Kota Bekasi" and tujuan == "Kab. Sukabumi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Banjar" and tujuan == "Kab. Sumedang":
+elif asal == "Kota Bekasi" and tujuan == "Kab. Sumedang":
      st.write ("Jumlah Maksimalnya adalah", 40, "liter")
      
-elif asal == "Kota. Banjar" and tujuan == "Kab. Tasikmalaya":
+elif asal == "Kota Bekasi" and tujuan == "Kab. Tasikmalaya":
      st.write ("Jumlah Maksimalnya adalah", 30, "liter")
 
-elif asal == "Kota. Banjar" and tujuan == "Kota Bandung":
+elif asal == "Kota Bekasi" and tujuan == "Kota Bandung":
      st.write ("Jumlah Maksimalnya adalah", 25, "liter")
 
-elif asal == "Kota. Banjar" and tujuan == "Kota Banjar":
+elif asal == "Kota Bekasi" and tujuan == "Kota Banjar":
      st.write ("Jumlah Maksimalnya adalah", 56, "liter")
      
-elif asal == "Kota. Banjar" and tujuan == "Kota Bekasi":
+elif asal == "Kota Bekasi" and tujuan == "Kota Bekasi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Banjar" and tujuan == "Kota Bogor":
+elif asal == "Kota Bekasi" and tujuan == "Kota Bogor":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
 
-elif asal == "Kota. Banjar" and tujuan == "Kota Cimahi":
+elif asal == "Kota Bekasi" and tujuan == "Kota Cimahi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")     
 
-elif asal == "Kota. Banjar" and tujuan == "Kota Cirebon":
+elif asal == "Kota Bekasi" and tujuan == "Kota Cirebon":
      st.write ("Jumlah Maksimalnya adalah", 61, "liter")
      
-elif asal == "Kota. Banjar" and tujuan == "Kota Depok":
+elif asal == "Kota Bekasi" and tujuan == "Kota Depok":
      st.write ("Jumlah Maksimalnya adalah", 30, "liter")
 
-elif asal == "Kota. Banjar" and tujuan == "Kota Sukabumi":
+elif asal == "Kota Bekasi" and tujuan == "Kota Sukabumi":
      st.write ("Jumlah Maksimalnya adalah", 46, "liter")
 
-elif asal == "Kota. Banjar" and tujuan == "Kota Tasikmalaya":
+elif asal == "Kota Bekasi" and tujuan == "Kota Tasikmalaya":
      st.write ("Jumlah Maksimalnya adalah", 40, "liter")
 
-elif asal == "Kota. Banjar" and tujuan == "DKI Jakarta":
+elif asal == "Kota Bekasi" and tujuan == "DKI Jakarta":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
 
-elif asal == "Kota. Bekasi" and tujuan == "Kab. Bandung":
+
+elif asal == "Kota Bogor" and tujuan == "Kab. Bandung":
      st.write ("Jumlah Maksimalnya adalah", 20, "liter")
 
-elif asal == "Kota. Bekasi" and tujuan == "Kab. Bandung Barat":
+elif asal == "Kota Bogor" and tujuan == "Kab. Bandung Barat":
      st.write ("Jumlah Maksimalnya adalah", 10, "liter")
      
-elif asal == "Kota. Bekasi" and tujuan == "Kab. Bekasi":
+elif asal == "Kota Bogor" and tujuan == "Kab. Bekasi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Bekasi" and tujuan == "Kab. Bogor":
+elif asal == "Kota Bogor" and tujuan == "Kab. Bogor":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Bekasi" and tujuan == "Kab. Ciamis":
+elif asal == "Kota Bogor" and tujuan == "Kab. Ciamis":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
      
-elif asal == "Kota. Bekasi" and tujuan == "Kab. Cianjur":
+elif asal == "Kota Bogor" and tujuan == "Kab. Cianjur":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Bekasi" and tujuan == "Kab. Cirebon":
+elif asal == "Kota Bogor" and tujuan == "Kab. Cirebon":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
 
-elif asal == "Kota. Bekasi" and tujuan == "Kab. Garut":
+elif asal == "Kota Bogor" and tujuan == "Kab. Garut":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
      
-elif asal == "Kota. Bekasi" and tujuan == "Kab. Indramayu":
+elif asal == "Kota Bogor" and tujuan == "Kab. Indramayu":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
 
-elif asal == "Kota. Bekasi" and tujuan == "Kab. Karawang":
+elif asal == "Kota Bogor" and tujuan == "Kab. Karawang":
      st.write ("Jumlah Maksimalnya adalah", 20, "liter")
 
-elif asal == "Kota. Bekasi" and tujuan == "Kab. Kuningan":
+elif asal == "Kota Bogor" and tujuan == "Kab. Kuningan":
      st.write ("Jumlah Maksimalnya adalah", 50, "liter")
      
-elif asal == "Kota. Bekasi" and tujuan == "Kab. Majalengka":
+elif asal == "Kota Bogor" and tujuan == "Kab. Majalengka":
      st.write ("Jumlah Maksimalnya adalah", 50, "liter")
 
-elif asal == "Kota. Bekasi" and tujuan == "Kab. Pangandaran":
+elif asal == "Kota Bogor" and tujuan == "Kab. Pangandaran":
      st.write ("Jumlah Maksimalnya adalah", 50, "liter")
 
-elif asal == "Kota. Bekasi" and tujuan == "Kab. Purwakarta":
+elif asal == "Kota Bogor" and tujuan == "Kab. Purwakarta":
      st.write ("Jumlah Maksimalnya adalah", 0, "liter")
      
-elif asal == "Kota. Bekasi" and tujuan == "Kab. Subang":
+elif asal == "Kota Bogor" and tujuan == "Kab. Subang":
      st.write ("Jumlah Maksimalnya adalah", 25, "liter")
 
-elif asal == "Kota. Bekasi" and tujuan == "Kab. Sukabumi":
+elif asal == "Kota Bogor" and tujuan == "Kab. Sukabumi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Bekasi" and tujuan == "Kab. Sumedang":
+elif asal == "Kota Bogor" and tujuan == "Kab. Sumedang":
      st.write ("Jumlah Maksimalnya adalah", 40, "liter")
      
-elif asal == "Kota. Bekasi" and tujuan == "Kab. Tasikmalaya":
+elif asal == "Kota Bogor" and tujuan == "Kab. Tasikmalaya":
      st.write ("Jumlah Maksimalnya adalah", 30, "liter")
 
-elif asal == "Kota. Bekasi" and tujuan == "Kota Bandung":
+elif asal == "Kota Bogor" and tujuan == "Kota Bandung":
      st.write ("Jumlah Maksimalnya adalah", 25, "liter")
 
-elif asal == "Kota. Bekasi" and tujuan == "Kota Banjar":
+elif asal == "Kota Bogor" and tujuan == "Kota Banjar":
      st.write ("Jumlah Maksimalnya adalah", 56, "liter")
      
-elif asal == "Kota. Bekasi" and tujuan == "Kota Bekasi":
+elif asal == "Kota Bogor" and tujuan == "Kota Bekasi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Bekasi" and tujuan == "Kota Bogor":
+elif asal == "Kota Bogor" and tujuan == "Kota Bogor":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
 
-elif asal == "Kota. Bekasi" and tujuan == "Kota Cimahi":
+elif asal == "Kota Bogor" and tujuan == "Kota Cimahi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")     
 
-elif asal == "Kota. Bekasi" and tujuan == "Kota Cirebon":
+elif asal == "Kota Bogor" and tujuan == "Kota Cirebon":
      st.write ("Jumlah Maksimalnya adalah", 61, "liter")
      
-elif asal == "Kota. Bekasi" and tujuan == "Kota Depok":
+elif asal == "Kota Bogor" and tujuan == "Kota Depok":
      st.write ("Jumlah Maksimalnya adalah", 30, "liter")
 
-elif asal == "Kota. Bekasi" and tujuan == "Kota Sukabumi":
+elif asal == "Kota Bogor" and tujuan == "Kota Sukabumi":
      st.write ("Jumlah Maksimalnya adalah", 46, "liter")
 
-elif asal == "Kota. Bekasi" and tujuan == "Kota Tasikmalaya":
+elif asal == "Kota Bogor" and tujuan == "Kota Tasikmalaya":
      st.write ("Jumlah Maksimalnya adalah", 40, "liter")
 
-elif asal == "Kota. Bekasi" and tujuan == "DKI Jakarta":
+elif asal == "Kota Bogor" and tujuan == "DKI Jakarta":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
 
 
-elif asal == "Kota. Bogor" and tujuan == "Kab. Bandung":
+elif asal == "Kota Cimahi" and tujuan == "Kab. Bandung":
      st.write ("Jumlah Maksimalnya adalah", 20, "liter")
 
-elif asal == "Kota. Bogor" and tujuan == "Kab. Bandung Barat":
+elif asal == "Kota Cimahi" and tujuan == "Kab. Bandung Barat":
      st.write ("Jumlah Maksimalnya adalah", 10, "liter")
      
-elif asal == "Kota. Bogor" and tujuan == "Kab. Bekasi":
+elif asal == "Kota Cimahi" and tujuan == "Kab. Bekasi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Bogor" and tujuan == "Kab. Bogor":
+elif asal == "Kota Cimahi" and tujuan == "Kab. Bogor":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Bogor" and tujuan == "Kab. Ciamis":
+elif asal == "Kota Cimahi" and tujuan == "Kab. Ciamis":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
      
-elif asal == "Kota. Bogor" and tujuan == "Kab. Cianjur":
+elif asal == "Kota Cimahi" and tujuan == "Kab. Cianjur":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Bogor" and tujuan == "Kab. Cirebon":
+elif asal == "Kota Cimahi" and tujuan == "Kab. Cirebon":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
 
-elif asal == "Kota. Bogor" and tujuan == "Kab. Garut":
+elif asal == "Kota Cimahi" and tujuan == "Kab. Garut":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
      
-elif asal == "Kota. Bogor" and tujuan == "Kab. Indramayu":
+elif asal == "Kota Cimahi" and tujuan == "Kab. Indramayu":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
 
-elif asal == "Kota. Bogor" and tujuan == "Kab. Karawang":
+elif asal == "Kota Cimahi" and tujuan == "Kab. Karawang":
      st.write ("Jumlah Maksimalnya adalah", 20, "liter")
 
-elif asal == "Kota. Bogor" and tujuan == "Kab. Kuningan":
+elif asal == "Kota Cimahi" and tujuan == "Kab. Kuningan":
      st.write ("Jumlah Maksimalnya adalah", 50, "liter")
      
-elif asal == "Kota. Bogor" and tujuan == "Kab. Majalengka":
+elif asal == "Kota Cimahi" and tujuan == "Kab. Majalengka":
      st.write ("Jumlah Maksimalnya adalah", 50, "liter")
 
-elif asal == "Kota. Bogor" and tujuan == "Kab. Pangandaran":
+elif asal == "Kota Cimahi" and tujuan == "Kab. Pangandaran":
      st.write ("Jumlah Maksimalnya adalah", 50, "liter")
 
-elif asal == "Kota. Bogor" and tujuan == "Kab. Purwakarta":
+elif asal == "Kota Cimahi" and tujuan == "Kab. Purwakarta":
      st.write ("Jumlah Maksimalnya adalah", 0, "liter")
      
-elif asal == "Kota. Bogor" and tujuan == "Kab. Subang":
+elif asal == "Kota Cimahi" and tujuan == "Kab. Subang":
      st.write ("Jumlah Maksimalnya adalah", 25, "liter")
 
-elif asal == "Kota. Bogor" and tujuan == "Kab. Sukabumi":
+elif asal == "Kota Cimahi" and tujuan == "Kab. Sukabumi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Bogor" and tujuan == "Kab. Sumedang":
+elif asal == "Kota Cimahi" and tujuan == "Kab. Sumedang":
      st.write ("Jumlah Maksimalnya adalah", 40, "liter")
      
-elif asal == "Kota. Bogor" and tujuan == "Kab. Tasikmalaya":
+elif asal == "Kota Cimahi" and tujuan == "Kab. Tasikmalaya":
      st.write ("Jumlah Maksimalnya adalah", 30, "liter")
 
-elif asal == "Kota. Bogor" and tujuan == "Kota Bandung":
+elif asal == "Kota Cimahi" and tujuan == "Kota Bandung":
      st.write ("Jumlah Maksimalnya adalah", 25, "liter")
 
-elif asal == "Kota. Bogor" and tujuan == "Kota Banjar":
+elif asal == "Kota Cimahi" and tujuan == "Kota Banjar":
      st.write ("Jumlah Maksimalnya adalah", 56, "liter")
      
-elif asal == "Kota. Bogor" and tujuan == "Kota Bekasi":
+elif asal == "Kota Cimahi" and tujuan == "Kota Bekasi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Bogor" and tujuan == "Kota Bogor":
+elif asal == "Kota Cimahi" and tujuan == "Kota Bogor":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
 
-elif asal == "Kota. Bogor" and tujuan == "Kota Cimahi":
+elif asal == "Kota Cimahi" and tujuan == "Kota Cimahi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")     
 
-elif asal == "Kota. Bogor" and tujuan == "Kota Cirebon":
+elif asal == "Kota Cimahi" and tujuan == "Kota Cirebon":
      st.write ("Jumlah Maksimalnya adalah", 61, "liter")
      
-elif asal == "Kota. Bogor" and tujuan == "Kota Depok":
+elif asal == "Kota Cimahi" and tujuan == "Kota Depok":
      st.write ("Jumlah Maksimalnya adalah", 30, "liter")
 
-elif asal == "Kota. Bogor" and tujuan == "Kota Sukabumi":
+elif asal == "Kota Cimahi" and tujuan == "Kota Sukabumi":
      st.write ("Jumlah Maksimalnya adalah", 46, "liter")
 
-elif asal == "Kota. Bogor" and tujuan == "Kota Tasikmalaya":
+elif asal == "Kota Cimahi" and tujuan == "Kota Tasikmalaya":
      st.write ("Jumlah Maksimalnya adalah", 40, "liter")
 
-elif asal == "Kota. Bogor" and tujuan == "DKI Jakarta":
+elif asal == "Kota Cimahi" and tujuan == "DKI Jakarta":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
 
 
-elif asal == "Kota. Cimahi" and tujuan == "Kab. Bandung":
+elif asal == "Kota Cirebon" and tujuan == "Kab. Bandung":
      st.write ("Jumlah Maksimalnya adalah", 20, "liter")
 
-elif asal == "Kota. Cimahi" and tujuan == "Kab. Bandung Barat":
+elif asal == "Kota Cirebon" and tujuan == "Kab. Bandung Barat":
      st.write ("Jumlah Maksimalnya adalah", 10, "liter")
      
-elif asal == "Kota. Cimahi" and tujuan == "Kab. Bekasi":
+elif asal == "Kota Cirebon" and tujuan == "Kab. Bekasi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Cimahi" and tujuan == "Kab. Bogor":
+elif asal == "Kota Cirebon" and tujuan == "Kab. Bogor":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Cimahi" and tujuan == "Kab. Ciamis":
+elif asal == "Kota Cirebon" and tujuan == "Kab. Ciamis":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
      
-elif asal == "Kota. Cimahi" and tujuan == "Kab. Cianjur":
+elif asal == "Kota Cirebon" and tujuan == "Kab. Cianjur":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Cimahi" and tujuan == "Kab. Cirebon":
+elif asal == "Kota Cirebon" and tujuan == "Kab. Cirebon":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
 
-elif asal == "Kota. Cimahi" and tujuan == "Kab. Garut":
+elif asal == "Kota Cirebon" and tujuan == "Kab. Garut":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
      
-elif asal == "Kota. Cimahi" and tujuan == "Kab. Indramayu":
+elif asal == "Kota Cirebon" and tujuan == "Kab. Indramayu":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
 
-elif asal == "Kota. Cimahi" and tujuan == "Kab. Karawang":
+elif asal == "Kota Cirebon" and tujuan == "Kab. Karawang":
      st.write ("Jumlah Maksimalnya adalah", 20, "liter")
 
-elif asal == "Kota. Cimahi" and tujuan == "Kab. Kuningan":
+elif asal == "Kota Cirebon" and tujuan == "Kab. Kuningan":
      st.write ("Jumlah Maksimalnya adalah", 50, "liter")
      
-elif asal == "Kota. Cimahi" and tujuan == "Kab. Majalengka":
+elif asal == "Kota Cirebon" and tujuan == "Kab. Majalengka":
      st.write ("Jumlah Maksimalnya adalah", 50, "liter")
 
-elif asal == "Kota. Cimahi" and tujuan == "Kab. Pangandaran":
+elif asal == "Kota Cirebon" and tujuan == "Kab. Pangandaran":
      st.write ("Jumlah Maksimalnya adalah", 50, "liter")
 
-elif asal == "Kota. Cimahi" and tujuan == "Kab. Purwakarta":
+elif asal == "Kota Cirebon" and tujuan == "Kab. Purwakarta":
      st.write ("Jumlah Maksimalnya adalah", 0, "liter")
      
-elif asal == "Kota. Cimahi" and tujuan == "Kab. Subang":
+elif asal == "Kota Cirebon" and tujuan == "Kab. Subang":
      st.write ("Jumlah Maksimalnya adalah", 25, "liter")
 
-elif asal == "Kota. Cimahi" and tujuan == "Kab. Sukabumi":
+elif asal == "Kota Cirebon" and tujuan == "Kab. Sukabumi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Cimahi" and tujuan == "Kab. Sumedang":
+elif asal == "Kota Cirebon" and tujuan == "Kab. Sumedang":
      st.write ("Jumlah Maksimalnya adalah", 40, "liter")
      
-elif asal == "Kota. Cimahi" and tujuan == "Kab. Tasikmalaya":
+elif asal == "Kota Cirebon" and tujuan == "Kab. Tasikmalaya":
      st.write ("Jumlah Maksimalnya adalah", 30, "liter")
 
-elif asal == "Kota. Cimahi" and tujuan == "Kota Bandung":
+elif asal == "Kota Cirebon" and tujuan == "Kota Bandung":
      st.write ("Jumlah Maksimalnya adalah", 25, "liter")
 
-elif asal == "Kota. Cimahi" and tujuan == "Kota Banjar":
+elif asal == "Kota Cirebon" and tujuan == "Kota Banjar":
      st.write ("Jumlah Maksimalnya adalah", 56, "liter")
      
-elif asal == "Kota. Cimahi" and tujuan == "Kota Bekasi":
+elif asal == "Kota Cirebon" and tujuan == "Kota Bekasi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Cimahi" and tujuan == "Kota Bogor":
+elif asal == "Kota Cirebon" and tujuan == "Kota Bogor":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
 
-elif asal == "Kota. Cimahi" and tujuan == "Kota Cimahi":
+elif asal == "Kota Cirebon" and tujuan == "Kota Cimahi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")     
 
-elif asal == "Kota. Cimahi" and tujuan == "Kota Cirebon":
+elif asal == "Kota Cirebon" and tujuan == "Kota Cirebon":
      st.write ("Jumlah Maksimalnya adalah", 61, "liter")
      
-elif asal == "Kota. Cimahi" and tujuan == "Kota Depok":
+elif asal == "Kota Cirebon" and tujuan == "Kota Depok":
      st.write ("Jumlah Maksimalnya adalah", 30, "liter")
 
-elif asal == "Kota. Cimahi" and tujuan == "Kota Sukabumi":
+elif asal == "Kota Cirebon" and tujuan == "Kota Sukabumi":
      st.write ("Jumlah Maksimalnya adalah", 46, "liter")
 
-elif asal == "Kota. Cimahi" and tujuan == "Kota Tasikmalaya":
+elif asal == "Kota Cirebon" and tujuan == "Kota Tasikmalaya":
      st.write ("Jumlah Maksimalnya adalah", 40, "liter")
 
-elif asal == "Kota. Cimahi" and tujuan == "DKI Jakarta":
+elif asal == "Kota Cirebon" and tujuan == "DKI Jakarta":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
 
-
-elif asal == "Kota. Cirebon" and tujuan == "Kab. Bandung":
+elif asal == "Kota Depok" and tujuan == "Kab. Bandung":
      st.write ("Jumlah Maksimalnya adalah", 20, "liter")
 
-elif asal == "Kota. Cirebon" and tujuan == "Kab. Bandung Barat":
+elif asal == "Kota Depok" and tujuan == "Kab. Bandung Barat":
      st.write ("Jumlah Maksimalnya adalah", 10, "liter")
      
-elif asal == "Kota. Cirebon" and tujuan == "Kab. Bekasi":
+elif asal == "Kota Depok" and tujuan == "Kab. Bekasi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Cirebon" and tujuan == "Kab. Bogor":
+elif asal == "Kota Depok" and tujuan == "Kab. Bogor":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Cirebon" and tujuan == "Kab. Ciamis":
+elif asal == "Kota Depok" and tujuan == "Kab. Ciamis":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
      
-elif asal == "Kota. Cirebon" and tujuan == "Kab. Cianjur":
+elif asal == "Kota Depok" and tujuan == "Kab. Cianjur":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Cirebon" and tujuan == "Kab. Cirebon":
+elif asal == "Kota Depok" and tujuan == "Kab. Cirebon":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
 
-elif asal == "Kota. Cirebon" and tujuan == "Kab. Garut":
+elif asal == "Kota Depok" and tujuan == "Kab. Garut":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
      
-elif asal == "Kota. Cirebon" and tujuan == "Kab. Indramayu":
+elif asal == "Kota Depok" and tujuan == "Kab. Indramayu":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
 
-elif asal == "Kota. Cirebon" and tujuan == "Kab. Karawang":
+elif asal == "Kota Depok" and tujuan == "Kab. Karawang":
      st.write ("Jumlah Maksimalnya adalah", 20, "liter")
 
-elif asal == "Kota. Cirebon" and tujuan == "Kab. Kuningan":
+elif asal == "Kota Depok" and tujuan == "Kab. Kuningan":
      st.write ("Jumlah Maksimalnya adalah", 50, "liter")
      
-elif asal == "Kota. Cirebon" and tujuan == "Kab. Majalengka":
+elif asal == "Kota Depok" and tujuan == "Kab. Majalengka":
      st.write ("Jumlah Maksimalnya adalah", 50, "liter")
 
-elif asal == "Kota. Cirebon" and tujuan == "Kab. Pangandaran":
+elif asal == "Kota Depok" and tujuan == "Kab. Pangandaran":
      st.write ("Jumlah Maksimalnya adalah", 50, "liter")
 
-elif asal == "Kota. Cirebon" and tujuan == "Kab. Purwakarta":
+elif asal == "Kota Depok" and tujuan == "Kab. Purwakarta":
      st.write ("Jumlah Maksimalnya adalah", 0, "liter")
      
-elif asal == "Kota. Cirebon" and tujuan == "Kab. Subang":
+elif asal == "Kota Depok" and tujuan == "Kab. Subang":
      st.write ("Jumlah Maksimalnya adalah", 25, "liter")
 
-elif asal == "Kota. Cirebon" and tujuan == "Kab. Sukabumi":
+elif asal == "Kota Depok" and tujuan == "Kab. Sukabumi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Cirebon" and tujuan == "Kab. Sumedang":
+elif asal == "Kota Depok" and tujuan == "Kab. Sumedang":
      st.write ("Jumlah Maksimalnya adalah", 40, "liter")
      
-elif asal == "Kota. Cirebon" and tujuan == "Kab. Tasikmalaya":
+elif asal == "Kota Depok" and tujuan == "Kab. Tasikmalaya":
      st.write ("Jumlah Maksimalnya adalah", 30, "liter")
 
-elif asal == "Kota. Cirebon" and tujuan == "Kota Bandung":
+elif asal == "Kota Depok" and tujuan == "Kota Bandung":
      st.write ("Jumlah Maksimalnya adalah", 25, "liter")
 
-elif asal == "Kota. Cirebon" and tujuan == "Kota Banjar":
+elif asal == "Kota Depok" and tujuan == "Kota Banjar":
      st.write ("Jumlah Maksimalnya adalah", 56, "liter")
      
-elif asal == "Kota. Cirebon" and tujuan == "Kota Bekasi":
+elif asal == "Kota Depok" and tujuan == "Kota Bekasi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Cirebon" and tujuan == "Kota Bogor":
+elif asal == "Kota Depok" and tujuan == "Kota Bogor":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
 
-elif asal == "Kota. Cirebon" and tujuan == "Kota Cimahi":
+elif asal == "Kota Depok" and tujuan == "Kota Cimahi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")     
 
-elif asal == "Kota. Cirebon" and tujuan == "Kota Cirebon":
+elif asal == "Kota Depok" and tujuan == "Kota Cirebon":
      st.write ("Jumlah Maksimalnya adalah", 61, "liter")
      
-elif asal == "Kota. Cirebon" and tujuan == "Kota Depok":
+elif asal == "Kota Depok" and tujuan == "Kota Depok":
      st.write ("Jumlah Maksimalnya adalah", 30, "liter")
 
-elif asal == "Kota. Cirebon" and tujuan == "Kota Sukabumi":
+elif asal == "Kota Depok" and tujuan == "Kota Sukabumi":
      st.write ("Jumlah Maksimalnya adalah", 46, "liter")
 
-elif asal == "Kota. Cirebon" and tujuan == "Kota Tasikmalaya":
+elif asal == "Kota Depok" and tujuan == "Kota Tasikmalaya":
      st.write ("Jumlah Maksimalnya adalah", 40, "liter")
 
-elif asal == "Kota. Cirebon" and tujuan == "DKI Jakarta":
+elif asal == "Kota Depok" and tujuan == "DKI Jakarta":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
 
-elif asal == "Kota. Depok" and tujuan == "Kab. Bandung":
+elif asal == "Kota Sukabumi" and tujuan == "Kab. Bandung":
      st.write ("Jumlah Maksimalnya adalah", 20, "liter")
 
-elif asal == "Kota. Depok" and tujuan == "Kab. Bandung Barat":
+elif asal == "Kota Sukabumi" and tujuan == "Kab. Bandung Barat":
      st.write ("Jumlah Maksimalnya adalah", 10, "liter")
      
-elif asal == "Kota. Depok" and tujuan == "Kab. Bekasi":
+elif asal == "Kota Sukabumi" and tujuan == "Kab. Bekasi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Depok and tujuan == "Kab. Bogor":
+elif asal == "Kota Sukabumi" and tujuan == "Kab. Bogor":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Depok" and tujuan == "Kab. Ciamis":
+elif asal == "Kota Sukabumi" and tujuan == "Kab. Ciamis":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
      
-elif asal == "Kota. Depok" and tujuan == "Kab. Cianjur":
+elif asal == "Kota Sukabumi" and tujuan == "Kab. Cianjur":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Depok" and tujuan == "Kab. Cirebon":
+elif asal == "Kota Sukabumi" and tujuan == "Kab. Cirebon":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
 
-elif asal == "Kota. Depok" and tujuan == "Kab. Garut":
+elif asal == "Kota Sukabumi" and tujuan == "Kab. Garut":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
      
-elif asal == "Kota. Depok" and tujuan == "Kab. Indramayu":
+elif asal == "Kota Sukabumi" and tujuan == "Kab. Indramayu":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
 
-elif asal == "Kota. Depok" and tujuan == "Kab. Karawang":
+elif asal == "Kota Sukabumi" and tujuan == "Kab. Karawang":
      st.write ("Jumlah Maksimalnya adalah", 20, "liter")
 
-elif asal == "Kota. Depok" and tujuan == "Kab. Kuningan":
+elif asal == "Kota Sukabumi" and tujuan == "Kab. Kuningan":
      st.write ("Jumlah Maksimalnya adalah", 50, "liter")
      
-elif asal == "Kota. Depok" and tujuan == "Kab. Majalengka":
+elif asal == "Kota Sukabumi" and tujuan == "Kab. Majalengka":
      st.write ("Jumlah Maksimalnya adalah", 50, "liter")
 
-elif asal == "Kota. Depok" and tujuan == "Kab. Pangandaran":
+elif asal == "Kota Sukabumi" and tujuan == "Kab. Pangandaran":
      st.write ("Jumlah Maksimalnya adalah", 50, "liter")
 
-elif asal == "Kota. Depok" and tujuan == "Kab. Purwakarta":
+elif asal == "Kota Sukabumi" and tujuan == "Kab. Purwakarta":
      st.write ("Jumlah Maksimalnya adalah", 0, "liter")
      
-elif asal == "Kota. Depok" and tujuan == "Kab. Subang":
+elif asal == "Kota Sukabumi" and tujuan == "Kab. Subang":
      st.write ("Jumlah Maksimalnya adalah", 25, "liter")
 
-elif asal == "Kota. Depok" and tujuan == "Kab. Sukabumi":
+elif asal == "Kota Sukabumi" and tujuan == "Kab. Sukabumi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Depok" and tujuan == "Kab. Sumedang":
+elif asal == "Kota Sukabumi" and tujuan == "Kab. Sumedang":
      st.write ("Jumlah Maksimalnya adalah", 40, "liter")
      
-elif asal == "Kota. Depok" and tujuan == "Kab. Tasikmalaya":
+elif asal == "Kota Sukabumi" and tujuan == "Kab. Tasikmalaya":
      st.write ("Jumlah Maksimalnya adalah", 30, "liter")
 
-elif asal == "Kota. Depok" and tujuan == "Kota Bandung":
+elif asal == "Kota Sukabumi" and tujuan == "Kota Bandung":
      st.write ("Jumlah Maksimalnya adalah", 25, "liter")
 
-elif asal == "Kota. Depok" and tujuan == "Kota Banjar":
+elif asal == "Kota Sukabumi" and tujuan == "Kota Banjar":
      st.write ("Jumlah Maksimalnya adalah", 56, "liter")
      
-elif asal == "Kota. Depok" and tujuan == "Kota Bekasi":
+elif asal == "Kota Sukabumi" and tujuan == "Kota Bekasi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Depok" and tujuan == "Kota Bogor":
+elif asal == "Kota Sukabumi" and tujuan == "Kota Bogor":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
 
-elif asal == "Kota. Depok" and tujuan == "Kota Cimahi":
+elif asal == "Kota Sukabumi" and tujuan == "Kota Cimahi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")     
 
-elif asal == "Kota. Depok" and tujuan == "Kota Cirebon":
+elif asal == "Kota Sukabumi" and tujuan == "Kota Cirebon":
      st.write ("Jumlah Maksimalnya adalah", 61, "liter")
      
-elif asal == "Kota. Depok" and tujuan == "Kota Depok":
+elif asal == "Kota Sukabumi" and tujuan == "Kota Depok":
      st.write ("Jumlah Maksimalnya adalah", 30, "liter")
 
-elif asal == "Kota. Depok" and tujuan == "Kota Sukabumi":
+elif asal == "Kota Sukabumi" and tujuan == "Kota Sukabumi":
      st.write ("Jumlah Maksimalnya adalah", 46, "liter")
 
-elif asal == "Kota. Depok" and tujuan == "Kota Tasikmalaya":
+elif asal == "Kota Sukabumi" and tujuan == "Kota Tasikmalaya":
      st.write ("Jumlah Maksimalnya adalah", 40, "liter")
 
-elif asal == "Kota. Depok" and tujuan == "DKI Jakarta":
+elif asal == "Kota Sukabumi" and tujuan == "DKI Jakarta":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
 
-elif asal == "Kota. Sukabumi" and tujuan == "Kab. Bandung":
+elif asal == "Kota Tasikmalaya" and tujuan == "Kab. Bandung":
      st.write ("Jumlah Maksimalnya adalah", 20, "liter")
 
-elif asal == "Kota. Sukabumi" and tujuan == "Kab. Bandung Barat":
+elif asal == "Kota Tasikmalaya" and tujuan == "Kab. Bandung Barat":
      st.write ("Jumlah Maksimalnya adalah", 10, "liter")
      
-elif asal == "Kota. Sukabumi" and tujuan == "Kab. Bekasi":
+elif asal == "Kota Tasikmalaya" and tujuan == "Kab. Bekasi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Sukabumi" and tujuan == "Kab. Bogor":
+elif asal == "Kota Tasikmalaya" and tujuan == "Kab. Bogor":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Sukabumi" and tujuan == "Kab. Ciamis":
+elif asal == "Kota Tasikmalaya" and tujuan == "Kab. Ciamis":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
      
-elif asal == "Kota. Sukabumi" and tujuan == "Kab. Cianjur":
+elif asal == "Kota Tasikmalaya" and tujuan == "Kab. Cianjur":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Sukabumi" and tujuan == "Kab. Cirebon":
+elif asal == "Kota Tasikmalaya" and tujuan == "Kab. Cirebon":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
 
-elif asal == "Kota. Sukabumi" and tujuan == "Kab. Garut":
+elif asal == "Kota Tasikmalaya" and tujuan == "Kab. Garut":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
      
-elif asal == "Kota. Sukabumi" and tujuan == "Kab. Indramayu":
+elif asal == "Kota Tasikmalaya" and tujuan == "Kab. Indramayu":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
 
-elif asal == "Kota. Sukabumi" and tujuan == "Kab. Karawang":
+elif asal == "Kota Tasikmalaya" and tujuan == "Kab. Karawang":
      st.write ("Jumlah Maksimalnya adalah", 20, "liter")
 
-elif asal == "Kota. Sukabumi" and tujuan == "Kab. Kuningan":
+elif asal == "Kota Tasikmalaya" and tujuan == "Kab. Kuningan":
      st.write ("Jumlah Maksimalnya adalah", 50, "liter")
      
-elif asal == "Kota. Sukabumi" and tujuan == "Kab. Majalengka":
+elif asal == "Kota Tasikmalaya" and tujuan == "Kab. Majalengka":
      st.write ("Jumlah Maksimalnya adalah", 50, "liter")
 
-elif asal == "Kota. Sukabumi" and tujuan == "Kab. Pangandaran":
+elif asal == "Kota Tasikmalaya" and tujuan == "Kab. Pangandaran":
      st.write ("Jumlah Maksimalnya adalah", 50, "liter")
 
-elif asal == "Kota. Sukabumi" and tujuan == "Kab. Purwakarta":
+elif asal == "Kota Tasikmalaya" and tujuan == "Kab. Purwakarta":
      st.write ("Jumlah Maksimalnya adalah", 0, "liter")
      
-elif asal == "Kota. Sukabumi" and tujuan == "Kab. Subang":
+elif asal == "Kota Tasikmalaya" and tujuan == "Kab. Subang":
      st.write ("Jumlah Maksimalnya adalah", 25, "liter")
 
-elif asal == "Kota. Sukabumi" and tujuan == "Kab. Sukabumi":
+elif asal == "Kota Tasikmalaya" and tujuan == "Kab. Sukabumi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Sukabumi" and tujuan == "Kab. Sumedang":
+elif asal == "Kota Tasikmalaya" and tujuan == "Kab. Sumedang":
      st.write ("Jumlah Maksimalnya adalah", 40, "liter")
      
-elif asal == "Kota. Sukabumi" and tujuan == "Kab. Tasikmalaya":
+elif asal == "Kota Tasikmalaya" and tujuan == "Kab. Tasikmalaya":
      st.write ("Jumlah Maksimalnya adalah", 30, "liter")
 
-elif asal == "Kota. Sukabumi" and tujuan == "Kota Bandung":
+elif asal == "Kota Tasikmalaya" and tujuan == "Kota Bandung":
      st.write ("Jumlah Maksimalnya adalah", 25, "liter")
 
-elif asal == "Kota. Sukabumi" and tujuan == "Kota Banjar":
+elif asal == "Kota Tasikmalaya" and tujuan == "Kota Banjar":
      st.write ("Jumlah Maksimalnya adalah", 56, "liter")
      
-elif asal == "Kota. Sukabumi" and tujuan == "Kota Bekasi":
+elif asal == "Kota Tasikmalaya" and tujuan == "Kota Bekasi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Sukabumi" and tujuan == "Kota Bogor":
+elif asal == "Kota Tasikmalaya" and tujuan == "Kota Bogor":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
 
-elif asal == "Kota. Sukabumi" and tujuan == "Kota Cimahi":
+elif asal == "Kota Tasikmalaya" and tujuan == "Kota Cimahi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")     
 
-elif asal == "Kota. Sukabumi" and tujuan == "Kota Cirebon":
+elif asal == "Kota Tasikmalaya" and tujuan == "Kota Cirebon":
      st.write ("Jumlah Maksimalnya adalah", 61, "liter")
      
-elif asal == "Kota. Sukabumi" and tujuan == "Kota Depok":
+elif asal == "Kota Tasikmalaya" and tujuan == "Kota Depok":
      st.write ("Jumlah Maksimalnya adalah", 30, "liter")
 
-elif asal == "Kota. Sukabumi" and tujuan == "Kota Sukabumi":
+elif asal == "Kota Tasikmalaya" and tujuan == "Kota Sukabumi":
      st.write ("Jumlah Maksimalnya adalah", 46, "liter")
 
-elif asal == "Kota. Sukabumi" and tujuan == "Kota Tasikmalaya":
+elif asal == "Kota Tasikmalaya" and tujuan == "Kota Tasikmalaya":
      st.write ("Jumlah Maksimalnya adalah", 40, "liter")
 
-elif asal == "Kota. Sukabumi" and tujuan == "DKI Jakarta":
+elif asal == "Kota Tasikmalaya" and tujuan == "DKI Jakarta":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-
-elif asal == "Kota. Tasikmalaya" and tujuan == "Kab. Bandung":
+elif asal == "DKI Jakarta" and tujuan == "Kab. Bandung":
      st.write ("Jumlah Maksimalnya adalah", 20, "liter")
 
-elif asal == "Kota. Tasikmalaya" and tujuan == "Kab. Bandung Barat":
+elif asal == "DKI Jakarta" and tujuan == "Kab. Bandung Barat":
      st.write ("Jumlah Maksimalnya adalah", 10, "liter")
      
-elif asal == "Kota. Tasikmalaya" and tujuan == "Kab. Bekasi":
+elif asal == "DKI Jakarta" and tujuan == "Kab. Bekasi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Tasikmalaya" and tujuan == "Kab. Bogor":
+elif asal == "DKI Jakarta" and tujuan == "Kab. Bogor":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Tasikmalaya" and tujuan == "Kab. Ciamis":
+elif asal == "DKI Jakarta" and tujuan == "Kab. Ciamis":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
      
-elif asal == "Kota. Tasikmalaya" and tujuan == "Kab. Cianjur":
+elif asal == "DKI Jakarta" and tujuan == "Kab. Cianjur":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Tasikmalaya" and tujuan == "Kab. Cirebon":
+elif asal == "DKI Jakarta" and tujuan == "Kab. Cirebon":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
 
-elif asal == "Kota. Tasikmalaya" and tujuan == "Kab. Garut":
+elif asal == "DKI Jakarta" and tujuan == "Kab. Garut":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
      
-elif asal == "Kota. Tasikmalaya" and tujuan == "Kab. Indramayu":
+elif asal == "DKI Jakarta" and tujuan == "Kab. Indramayu":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
 
-elif asal == "Kota. Tasikmalaya" and tujuan == "Kab. Karawang":
+elif asal == "DKI Jakarta" and tujuan == "Kab. Karawang":
      st.write ("Jumlah Maksimalnya adalah", 20, "liter")
 
-elif asal == "Kota. Tasikmalaya" and tujuan == "Kab. Kuningan":
+elif asal == "DKI Jakarta" and tujuan == "Kab. Kuningan":
      st.write ("Jumlah Maksimalnya adalah", 50, "liter")
      
-elif asal == "Kota. Tasikmalaya" and tujuan == "Kab. Majalengka":
+elif asal == "DKI Jakarta" and tujuan == "Kab. Majalengka":
      st.write ("Jumlah Maksimalnya adalah", 50, "liter")
 
-elif asal == "Kota. Tasikmalaya" and tujuan == "Kab. Pangandaran":
+elif asal == "DKI Jakarta" and tujuan == "Kab. Pangandaran":
      st.write ("Jumlah Maksimalnya adalah", 50, "liter")
 
-elif asal == "Kota. Tasikmalaya" and tujuan == "Kab. Purwakarta":
+elif asal == "DKI Jakarta" and tujuan == "Kab. Purwakarta":
      st.write ("Jumlah Maksimalnya adalah", 0, "liter")
      
-elif asal == "Kota. Tasikmalaya" and tujuan == "Kab. Subang":
+elif asal == "DKI Jakarta" and tujuan == "Kab. Subang":
      st.write ("Jumlah Maksimalnya adalah", 25, "liter")
 
-elif asal == "Kota. Tasikmalaya" and tujuan == "Kab. Sukabumi":
+elif asal == "DKI Jakarta" and tujuan == "Kab. Sukabumi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Tasikmalaya" and tujuan == "Kab. Sumedang":
+elif asal == "DKI Jakarta" and tujuan == "Kab. Sumedang":
      st.write ("Jumlah Maksimalnya adalah", 40, "liter")
      
-elif asal == "Kota. Tasikmalaya" and tujuan == "Kab. Tasikmalaya":
+elif asal == "DKI Jakarta" and tujuan == "Kab. Tasikmalaya":
      st.write ("Jumlah Maksimalnya adalah", 30, "liter")
 
-elif asal == "Kota. Tasikmalaya" and tujuan == "Kota Bandung":
+elif asal == "DKI Jakarta" and tujuan == "Kota Bandung":
      st.write ("Jumlah Maksimalnya adalah", 25, "liter")
 
-elif asal == "Kota. Tasikmalaya" and tujuan == "Kota Banjar":
+elif asal == "DKI Jakarta" and tujuan == "Kota Banjar":
      st.write ("Jumlah Maksimalnya adalah", 56, "liter")
      
-elif asal == "Kota. Tasikmalaya" and tujuan == "Kota Bekasi":
+elif asal == "DKI Jakarta" and tujuan == "Kota Bekasi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
 
-elif asal == "Kota. Tasikmalaya" and tujuan == "Kota Bogor":
+elif asal == "DKI Jakarta" and tujuan == "Kota Bogor":
      st.write ("Jumlah Maksimalnya adalah", 45, "liter")
 
-elif asal == "Kota. Tasikmalaya" and tujuan == "Kota Cimahi":
+elif asal == "DKI Jakarta" and tujuan == "Kota Cimahi":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")     
 
-elif asal == "Kota. Tasikmalaya" and tujuan == "Kota Cirebon":
+elif asal == "DKI Jakarta" and tujuan == "Kota Cirebon":
      st.write ("Jumlah Maksimalnya adalah", 61, "liter")
      
-elif asal == "Kota. Tasikmalaya" and tujuan == "Kota Depok":
+elif asal == "DKI Jakarta" and tujuan == "Kota Depok":
      st.write ("Jumlah Maksimalnya adalah", 30, "liter")
 
-elif asal == "Kota. Tasikmalaya" and tujuan == "Kota Sukabumi":
+elif asal == "DKI Jakarta" and tujuan == "Kota Sukabumi":
      st.write ("Jumlah Maksimalnya adalah", 46, "liter")
 
-elif asal == "Kota. Tasikmalaya" and tujuan == "Kota Tasikmalaya":
+elif asal == "DKI Jakarta" and tujuan == "Kota Tasikmalaya":
      st.write ("Jumlah Maksimalnya adalah", 40, "liter")
 
-elif asal == "Kota. Tasikmalaya" and tujuan == "DKI Jakarta":
-     st.write ("Jumlah Maksimalnya adalah", 35, "liter")
-
-
-elif asal == "Kota. Jakarta" and tujuan == "Kab. Bandung":
-     st.write ("Jumlah Maksimalnya adalah", 20, "liter")
-
-elif asal == "Kota. Jakarta" and tujuan == "Kab. Bandung Barat":
-     st.write ("Jumlah Maksimalnya adalah", 10, "liter")
-     
-elif asal == "Kota. Jakarta" and tujuan == "Kab. Bekasi":
-     st.write ("Jumlah Maksimalnya adalah", 35, "liter")
-
-elif asal == "Kota. Jakarta" and tujuan == "Kab. Bogor":
-     st.write ("Jumlah Maksimalnya adalah", 35, "liter")
-
-elif asal == "Kota. Jakarta" and tujuan == "Kab. Ciamis":
-     st.write ("Jumlah Maksimalnya adalah", 45, "liter")
-     
-elif asal == "Kota. Jakarta" and tujuan == "Kab. Cianjur":
-     st.write ("Jumlah Maksimalnya adalah", 35, "liter")
-
-elif asal == "Kota. Jakarta" and tujuan == "Kab. Cirebon":
-     st.write ("Jumlah Maksimalnya adalah", 45, "liter")
-
-elif asal == "Kota. Jakarta" and tujuan == "Kab. Garut":
-     st.write ("Jumlah Maksimalnya adalah", 35, "liter")
-     
-elif asal == "Kota. Jakarta" and tujuan == "Kab. Indramayu":
-     st.write ("Jumlah Maksimalnya adalah", 45, "liter")
-
-elif asal == "Kota. Jakarta" and tujuan == "Kab. Karawang":
-     st.write ("Jumlah Maksimalnya adalah", 20, "liter")
-
-elif asal == "Kota. Jakarta" and tujuan == "Kab. Kuningan":
-     st.write ("Jumlah Maksimalnya adalah", 50, "liter")
-     
-elif asal == "Kota. Jakarta" and tujuan == "Kab. Majalengka":
-     st.write ("Jumlah Maksimalnya adalah", 50, "liter")
-
-elif asal == "Kota. Jakarta" and tujuan == "Kab. Pangandaran":
-     st.write ("Jumlah Maksimalnya adalah", 50, "liter")
-
-elif asal == "Kota. Jakarta" and tujuan == "Kab. Purwakarta":
-     st.write ("Jumlah Maksimalnya adalah", 0, "liter")
-     
-elif asal == "Kota. Jakarta" and tujuan == "Kab. Subang":
-     st.write ("Jumlah Maksimalnya adalah", 25, "liter")
-
-elif asal == "Kota. Jakarta" and tujuan == "Kab. Sukabumi":
-     st.write ("Jumlah Maksimalnya adalah", 35, "liter")
-
-elif asal == "Kota. Jakarta" and tujuan == "Kab. Sumedang":
-     st.write ("Jumlah Maksimalnya adalah", 40, "liter")
-     
-elif asal == "Kota. Jakarta" and tujuan == "Kab. Tasikmalaya":
-     st.write ("Jumlah Maksimalnya adalah", 30, "liter")
-
-elif asal == "Kota. Jakarta" and tujuan == "Kota Bandung":
-     st.write ("Jumlah Maksimalnya adalah", 25, "liter")
-
-elif asal == "Kota. Jakarta" and tujuan == "Kota Banjar":
-     st.write ("Jumlah Maksimalnya adalah", 56, "liter")
-     
-elif asal == "Kota. Jakarta" and tujuan == "Kota Bekasi":
-     st.write ("Jumlah Maksimalnya adalah", 35, "liter")
-
-elif asal == "Kota. Jakarta" and tujuan == "Kota Bogor":
-     st.write ("Jumlah Maksimalnya adalah", 45, "liter")
-
-elif asal == "Kota. Jakarta" and tujuan == "Kota Cimahi":
-     st.write ("Jumlah Maksimalnya adalah", 35, "liter")     
-
-elif asal == "Kota. Jakarta" and tujuan == "Kota Cirebon":
-     st.write ("Jumlah Maksimalnya adalah", 61, "liter")
-     
-elif asal == "Kota. Jakarta" and tujuan == "Kota Depok":
-     st.write ("Jumlah Maksimalnya adalah", 30, "liter")
-
-elif asal == "Kota. Jakarta" and tujuan == "Kota Sukabumi":
-     st.write ("Jumlah Maksimalnya adalah", 46, "liter")
-
-elif asal == "Kota. Jakarta" and tujuan == "Kota Tasikmalaya":
-     st.write ("Jumlah Maksimalnya adalah", 40, "liter")
-
-elif asal == "Kota. Jakarta" and tujuan == "DKI Jakarta":
+elif asal == "DKI Jakarta" and tujuan == "DKI Jakarta":
      st.write ("Jumlah Maksimalnya adalah", 35, "liter")
