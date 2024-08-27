@@ -23,7 +23,19 @@ asal = st.selectbox("Masukan Jenis Belanja",original_list)
 
 if asal == "Paket Meeting Fullday":
   st.write ("Dokumen Kelengkapan:")
-  st.write ("1. Berita Acara Pemeriksaan")
+  st.write ("1. Ringkasan Kontrak")
+  st.write ("2. Surat Pesanan (SP)/Surat Perintah Kerja (SPK)")
+  st.write ("3. Surat Perintah Mulai Kerja (SPMK)")
+  st.write ("4. Berita Acara Pemeriksaan dan Serah Terima Pekerjaan (BAST)")
+  st.write ("5. Permohonan Pembayaran")
+  st.write ("6. Berita Acara Persetujuan Pembayaran (BAPP)")
+  st.write ("7. E-Bupot PPh Pasal 23")
+  st.write ("8. Rekening Koran")
+  st.write ("9. Daftar Menu Makanan")
+  st.write ("10. Daftar Hadir")
+  st.write ("11. Undangan dan Rundown Acara")
+  st.write ("12. Notulensi dan Dokumentasi Kegiatan")
+
 
 elif asal == "Paket Meeting Fullboard":
   st.write ("Dokumen Kelengkapan:")
