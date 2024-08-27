@@ -37,11 +37,11 @@ original_list = ["Pilih Jenis Belanja",
                  "DKI Jakarta"]
 
 
-asal = st.selectbox("Masukan Tempat Asal",original_list)
-tujuan = st.selectbox("Masukan Tempat Tujuan",original_list)
+asal = st.selectbox("Masukan Jenis Belanja",original_list)
 
-if asal == "Kota Bandung" and tujuan == "Kab. Bandung":
-   st.write ("Jumlah Maksimalnya adalah", 18, "liter")
+if asal == "Kota Bandung":
+  st.write ("Dokumen Kelengkapan:")
+  st.write ("1. Berita Acara Pemeriksaan")
 
 elif asal == "Kota Bandung" and tujuan == "Kab. Bandung Barat":
      st.write ("Jumlah Maksimalnya adalah", 19, "liter")
