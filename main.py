@@ -36,7 +36,6 @@ if asal == "Paket Meeting Fullday":
   st.write ("11. Undangan dan Rundown Acara")
   st.write ("12. Notulensi dan Dokumentasi Kegiatan")
 
-
 elif asal == "Paket Meeting Fullboard":
   st.write ("Dokumen Kelengkapan:")
   st.write ("1. Ringkasan Kontrak")
@@ -52,5 +51,38 @@ elif asal == "Paket Meeting Fullboard":
   st.write ("11. Daftar Hadir")
   st.write ("12. Undangan dan Rundown Acara")
   st.write ("13. Notulensi dan Dokumentasi Kegiatan")
+
+elif asal == "Perjalanan Dinas Paket Meeting":
+  st.write ("Dokumen Kelengkapan:")
+  st.write ("1. Surat Undangan")
+  st.write ("2. Surat Perintah")
+  st.write ("3. Rampung Rincian Perjalanan Dinas")
+  st.write ("4. Daftar Nominatif")
+  st.write ("5. Visum/Surat Perjalanan Dinas")
+  st.write ("6. Tanda Bukti Transport")
+  st.write ("7. Laporan dan Dokumentasi Perjalanan Dinas")
+
+elif asal == "Perjalanan Dinas Luar Kota Dalam Provinsi":
+  st.write ("Dokumen Kelengkapan:")
+  st.write ("1. Surat Undangan")
+  st.write ("2. Surat Perintah")
+  st.write ("3. Rampung Rincian Perjalanan Dinas")
+  st.write ("4. Daftar Nominatif")
+  st.write ("5. Visum/Surat Perjalanan Dinas")
+  st.write ("6. Tanda Bukti Transport")
+  st.write ("7. Tanda Bukti Penginapan")
+  st.write ("8. Laporan dan Dokumentasi Perjalanan Dinas")
+
+elif asal == "Perjalanan Dinas Luar Provinsi":
+  st.write ("Dokumen Kelengkapan:")
+  st.write ("1. Surat Undangan")
+  st.write ("2. Surat Perintah")
+  st.write ("3. Rampung Rincian Perjalanan Dinas")
+  st.write ("4. Daftar Nominatif")
+  st.write ("5. Visum/Surat Perjalanan Dinas")
+  st.write ("6. Tanda Bukti Transport")
+  st.write ("7. Tanda Bukti Penginapan")
+  st.write ("7. Laporan dan Dokumentasi Perjalanan Dinas")
+ 
 
 
