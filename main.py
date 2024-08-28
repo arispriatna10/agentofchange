@@ -83,6 +83,69 @@ elif asal == "Perjalanan Dinas Luar Provinsi":
   st.write ("6. Tanda Bukti Transport")
   st.write ("7. Tanda Bukti Penginapan")
   st.write ("7. Laporan dan Dokumentasi Perjalanan Dinas")
- 
+
+elif asal == "Perjalanan Dinas Luar Negeri":
+  st.write ("Dokumen Kelengkapan:")
+  st.write ("1. Kerangka Acuan Kerja (KAK)")
+  st.write ("2. Persuratan")
+  st.write ("3. SK Tim")
+  st.write ("4. Usulan peserta ke Kemendagri")
+  st.write ("5. Rekomendasi dari Kemendagri ke Setneg")
+  st.write ("6. Surat Izin dari Setneg")
+  st.write ("7. Surat Perintah ")
+  st.write ("8. Rampung Rincian Perjalanan Dinas")
+  st.write ("9. Daftar Nominatif")
+  st.write ("10. Visum/Surat Perjalanan Dinas")
+  st.write ("11. Tanda Bukti Transport")
+  st.write ("12. Paspor Biru (fotocopy yang ada cap kedatangan/kepulangan")
+  st.write ("13. Visa (fotocopy yang ada cap kedatangan/kepulangan")
+  st.write ("14. E-Tiket dari maskapai")
+  st.write ("15. Boarding Pass")
+  st.write ("16. Laporan dan Dokumentasi Perjalanan Dinas")
+  st.write ("17. Bukti Penyampaian Laporan ke Kemendagri")
+
+elif asal == "Makanan dan Minuman Rapat":
+  st.write ("Dokumen Kelengkapan:")
+  st.write ("1. Surat Undangan")
+  st.write ("2. Proses Pengadaan Barang dan Jasa")
+  st.write ("3. Bukti Pembelian")
+  st.write ("4. Daftar Hadir")
+  st.write ("5. Notulensi Rapat")
+  st.write ("6. Id Billing PPh Pasal 22/PPh Pasal 23")
+  st.write ("7. E-Bupot")
+  st.write ("8. Foto Makanan dan Minuman Rapat")
+  st.write ("9. Dokumentasi Kegiatan")
+
+elif asal == "Makanan dan Minuman Tamu":
+  st.write ("Dokumen Kelengkapan:")
+  st.write ("1. Surat Undangan")
+  st.write ("2. Proses Pengadaan Barang dan Jasa")
+  st.write ("3. Bukti Pembelian")
+  st.write ("4. Id Billing PPh Pasal 22/PPh Pasal 23")
+  st.write ("5. E-Bupot")
+  st.write ("6. Dokumentasi Kegiatan")
+
+elif asal == "Honorarium Narasumber":
+  st.write ("Dokumen Kelengkapan:")
+  st.write ("1. Surat Undangan")
+  st.write ("2. Proses Pengadaan Barang dan Jasa")
+  st.write ("3. Bukti Pembelian")
+  st.write ("4. Id Billing PPh Pasal 22/PPh Pasal 23")
+  st.write ("5. E-Bupot")
+  st.write ("6. Dokumentasi Kegiatan")
+
+elif asal == "Tenaga Ahli Non Sertifikat":
+  st.write ("Dokumen Kelengkapan:")
+  st.write ("1. Kerangka Acuan Kerja (KAK)")
+  st.write ("2. Curriculum Vitae/Portfolio")
+  st.write ("3. Surat Perjanjian Kerja")
+  st.write ("4. Laporan Pekerjaan")
+  st.write ("5. Daftar Hadir")
+  st.write ("6. Daftar Nominatif")
+  st.write ("7. NPWP")
+  st.write ("5. E-Bupot")
+  st.write ("6. Id-Billing PPh Pasal 21")
+
+
 
 
