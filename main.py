@@ -1,8 +1,8 @@
 import streamlit as st
 
 st.write("""
-# Aplikasi Cek BBM
-Ini adalah aplikasi mengecek kebutuhan BBM Perjalanan Dinas
+# Aplikasi Cek Kelengkapan Dokumen SPJ
+Ini adalah aplikasi mengecek Dokumen Kelengkapan SPJ
 """)
 
 
