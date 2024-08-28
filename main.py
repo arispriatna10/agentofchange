@@ -2,7 +2,7 @@ import streamlit as st
 
 st.write("""
 # Aplikasi Cek Kelengkapan Dokumen SPJ
-Ini adalah aplikasi mengecek Dokumen Kelengkapan SPJ
+Ini adalah aplikasi untuk mengecek Dokumen Kelengkapan SPJ
 """)
 
 
