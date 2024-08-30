@@ -17,7 +17,7 @@ original_list = ["Pilih Jenis Belanja",
                  "Makanan dan Minuman Tamu",
                  "Honorarium Narasumber",
                  "Tenaga Ahli Non Sertifikat",]
-original_lists = ["Pilih Mekanisme Pembayaran", "LS", "UP")
+original_lists = ["Pilih Mekanisme Pembayaran", "LS", "UP"]
                  
 
 asal = st.selectbox("Masukan Jenis Belanja",original_list)
