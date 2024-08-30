@@ -17,11 +17,13 @@ original_list = ["Pilih Jenis Belanja",
                  "Makanan dan Minuman Tamu",
                  "Honorarium Narasumber",
                  "Tenaga Ahli Non Sertifikat",]
+original_lists = ["Pilih Mekanisme Pembayaran", "LS", "UP")
                  
 
 asal = st.selectbox("Masukan Jenis Belanja",original_list)
+mekanisme = st.selectbox("Masukan Mekanisme Pembayaran",original_lists)
 
-if asal == "Paket Meeting Fullday":
+if asal == "Paket Meeting Fullday" and mekanisme == "LS":
   st.write ("Dokumen Kelengkapan:")
   st.write ("1. Ringkasan Kontrak")
   st.write ("2. Surat Pesanan (SP)/Surat Perintah Kerja (SPK)")
@@ -111,28 +113,34 @@ elif asal == "Makanan dan Minuman Rapat":
   st.write ("3. Bukti Pembelian")
   st.write ("4. Daftar Hadir")
   st.write ("5. Notulensi Rapat")
-  st.write ("6. Id Billing PPh Pasal 22/PPh Pasal 23")
-  st.write ("7. E-Bupot")
-  st.write ("8. Foto Makanan dan Minuman Rapat")
-  st.write ("9. Dokumentasi Kegiatan")
+  st.write ("6. Foto Makanan dan Minuman Rapat")
+  st.write ("7. Dokumentasi Kegiatan")
+  st.write ("8. E-Bupot PPh Pasal 22/PPh Pasal 23")
+  st.write ("9. Bukti Setor PPh Pasal 22/PPh Pasal 23")
 
 elif asal == "Makanan dan Minuman Tamu":
   st.write ("Dokumen Kelengkapan:")
   st.write ("1. Surat Undangan")
   st.write ("2. Proses Pengadaan Barang dan Jasa")
   st.write ("3. Bukti Pembelian")
-  st.write ("4. Id Billing PPh Pasal 22/PPh Pasal 23")
-  st.write ("5. E-Bupot")
-  st.write ("6. Dokumentasi Kegiatan")
-
+  st.write ("4. Dokumentasi Kegiatan")
+  st.write ("5. E-Bupot PPh Pasal 22/PPh Pasal 23")
+  st.write ("6. Bukti Setor PPh Pasal 22/PPh Pasal 23")
+  
 elif asal == "Honorarium Narasumber":
   st.write ("Dokumen Kelengkapan:")
-  st.write ("1. Surat Undangan")
-  st.write ("2. Proses Pengadaan Barang dan Jasa")
-  st.write ("3. Bukti Pembelian")
-  st.write ("4. Id Billing PPh Pasal 22/PPh Pasal 23")
-  st.write ("5. E-Bupot")
+  st.write ("1. Curriculum Vitae/Portfolio")
+  st.write ("2. Surat Permohonan Narasumber")
+  st.write ("3. Surat Tugas (jika PNS)")
+  st.write ("4. Surat Kesediaan Menjadi Narasumber (jika Non PNS")
+  st.write ("2. Daftar Hadir")
+  st.write ("3. Daftar Nominatif")
+  st.write ("4. Undangan dan Rundown Acara")
+  st.write ("5. Notulensi/Paparan Materi")
   st.write ("6. Dokumentasi Kegiatan")
+  st.write ("7. E-Bupot PPh Pasal 21")
+  st.write ("8. Bukti Setor PPh Pasal 21")
+  
 
 elif asal == "Tenaga Ahli Non Sertifikat":
   st.write ("Dokumen Kelengkapan:")
@@ -143,8 +151,8 @@ elif asal == "Tenaga Ahli Non Sertifikat":
   st.write ("5. Daftar Hadir")
   st.write ("6. Daftar Nominatif")
   st.write ("7. NPWP")
-  st.write ("5. E-Bupot")
-  st.write ("6. Id-Billing PPh Pasal 21")
+  st.write ("5. E-Bupot PPh Pasal 21")
+  st.write ("6. Bukti Setor PPh Pasal 21")
 
 
 
