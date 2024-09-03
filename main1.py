@@ -16,11 +16,11 @@ masa_kerja = ["Pilih Masa Kerja",
 golongan_gendutt = st.selectbox("Masukan Golongan",golongan_gendut)
 masa_kerjaa = st.selectbox("Masukan Masa Kerja (Dalam Tahun)",masa_kerja)
 
-if golongan_gendutt == "Golongan Ia" and masa_kerjaa == 0:
-  st.write ("Gaji Pokoknya adalah 2.300.000")
+if golongan_gendutt == "Golongan Ia" and 0 <= masa_kerjaa <= 1:
+  st.write ("Gaji Pokoknya adalah 1.685.700")
 
-if golongan_gendutt == "Golongan Ia" and masa_kerjaa <= 2:
-  st.write ("Gaji Pokoknya adalah 2.300.500")
+if golongan_gendutt == "Golongan Ia" and 2 <= masa_kerjaa <= 3:
+  st.write ("Gaji Pokoknya adalah 1.738.800")
 
 
 
