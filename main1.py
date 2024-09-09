@@ -1,7 +1,5 @@
 import streamlit as st
 
-st.success("
-
 st.info("""
 # Aplikasi Cek Gaji Pokok
 """)
@@ -59,7 +57,6 @@ elif golongan_gendutt == "Golongan Ia" and 24 <= masa_kerjaa <= 25:
 
 elif golongan_gendutt == "Golongan Ia" and 26 <= masa_kerjaa <= 27:
   st.write ("Gaji Pokoknya adalah 2.522.600")
-")
 
 
 
