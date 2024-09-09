@@ -2,9 +2,9 @@ import streamlit as st
 
 st.info("""
 # Aplikasi Cek Gaji Pokok
+Ini adalah aplikasi untuk mengecek Gaji Pokok Berdasarkan Masa Kerja dan Golongan
 """)
 
-st.success(''':red[Ini adalah aplikasi untuk mengecek Gaji Pokok Berdasarkan Masa Kerja dan Golongan]''')
 
 
 golongan_gendut = ["Pilih Golongan",
