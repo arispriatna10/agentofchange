@@ -24,7 +24,7 @@ asal = st.selectbox(''':blue[Masukan Jenis Belanja]''',original_list)
 mekanisme = st.selectbox(''':blue[Masukan Mekanisme Pembayaran]''',original_lists)
 
 if asal == "Paket Meeting Fullday" and mekanisme == "LS":
-  st.info ("Dokumen Kelengkapan:
+  st.info ("""Dokumen Kelengkapan:
   1. Ringkasan Kontrak
   2. Surat Pesanan (SP)/Surat Perintah Kerja (SPK)
   3. Surat Perintah Mulai Kerja (SPMK)
@@ -36,7 +36,7 @@ if asal == "Paket Meeting Fullday" and mekanisme == "LS":
   9. Daftar Menu Makanan
   10. Daftar Hadir
   11. Undangan dan Rundown Acara
-  12. Notulensi dan Dokumentasi Kegiatan")
+  12. Notulensi dan Dokumentasi Kegiatan""")
 
 elif asal == "Paket Meeting Fullboard" and mekanisme == "LS":
   st.info ("Dokumen Kelengkapan:")
