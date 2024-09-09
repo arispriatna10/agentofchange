@@ -3,6 +3,7 @@ import streamlit as st
 st.info("""
 # Aplikasi Cek Gaji Pokok
 Ini adalah aplikasi untuk mengecek Gaji Pokok Berdasarkan Masa Kerja dan Golongan
+""")
 
 golongan_gendut = ["Pilih Golongan",
                  "Golongan Ia",
@@ -10,11 +11,11 @@ golongan_gendut = ["Pilih Golongan",
 masa_kerja = ["Pilih Masa Kerja", 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32]
                  
 
-golongan_gendutt = st.selectbox(''':red[Masukan Golongan]''', golongan_gendut)
-masa_kerjaa = st.selectbox(''':red[Masukan Masa Kerja (Dalam Tahun)]''',masa_kerja)
+golongan_gendutt = st.selectbox(''':blue[Masukan Golongan]''', golongan_gendut)
+masa_kerjaa = st.selectbox(''':blue[Masukan Masa Kerja (Dalam Tahun)]''',masa_kerja)
 
 if golongan_gendutt == "Golongan Ia" and 0 <= masa_kerjaa <= 1:
-  st.write (''':green[Gaji Pokoknya adalah 1.685.700]''')
+  st.info (''':green[Gaji Pokoknya adalah 1.685.700]''')
 
 elif golongan_gendutt == "Golongan Ia" and 2 <= masa_kerjaa <= 3:
   st.write ("Gaji Pokoknya adalah 1.738.800")
@@ -55,7 +56,7 @@ elif golongan_gendutt == "Golongan Ia" and 24 <= masa_kerjaa <= 25:
 elif golongan_gendutt == "Golongan Ia" and 26 <= masa_kerjaa <= 27:
   st.write ("Gaji Pokoknya adalah 2.522.600")
 
-""")
+
 
 
 
