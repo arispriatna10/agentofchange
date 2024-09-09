@@ -5,7 +5,7 @@ st.write("""
 Ini adalah aplikasi untuk mengecek Gaji Pokok Berdasarkan Masa Kerja dan Golongan
 """)
 
-
+st.markdown(''':red[ajak]''')
 golongan_gendut = ["Pilih Golongan",
                  "Golongan Ia",
                  "Golongan Ib"]
