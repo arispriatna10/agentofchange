@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.write("""
+st.success("""
 # Aplikasi Cek Gaji Pokok
 """)
 
