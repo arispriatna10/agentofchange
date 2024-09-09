@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.write("""
+st.success("""
 # Aplikasi Cek BBM
 Ini adalah aplikasi mengecek kebutuhan BBM Perjalanan Dinas
 """)
