@@ -1,11 +1,11 @@
-import streamlit as st
+"import streamlit as st
 
 st.write("""
 # Aplikasi Cek Gaji Pokok
 Ini adalah aplikasi untuk mengecek Gaji Pokok Berdasarkan Masa Kerja dan Golongan
 """)
 
-st.success(f'Collecting SMILES from molecule {input_type}: %.2f seconds' % time_interv)
+st.success("AYE")
 
 
 golongan_gendut = ["Pilih Golongan",
