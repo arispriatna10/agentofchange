@@ -2,10 +2,9 @@ import streamlit as st
 
 st.write("""
 # Aplikasi Cek Gaji Pokok
-Ini adalah aplikasi untuk mengecek Gaji Pokok Berdasarkan Masa Kerja dan Golongan
 """)
 
-st.success("AYE")
+st.success("Ini adalah aplikasi untuk mengecek Gaji Pokok Berdasarkan Masa Kerja dan Golongan")
 
 
 golongan_gendut = ["Pilih Golongan",
