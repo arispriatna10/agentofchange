@@ -4,7 +4,7 @@ st.info("""
 # Aplikasi Cek Gaji Pokok
 """)
 
-st.success("Ini adalah aplikasi untuk mengecek Gaji Pokok Berdasarkan Masa Kerja dan Golongan")
+st.success(''':yellow[Ini adalah aplikasi untuk mengecek Gaji Pokok Berdasarkan Masa Kerja dan Golongan]''')
 
 
 golongan_gendut = ["Pilih Golongan",
