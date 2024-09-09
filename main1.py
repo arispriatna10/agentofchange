@@ -17,7 +17,7 @@ golongan_gendutt = st.selectbox(''':red[Masukan Golongan]''', golongan_gendut)
 masa_kerjaa = st.selectbox(''':red[Masukan Masa Kerja (Dalam Tahun)]''',masa_kerja)
 
 if golongan_gendutt == "Golongan Ia" and 0 <= masa_kerjaa <= 1:
-  st.write (''':red[Gaji Pokoknya adalah 1.685.700]''')
+  st.write (''':#5499c7[Gaji Pokoknya adalah 1.685.700]''')
 
 elif golongan_gendutt == "Golongan Ia" and 2 <= masa_kerjaa <= 3:
   st.write ("Gaji Pokoknya adalah 1.738.800")
