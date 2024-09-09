@@ -5,6 +5,8 @@ st.write("""
 Ini adalah aplikasi untuk mengecek Gaji Pokok Berdasarkan Masa Kerja dan Golongan
 """)
 
+place_holder.success(f'Collecting SMILES from molecule {input_type}: %.2f seconds' % time_interv)
+
 
 golongan_gendut = ["Pilih Golongan",
                  "Golongan Ia",
