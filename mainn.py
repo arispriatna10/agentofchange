@@ -41,7 +41,7 @@ asal = st.selectbox("Masukan Tempat Asal",original_list)
 tujuan = st.selectbox("Masukan Tempat Tujuan",original_list)
 
 if asal == "Kota Bandung" and tujuan == "Kab. Bandung":
-   st.write ("Jumlah Maksimalnya adalah", 18, "liter")
+   st.write (''':green[Jumlah Maksimalnya adalah]''', 18, "liter")
 
 elif asal == "Kota Bandung" and tujuan == "Kab. Bandung Barat":
      st.write ("Jumlah Maksimalnya adalah", 19, "liter")
