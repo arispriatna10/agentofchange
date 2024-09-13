@@ -206,13 +206,12 @@ elif asal == "Honorarium Narasumber" and mekanisme == "UP":
   st.info ("2. Surat Permohonan Narasumber")
   st.info ("3. Surat Tugas (jika PNS)")
   st.info ("4. Surat Kesediaan Menjadi Narasumber (jika Non PNS")
-  st.info ("2. Daftar Hadir")
-  st.info ("3. Daftar Nominatif")
-  st.info ("4. Undangan dan Rundown Acara")
-  st.info ("5. Notulensi/Paparan Materi")
-  st.info ("6. Dokumentasi Kegiatan")
-  st.info ("7. E-Bupot PPh Pasal 21")
-  st.info ("8. Bukti Setor PPh Pasal 21")
+  st.info ("6. Daftar Nominatif")
+  st.info ("7. Undangan dan Rundown Acara")
+  st.info ("8. Notulensi/Paparan Materi")
+  st.info ("9. Dokumentasi Kegiatan")
+  st.info ("10. E-Bupot PPh Pasal 21")
+  st.info ("11. Bukti Setor PPh Pasal 21")
   
 
 elif asal == "Tenaga Ahli Non Sertifikat" and mekanisme == "UP":
