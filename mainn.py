@@ -37,8 +37,8 @@ original_list = ["Pilih Kabupaten/Kota",
                  "DKI Jakarta"]
 
 
-asal = st.selectbox(''':green[Masukan Tempat Asal]''',original_list)
-tujuan = st.selectbox(''':green[Masukan Tempat Tujuan]''',original_list)
+asal = st.selectbox(''':blue[Masukan Tempat Asal]''',original_list)
+tujuan = st.selectbox(''':blue[Masukan Tempat Tujuan]''',original_list)
 
 if asal == "Kota Bandung" and tujuan == "Kab. Bandung":
   st.info ("Jumlah Maksimalnya adalah 18 liter")
