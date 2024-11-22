@@ -17,7 +17,8 @@ original_list = ["Pilih Jenis Belanja",
                  "Makanan dan Minuman Tamu",
                  "Honorarium Narasumber",
                  "Tenaga Ahli Non Sertifikat",
-                 "Makanan dan Minuman Rapat (Platform GRATIS ONGKIR)"]
+                 "Makanan dan Minuman Rapat (Platform GRATIS ONGKIR)",
+                 "Makanan dan Minuman Tamu (Platform GRATIS ONGKIR)"]
 original_lists = ["Pilih Mekanisme Pembayaran", "LS", "UP"]
                  
 
@@ -239,6 +240,15 @@ elif asal == "Makanan dan Minuman Rapat (Platform GRATIS ONGKIR)" and mekanisme 
   st.info ("8. Dokumentasi Kegiatan")
   st.info ("9. E-Bupot PPh Pasal 22/PPh Pasal 23")
   st.info ("10. Bukti Setor PPh Pasal 22/PPh Pasal 23")
+
+elif asal == "Makanan dan Minuman Tamu (Platform GRATIS ONGKIR)" and mekanisme == "UP":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("1. Invoice")
+  st.info ("2. Surat Pesanan")
+  st.info ("3. Berita Acara Penerimaan")
+  st.info ("4. Dokumentasi Kegiatan")
+  st.info ("5. E-Bupot PPh Pasal 22/PPh Pasal 23")
+  st.info ("6. Bukti Setor PPh Pasal 22/PPh Pasal 23")
 
 
 
