@@ -664,16 +664,16 @@ elif asal == "Kab. Cirebon" and tujuan == "Kab. Indramayu":
      st.info ("Jumlah Maksimalnya adalah 20 liter")
 
 elif asal == "Kab. Cirebon" and tujuan == "Kab. Karawang":
-     st.info ("Jumlah Maksimalnya adalah 20 liter")
+     st.info ("Jumlah Maksimalnya adalah 50 liter")
 
 elif asal == "Kab. Cirebon" and tujuan == "Kab. Kuningan":
-     st.info ("Jumlah Maksimalnya adalah 50 liter")
+     st.info ("Jumlah Maksimalnya adalah 20 liter")
      
 elif asal == "Kab. Cirebon" and tujuan == "Kab. Majalengka":
      st.info ("Jumlah Maksimalnya adalah 20 liter")
 
 elif asal == "Kab. Cirebon" and tujuan == "Kab. Pangandaran":
-     st.info ("Jumlah Maksimalnya adalah 20 liter")
+     st.info ("Jumlah Maksimalnya adalah 45 liter")
 
 elif asal == "Kab. Cirebon" and tujuan == "Kab. Purwakarta":
      st.info ("Jumlah Maksimalnya adalah 45 liter")
@@ -1374,135 +1374,135 @@ elif asal == "Kab. Subang" and tujuan == "Kota Bandung":
      st.info ("Jumlah Maksimalnya adalah 30 liter")
 
 elif asal == "Kab. Subang" and tujuan == "Kota Banjar":
-     st.info ("Jumlah Maksimalnya adalah 56 liter")
+     st.info ("Jumlah Maksimalnya adalah 61 liter")
      
 elif asal == "Kab. Subang" and tujuan == "Kota Bekasi":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")
+     st.info ("Jumlah Maksimalnya adalah 40 liter")
 
 elif asal == "Kab. Subang" and tujuan == "Kota Bogor":
-     st.info ("Jumlah Maksimalnya adalah 45 liter")
+     st.info ("Jumlah Maksimalnya adalah 20 liter")
 
 elif asal == "Kab. Subang" and tujuan == "Kota Cimahi":
      st.info ("Jumlah Maksimalnya adalah 35 liter")     
 
 elif asal == "Kab. Subang" and tujuan == "Kota Cirebon":
-     st.info ("Jumlah Maksimalnya adalah 61 liter")
+     st.info ("Jumlah Maksimalnya adalah 41 liter")
      
 elif asal == "Kab. Subang" and tujuan == "Kota Depok":
      st.info ("Jumlah Maksimalnya adalah 30 liter")
 
 elif asal == "Kab. Subang" and tujuan == "Kota Sukabumi":
-     st.info ("Jumlah Maksimalnya adalah 46 liter")
+     st.info ("Jumlah Maksimalnya adalah 30 liter")
 
 elif asal == "Kab. Subang" and tujuan == "Kota Tasikmalaya":
-     st.info ("Jumlah Maksimalnya adalah 40 liter")
+     st.info ("Jumlah Maksimalnya adalah 35 liter")
 
 elif asal == "Kab. Subang" and tujuan == "DKI Jakarta":
      st.info ("Jumlah Maksimalnya adalah 35 liter")
 
 
 elif asal == "Kab. Sukabumi" and tujuan == "Kab. Bandung":
-     st.info ("Jumlah Maksimalnya adalah 20 liter")
+     st.info ("Jumlah Maksimalnya adalah 40 liter")
 
 elif asal == "Kab. Sukabumi" and tujuan == "Kab. Bandung Barat":
-     st.info ("Jumlah Maksimalnya adalah 10 liter")
+     st.info ("Jumlah Maksimalnya adalah 40 liter")
      
 elif asal == "Kab. Sukabumi" and tujuan == "Kab. Bekasi":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")
+     st.info ("Jumlah Maksimalnya adalah 40 liter")
 
 elif asal == "Kab. Sukabumi" and tujuan == "Kab. Bogor":
      st.info ("Jumlah Maksimalnya adalah 35 liter")
 
 elif asal == "Kab. Sukabumi" and tujuan == "Kab. Ciamis":
-     st.info ("Jumlah Maksimalnya adalah 45 liter")
+     st.info ("Jumlah Maksimalnya adalah 55 liter")
      
 elif asal == "Kab. Sukabumi" and tujuan == "Kab. Cianjur":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")
+     st.info ("Jumlah Maksimalnya adalah 25 liter")
 
 elif asal == "Kab. Sukabumi" and tujuan == "Kab. Cirebon":
      st.info ("Jumlah Maksimalnya adalah 45 liter")
 
 elif asal == "Kab. Sukabumi" and tujuan == "Kab. Garut":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")
-     
-elif asal == "Kab. Sukabumi" and tujuan == "Kab. Indramayu":
-     st.info ("Jumlah Maksimalnya adalah 45 liter")
-
-elif asal == "Kab. Sukabumi" and tujuan == "Kab. Karawang":
-     st.info ("Jumlah Maksimalnya adalah 20 liter")
-
-elif asal == "Kab. Sukabumi" and tujuan == "Kab. Kuningan":
-     st.info ("Jumlah Maksimalnya adalah 50 liter")
-     
-elif asal == "Kab. Sukabumi" and tujuan == "Kab. Majalengka":
-     st.info ("Jumlah Maksimalnya adalah 50 liter")
-
-elif asal == "Kab. Sukabumi" and tujuan == "Kab. Pangandaran":
-     st.info ("Jumlah Maksimalnya adalah 50 liter")
-
-elif asal == "Kab. Sukabumi" and tujuan == "Kab. Purwakarta":
-     st.info ("Jumlah Maksimalnya adalah 0 liter")
-     
-elif asal == "Kab. Sukabumi" and tujuan == "Kab. Subang":
-     st.info ("Jumlah Maksimalnya adalah 25 liter")
-
-elif asal == "Kab. Sukabumi" and tujuan == "Kab. Sukabumi":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")
-
-elif asal == "Kab. Sukabumi" and tujuan == "Kab. Sumedang":
-     st.info ("Jumlah Maksimalnya adalah 40 liter")
-     
-elif asal == "Kab. Sukabumi" and tujuan == "Kab. Tasikmalaya":
-     st.info ("Jumlah Maksimalnya adalah 30 liter")
-
-elif asal == "Kab. Sukabumi" and tujuan == "Kota Bandung":
-     st.info ("Jumlah Maksimalnya adalah 25 liter")
-
-elif asal == "Kab. Sukabumi" and tujuan == "Kota Banjar":
      st.info ("Jumlah Maksimalnya adalah 56 liter")
      
-elif asal == "Kab. Sukabumi" and tujuan == "Kota Bekasi":
+elif asal == "Kab. Sukabumi" and tujuan == "Kab. Indramayu":
+     st.info ("Jumlah Maksimalnya adalah 61 liter")
+
+elif asal == "Kab. Sukabumi" and tujuan == "Kab. Karawang":
+     st.info ("Jumlah Maksimalnya adalah 41 liter")
+
+elif asal == "Kab. Sukabumi" and tujuan == "Kab. Kuningan":
+     st.info ("Jumlah Maksimalnya adalah 59 liter")
+     
+elif asal == "Kab. Sukabumi" and tujuan == "Kab. Majalengka":
+     st.info ("Jumlah Maksimalnya adalah 47 liter")
+
+elif asal == "Kab. Sukabumi" and tujuan == "Kab. Pangandaran":
+     st.info ("Jumlah Maksimalnya adalah 85 liter")
+
+elif asal == "Kab. Sukabumi" and tujuan == "Kab. Purwakarta":
+     st.info ("Jumlah Maksimalnya adalah 35 liter")
+     
+elif asal == "Kab. Sukabumi" and tujuan == "Kab. Subang":
+     st.info ("Jumlah Maksimalnya adalah 40 liter")
+
+elif asal == "Kab. Sukabumi" and tujuan == "Kab. Sukabumi":
+     st.info ("Jumlah Maksimalnya adalah 0 liter")
+
+elif asal == "Kab. Sukabumi" and tujuan == "Kab. Sumedang":
+     st.info ("Jumlah Maksimalnya adalah 45 liter")
+     
+elif asal == "Kab. Sukabumi" and tujuan == "Kab. Tasikmalaya":
      st.info ("Jumlah Maksimalnya adalah 35 liter")
 
+elif asal == "Kab. Sukabumi" and tujuan == "Kota Bandung":
+     st.info ("Jumlah Maksimalnya adalah 70 liter")
+
+elif asal == "Kab. Sukabumi" and tujuan == "Kota Banjar":
+     st.info ("Jumlah Maksimalnya adalah 41 liter")
+     
+elif asal == "Kab. Sukabumi" and tujuan == "Kota Bekasi":
+     st.info ("Jumlah Maksimalnya adalah 40 liter")
+
 elif asal == "Kab. Sukabumi" and tujuan == "Kota Bogor":
-     st.info ("Jumlah Maksimalnya adalah 45 liter")
+     st.info ("Jumlah Maksimalnya adalah 50 liter")
 
 elif asal == "Kab. Sukabumi" and tujuan == "Kota Cimahi":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")     
+     st.info ("Jumlah Maksimalnya adalah 45 liter")     
 
 elif asal == "Kab. Sukabumi" and tujuan == "Kota Cirebon":
-     st.info ("Jumlah Maksimalnya adalah 61 liter")
+     st.info ("Jumlah Maksimalnya adalah 59 liter")
      
 elif asal == "Kab. Sukabumi" and tujuan == "Kota Depok":
-     st.info ("Jumlah Maksimalnya adalah 30 liter")
+     st.info ("Jumlah Maksimalnya adalah 50 liter")
 
 elif asal == "Kab. Sukabumi" and tujuan == "Kota Sukabumi":
-     st.info ("Jumlah Maksimalnya adalah 46 liter")
+     st.info ("Jumlah Maksimalnya adalah 30 liter")
 
 elif asal == "Kab. Sukabumi" and tujuan == "Kota Tasikmalaya":
-     st.info ("Jumlah Maksimalnya adalah 40 liter")
+     st.info ("Jumlah Maksimalnya adalah 55 liter")
 
 elif asal == "Kab. Sukabumi" and tujuan == "DKI Jakarta":
      st.info ("Jumlah Maksimalnya adalah 35 liter")
 
 
 elif asal == "Kab. Sumedang" and tujuan == "Kab. Bandung":
-     st.info ("Jumlah Maksimalnya adalah 20 liter")
+     st.info ("Jumlah Maksimalnya adalah 25 liter")
 
 elif asal == "Kab. Sumedang" and tujuan == "Kab. Bandung Barat":
-     st.info ("Jumlah Maksimalnya adalah 10 liter")
+     st.info ("Jumlah Maksimalnya adalah 35 liter")
      
 elif asal == "Kab. Sumedang" and tujuan == "Kab. Bekasi":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")
+     st.info ("Jumlah Maksimalnya adalah 45 liter")
 
 elif asal == "Kab. Sumedang" and tujuan == "Kab. Bogor":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")
+     st.info ("Jumlah Maksimalnya adalah 56 liter")
 
 elif asal == "Kab. Sumedang" and tujuan == "Kab. Ciamis":
-     st.info ("Jumlah Maksimalnya adalah 45 liter")
+     st.info ("Jumlah Maksimalnya adalah 40 liter")
      
 elif asal == "Kab. Sumedang" and tujuan == "Kab. Cianjur":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")
+     st.info ("Jumlah Maksimalnya adalah 50 liter")
 
 elif asal == "Kab. Sumedang" and tujuan == "Kab. Cirebon":
      st.info ("Jumlah Maksimalnya adalah 45 liter")
@@ -1511,95 +1511,95 @@ elif asal == "Kab. Sumedang" and tujuan == "Kab. Garut":
      st.info ("Jumlah Maksimalnya adalah 35 liter")
      
 elif asal == "Kab. Sumedang" and tujuan == "Kab. Indramayu":
-     st.info ("Jumlah Maksimalnya adalah 45 liter")
+     st.info ("Jumlah Maksimalnya adalah 40 liter")
 
 elif asal == "Kab. Sumedang" and tujuan == "Kab. Karawang":
-     st.info ("Jumlah Maksimalnya adalah 20 liter")
+     st.info ("Jumlah Maksimalnya adalah 40 liter")
 
 elif asal == "Kab. Sumedang" and tujuan == "Kab. Kuningan":
-     st.info ("Jumlah Maksimalnya adalah 50 liter")
+     st.info ("Jumlah Maksimalnya adalah 55 liter")
      
 elif asal == "Kab. Sumedang" and tujuan == "Kab. Majalengka":
-     st.info ("Jumlah Maksimalnya adalah 50 liter")
+     st.info ("Jumlah Maksimalnya adalah 41 liter")
 
 elif asal == "Kab. Sumedang" and tujuan == "Kab. Pangandaran":
-     st.info ("Jumlah Maksimalnya adalah 50 liter")
+     st.info ("Jumlah Maksimalnya adalah 40 liter")
 
 elif asal == "Kab. Sumedang" and tujuan == "Kab. Purwakarta":
-     st.info ("Jumlah Maksimalnya adalah 0 liter")
-     
-elif asal == "Kab. Sumedang" and tujuan == "Kab. Subang":
-     st.info ("Jumlah Maksimalnya adalah 25 liter")
-
-elif asal == "Kab. Sumedang" and tujuan == "Kab. Sukabumi":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")
-
-elif asal == "Kab. Sumedang" and tujuan == "Kab. Sumedang":
      st.info ("Jumlah Maksimalnya adalah 40 liter")
      
-elif asal == "Kab. Sumedang" and tujuan == "Kab. Tasikmalaya":
-     st.info ("Jumlah Maksimalnya adalah 30 liter")
-
-elif asal == "Kab. Sumedang" and tujuan == "Kota Bandung":
-     st.info ("Jumlah Maksimalnya adalah 25 liter")
-
-elif asal == "Kab. Sumedang" and tujuan == "Kota Banjar":
-     st.info ("Jumlah Maksimalnya adalah 56 liter")
-     
-elif asal == "Kab. Sumedang" and tujuan == "Kota Bekasi":
+elif asal == "Kab. Sumedang" and tujuan == "Kab. Subang":
      st.info ("Jumlah Maksimalnya adalah 35 liter")
 
-elif asal == "Kab. Sumedang" and tujuan == "Kota Bogor":
+elif asal == "Kab. Sumedang" and tujuan == "Kab. Sukabumi":
      st.info ("Jumlah Maksimalnya adalah 45 liter")
+
+elif asal == "Kab. Sumedang" and tujuan == "Kab. Sumedang":
+     st.info ("Jumlah Maksimalnya adalah 0 liter")
+     
+elif asal == "Kab. Sumedang" and tujuan == "Kab. Tasikmalaya":
+     st.info ("Jumlah Maksimalnya adalah 25 liter")
+
+elif asal == "Kab. Sumedang" and tujuan == "Kota Bandung":
+     st.info ("Jumlah Maksimalnya adalah 28 liter")
+
+elif asal == "Kab. Sumedang" and tujuan == "Kota Banjar":
+     st.info ("Jumlah Maksimalnya adalah 59 liter")
+     
+elif asal == "Kab. Sumedang" and tujuan == "Kota Bekasi":
+     st.info ("Jumlah Maksimalnya adalah 55 liter")
+
+elif asal == "Kab. Sumedang" and tujuan == "Kota Bogor":
+     st.info ("Jumlah Maksimalnya adalah 50 liter")
 
 elif asal == "Kab. Sumedang" and tujuan == "Kota Cimahi":
      st.info ("Jumlah Maksimalnya adalah 35 liter")     
 
 elif asal == "Kab. Sumedang" and tujuan == "Kota Cirebon":
-     st.info ("Jumlah Maksimalnya adalah 61 liter")
+     st.info ("Jumlah Maksimalnya adalah 47 liter")
      
 elif asal == "Kab. Sumedang" and tujuan == "Kota Depok":
      st.info ("Jumlah Maksimalnya adalah 30 liter")
 
 elif asal == "Kab. Sumedang" and tujuan == "Kota Sukabumi":
-     st.info ("Jumlah Maksimalnya adalah 46 liter")
+     st.info ("Jumlah Maksimalnya adalah 50 liter")
 
 elif asal == "Kab. Sumedang" and tujuan == "Kota Tasikmalaya":
-     st.info ("Jumlah Maksimalnya adalah 40 liter")
+     st.info ("Jumlah Maksimalnya adalah 35 liter")
 
 elif asal == "Kab. Sumedang" and tujuan == "DKI Jakarta":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")
+     st.info ("Jumlah Maksimalnya adalah 45 liter")
 
 
 elif asal == "Kab. Tasikmalaya" and tujuan == "Kab. Bandung":
-     st.info ("Jumlah Maksimalnya adalah 20 liter")
+     st.info ("Jumlah Maksimalnya adalah 40 liter")
 
 elif asal == "Kab. Tasikmalaya" and tujuan == "Kab. Bandung Barat":
-     st.info ("Jumlah Maksimalnya adalah 10 liter")
+     st.info ("Jumlah Maksimalnya adalah 35 liter")
      
 elif asal == "Kab. Tasikmalaya" and tujuan == "Kab. Bekasi":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")
+     st.info ("Jumlah Maksimalnya adalah 50 liter")
 
 elif asal == "Kab. Tasikmalaya" and tujuan == "Kab. Bogor":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")
+     st.info ("Jumlah Maksimalnya adalah 45 liter")
 
 elif asal == "Kab. Tasikmalaya" and tujuan == "Kab. Ciamis":
-     st.info ("Jumlah Maksimalnya adalah 45 liter")
+     st.info ("Jumlah Maksimalnya adalah 15 liter")
      
 elif asal == "Kab. Tasikmalaya" and tujuan == "Kab. Cianjur":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")
+     st.info ("Jumlah Maksimalnya adalah 44 liter")
 
 elif asal == "Kab. Tasikmalaya" and tujuan == "Kab. Cirebon":
-     st.info ("Jumlah Maksimalnya adalah 45 liter")
+     st.info ("Jumlah Maksimalnya adalah 35 liter")
 
 elif asal == "Kab. Tasikmalaya" and tujuan == "Kab. Garut":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")
+     st.info ("Jumlah Maksimalnya adalah 20 liter")
      
 elif asal == "Kab. Tasikmalaya" and tujuan == "Kab. Indramayu":
-     st.info ("Jumlah Maksimalnya adalah 45 liter")
+     st.info ("Jumlah Maksimalnya adalah 20 liter")
 
 elif asal == "Kab. Tasikmalaya" and tujuan == "Kab. Karawang":
-     st.info ("Jumlah Maksimalnya adalah 20 liter")
+     st.info ("Jumlah Maksimalnya adalah 50 liter")
 
 elif asal == "Kab. Tasikmalaya" and tujuan == "Kab. Kuningan":
      st.info ("Jumlah Maksimalnya adalah 50 liter")
@@ -1608,143 +1608,229 @@ elif asal == "Kab. Tasikmalaya" and tujuan == "Kab. Majalengka":
      st.info ("Jumlah Maksimalnya adalah 50 liter")
 
 elif asal == "Kab. Tasikmalaya" and tujuan == "Kab. Pangandaran":
-     st.info ("Jumlah Maksimalnya adalah 50 liter")
+     st.info ("Jumlah Maksimalnya adalah 25 liter")
 
 elif asal == "Kab. Tasikmalaya" and tujuan == "Kab. Purwakarta":
-     st.info ("Jumlah Maksimalnya adalah 0 liter")
+     st.info ("Jumlah Maksimalnya adalah 30 liter")
      
 elif asal == "Kab. Tasikmalaya" and tujuan == "Kab. Subang":
-     st.info ("Jumlah Maksimalnya adalah 25 liter")
+     st.info ("Jumlah Maksimalnya adalah 30 liter")
 
 elif asal == "Kab. Tasikmalaya" and tujuan == "Kab. Sukabumi":
      st.info ("Jumlah Maksimalnya adalah 35 liter")
 
 elif asal == "Kab. Tasikmalaya" and tujuan == "Kab. Sumedang":
-     st.info ("Jumlah Maksimalnya adalah 40 liter")
+     st.info ("Jumlah Maksimalnya adalah 25 liter")
      
 elif asal == "Kab. Tasikmalaya" and tujuan == "Kab. Tasikmalaya":
-     st.info ("Jumlah Maksimalnya adalah 30 liter")
+     st.info ("Jumlah Maksimalnya adalah 0 liter")
 
 elif asal == "Kab. Tasikmalaya" and tujuan == "Kota Bandung":
-     st.info ("Jumlah Maksimalnya adalah 25 liter")
+     st.info ("Jumlah Maksimalnya adalah 55 liter")
 
 elif asal == "Kab. Tasikmalaya" and tujuan == "Kota Banjar":
-     st.info ("Jumlah Maksimalnya adalah 56 liter")
+     st.info ("Jumlah Maksimalnya adalah 47 liter")
      
 elif asal == "Kab. Tasikmalaya" and tujuan == "Kota Bekasi":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")
+     st.info ("Jumlah Maksimalnya adalah 41 liter")
 
 elif asal == "Kab. Tasikmalaya" and tujuan == "Kota Bogor":
-     st.info ("Jumlah Maksimalnya adalah 45 liter")
+     st.info ("Jumlah Maksimalnya adalah 50 liter")
 
 elif asal == "Kab. Tasikmalaya" and tujuan == "Kota Cimahi":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")     
+     st.info ("Jumlah Maksimalnya adalah 55 liter")     
 
 elif asal == "Kab. Tasikmalaya" and tujuan == "Kota Cirebon":
-     st.info ("Jumlah Maksimalnya adalah 61 liter")
+     st.info ("Jumlah Maksimalnya adalah 50 liter")
      
 elif asal == "Kab. Tasikmalaya" and tujuan == "Kota Depok":
-     st.info ("Jumlah Maksimalnya adalah 30 liter")
+     st.info ("Jumlah Maksimalnya adalah 50 liter")
 
 elif asal == "Kab. Tasikmalaya" and tujuan == "Kota Sukabumi":
-     st.info ("Jumlah Maksimalnya adalah 46 liter")
-
-elif asal == "Kab. Tasikmalaya" and tujuan == "Kota Tasikmalaya":
-     st.info ("Jumlah Maksimalnya adalah 40 liter")
-
-elif asal == "Kab. Tasikmalaya" and tujuan == "DKI Jakarta":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")
-
-elif asal == "Kota Banjar" and tujuan == "Kab. Bandung":
      st.info ("Jumlah Maksimalnya adalah 20 liter")
 
-elif asal == "Kota Banjar" and tujuan == "Kab. Bandung Barat":
-     st.info ("Jumlah Maksimalnya adalah 10 liter")
+elif asal == "Kab. Tasikmalaya" and tujuan == "Kota Tasikmalaya":
+     st.info ("Jumlah Maksimalnya adalah 15 liter")
+
+elif asal == "Kab. Tasikmalaya" and tujuan == "DKI Jakarta":
+     st.info ("Jumlah Maksimalnya adalah 45 liter")
+
+
+elif asal == "Kota Bandung" and tujuan == "Kab. Bandung":
+     st.info ("Jumlah Maksimalnya adalah 18 liter")
+
+elif asal == "Kota Bandung" and tujuan == "Kab. Bandung Barat":
+     st.info ("Jumlah Maksimalnya adalah 19 liter")
      
-elif asal == "Kota Banjar" and tujuan == "Kab. Bekasi":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")
+elif asal == "Kota Bandung" and tujuan == "Kab. Bekasi":
+     st.info ("Jumlah Maksimalnya adalah 37 liter")
 
-elif asal == "Kota Banjar" and tujuan == "Kab. Bogor":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")
+elif asal == "Kota Bandung" and tujuan == "Kab. Bogor":
+     st.info ("Jumlah Maksimalnya adalah 43 liter")
 
-elif asal == "Kota Banjar" and tujuan == "Kab. Ciamis":
+elif asal == "Kota Bandung" and tujuan == "Kab. Ciamis":
+     st.info ("Jumlah Maksimalnya adalah 47 liter")
+     
+elif asal == "Kota Bandung" and tujuan == "Kab. Cianjur":
+     st.info ("Jumlah Maksimalnya adalah 56 liter")
+
+elif asal == "Kota Bandung" and tujuan == "Kab. Cirebon":
+     st.info ("Jumlah Maksimalnya adalah 44 liter")
+
+elif asal == "Kota Bandung" and tujuan == "Kab. Garut":
+     st.info ("Jumlah Maksimalnya adalah 42 liter")
+     
+elif asal == "Kota Bandung" and tujuan == "Kab. Indramayu":
+     st.info ("Jumlah Maksimalnya adalah 51 liter")
+
+elif asal == "Kota Bandung" and tujuan == "Kab. Karawang":
+     st.info ("Jumlah Maksimalnya adalah 38 liter")
+
+elif asal == "Kota Bandung" and tujuan == "Kab. Kuningan":
+     st.info ("Jumlah Maksimalnya adalah 46 liter")
+     
+elif asal == "Kota Bandung" and tujuan == "Kab. Majalengka":
+     st.info ("Jumlah Maksimalnya adalah 40 liter")
+
+elif asal == "Kota Bandung" and tujuan == "Kab. Pangandaran":
+     st.info ("Jumlah Maksimalnya adalah 45 liter")
+
+elif asal == "Kota Bandung" and tujuan == "Kab. Purwakarta":
+     st.info ("Jumlah Maksimalnya adalah 25 liter")
+     
+elif asal == "Kota Bandung" and tujuan == "Kab. Subang":
+     st.info ("Jumlah Maksimalnya adalah 30 liter")
+
+elif asal == "Kota Bandung" and tujuan == "Kab. Sukabumi":
+     st.info ("Jumlah Maksimalnya adalah 70 liter")
+
+elif asal == "Kota Bandung" and tujuan == "Kab. Sumedang":
+     st.info ("Jumlah Maksimalnya adalah 28 liter")
+     
+elif asal == "Kota Bandung" and tujuan == "Kab. Tasikmalaya":
+     st.info ("Jumlah Maksimalnya adalah 55 liter")
+
+elif asal == "Kota Bandung" and tujuan == "Kota Bandung":
+     st.info ("Jumlah Maksimalnya adalah 0 liter")
+
+elif asal == "Kota Bandung" and tujuan == "Kota Banjar":
      st.info ("Jumlah Maksimalnya adalah 45 liter")
      
-elif asal == "Kota Banjar" and tujuan == "Kab. Cianjur":
+elif asal == "Kota Bandung" and tujuan == "Kota Bekasi":
      st.info ("Jumlah Maksimalnya adalah 35 liter")
+
+elif asal == "Kota Bandung" and tujuan == "Kota Bogor":
+     st.info ("Jumlah Maksimalnya adalah 38 liter")
+
+elif asal == "Kota Bandung" and tujuan == "Kota Cimahi":
+     st.info ("Jumlah Maksimalnya adalah 18 liter")     
+
+elif asal == "Kota Bandung" and tujuan == "Kota Cirebon":
+     st.info ("Jumlah Maksimalnya adalah 42 liter")
+     
+elif asal == "Kota Bandung" and tujuan == "Kota Depok":
+     st.info ("Jumlah Maksimalnya adalah 45 liter")
+
+elif asal == "Kota Bandung" and tujuan == "Kota Sukabumi":
+     st.info ("Jumlah Maksimalnya adalah 30 liter")
+
+elif asal == "Kota Bandung" and tujuan == "Kota Tasikmalaya":
+     st.info ("Jumlah Maksimalnya adalah 30 liter")
+
+elif asal == "Kota Bandung" and tujuan == "DKI Jakarta":
+     st.info ("Jumlah Maksimalnya adalah 40 liter")
+
+
+elif asal == "Kota Banjar" and tujuan == "Kab. Bandung":
+     st.info ("Jumlah Maksimalnya adalah 40 liter")
+
+elif asal == "Kota Banjar" and tujuan == "Kab. Bandung Barat":
+     st.info ("Jumlah Maksimalnya adalah 40 liter")
+     
+elif asal == "Kota Banjar" and tujuan == "Kab. Bekasi":
+     st.info ("Jumlah Maksimalnya adalah 40 liter")
+
+elif asal == "Kota Banjar" and tujuan == "Kab. Bogor":
+     st.info ("Jumlah Maksimalnya adalah 40 liter")
+
+elif asal == "Kota Banjar" and tujuan == "Kab. Ciamis":
+     st.info ("Jumlah Maksimalnya adalah 40 liter")
+     
+elif asal == "Kota Banjar" and tujuan == "Kab. Cianjur":
+     st.info ("Jumlah Maksimalnya adalah 40 liter")
 
 elif asal == "Kota Banjar" and tujuan == "Kab. Cirebon":
      st.info ("Jumlah Maksimalnya adalah 45 liter")
 
 elif asal == "Kota Banjar" and tujuan == "Kab. Garut":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")
-     
-elif asal == "Kota Banjar" and tujuan == "Kab. Indramayu":
-     st.info ("Jumlah Maksimalnya adalah 45 liter")
-
-elif asal == "Kota Banjar" and tujuan == "Kab. Karawang":
-     st.info ("Jumlah Maksimalnya adalah 20 liter")
-
-elif asal == "Kota Banjar" and tujuan == "Kab. Kuningan":
-     st.info ("Jumlah Maksimalnya adalah 50 liter")
-     
-elif asal == "Kota Banjar" and tujuan == "Kab. Majalengka":
-     st.info ("Jumlah Maksimalnya adalah 50 liter")
-
-elif asal == "Kota Banjar" and tujuan == "Kab. Pangandaran":
-     st.info ("Jumlah Maksimalnya adalah 50 liter")
-
-elif asal == "Kota Banjar" and tujuan == "Kab. Purwakarta":
-     st.info ("Jumlah Maksimalnya adalah 0 liter")
-     
-elif asal == "Kota Banjar" and tujuan == "Kab. Subang":
-     st.info ("Jumlah Maksimalnya adalah 25 liter")
-
-elif asal == "Kota Banjar" and tujuan == "Kab. Sukabumi":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")
-
-elif asal == "Kota Banjar" and tujuan == "Kab. Sumedang":
      st.info ("Jumlah Maksimalnya adalah 40 liter")
      
-elif asal == "Kota Banjar" and tujuan == "Kab. Tasikmalaya":
-     st.info ("Jumlah Maksimalnya adalah 30 liter")
+elif asal == "Kota Banjar" and tujuan == "Kab. Indramayu":
+     st.info ("Jumlah Maksimalnya adalah 50 liter")
 
-elif asal == "Kota Banjar" and tujuan == "Kota Bandung":
-     st.info ("Jumlah Maksimalnya adalah 25 liter")
+elif asal == "Kota Banjar" and tujuan == "Kab. Karawang":
+     st.info ("Jumlah Maksimalnya adalah 45 liter")
 
-elif asal == "Kota Banjar" and tujuan == "Kota Banjar":
+elif asal == "Kota Banjar" and tujuan == "Kab. Kuningan":
+     st.info ("Jumlah Maksimalnya adalah 35 liter")
+     
+elif asal == "Kota Banjar" and tujuan == "Kab. Majalengka":
+     st.info ("Jumlah Maksimalnya adalah 41 liter")
+
+elif asal == "Kota Banjar" and tujuan == "Kab. Pangandaran":
+     st.info ("Jumlah Maksimalnya adalah 15 liter")
+
+elif asal == "Kota Banjar" and tujuan == "Kab. Purwakarta":
      st.info ("Jumlah Maksimalnya adalah 56 liter")
      
+elif asal == "Kota Banjar" and tujuan == "Kab. Subang":
+     st.info ("Jumlah Maksimalnya adalah 61 liter")
+
+elif asal == "Kota Banjar" and tujuan == "Kab. Sukabumi":
+     st.info ("Jumlah Maksimalnya adalah 41 liter")
+
+elif asal == "Kota Banjar" and tujuan == "Kab. Sumedang":
+     st.info ("Jumlah Maksimalnya adalah 59 liter")
+     
+elif asal == "Kota Banjar" and tujuan == "Kab. Tasikmalaya":
+     st.info ("Jumlah Maksimalnya adalah 47 liter")
+
+elif asal == "Kota Banjar" and tujuan == "Kota Bandung":
+     st.info ("Jumlah Maksimalnya adalah 45 liter")
+
+elif asal == "Kota Banjar" and tujuan == "Kota Banjar":
+     st.info ("Jumlah Maksimalnya adalah 0 liter")
+     
 elif asal == "Kota Banjar" and tujuan == "Kota Bekasi":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")
+     st.info ("Jumlah Maksimalnya adalah 55 liter")
 
 elif asal == "Kota Banjar" and tujuan == "Kota Bogor":
-     st.info ("Jumlah Maksimalnya adalah 45 liter")
+     st.info ("Jumlah Maksimalnya adalah 50 liter")
 
 elif asal == "Kota Banjar" and tujuan == "Kota Cimahi":
      st.info ("Jumlah Maksimalnya adalah 35 liter")     
 
 elif asal == "Kota Banjar" and tujuan == "Kota Cirebon":
-     st.info ("Jumlah Maksimalnya adalah 61 liter")
+     st.info ("Jumlah Maksimalnya adalah 47 liter")
      
 elif asal == "Kota Banjar" and tujuan == "Kota Depok":
      st.info ("Jumlah Maksimalnya adalah 30 liter")
 
 elif asal == "Kota Banjar" and tujuan == "Kota Sukabumi":
-     st.info ("Jumlah Maksimalnya adalah 46 liter")
+     st.info ("Jumlah Maksimalnya adalah 50 liter")
 
 elif asal == "Kota Banjar" and tujuan == "Kota Tasikmalaya":
-     st.info ("Jumlah Maksimalnya adalah 40 liter")
+     st.info ("Jumlah Maksimalnya adalah 25 liter")
 
 elif asal == "Kota Banjar" and tujuan == "DKI Jakarta":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")
+     st.info ("Jumlah Maksimalnya adalah 50 liter")
 
 
 elif asal == "Kota Bekasi" and tujuan == "Kab. Bandung":
-     st.info ("Jumlah Maksimalnya adalah 20 liter")
+     st.info ("Jumlah Maksimalnya adalah 30 liter")
 
 elif asal == "Kota Bekasi" and tujuan == "Kab. Bandung Barat":
-     st.info ("Jumlah Maksimalnya adalah 10 liter")
+     st.info ("Jumlah Maksimalnya adalah 35 liter")
      
 elif asal == "Kota Bekasi" and tujuan == "Kab. Bekasi":
      st.info ("Jumlah Maksimalnya adalah 35 liter")
@@ -1753,73 +1839,73 @@ elif asal == "Kota Bekasi" and tujuan == "Kab. Bogor":
      st.info ("Jumlah Maksimalnya adalah 35 liter")
 
 elif asal == "Kota Bekasi" and tujuan == "Kab. Ciamis":
-     st.info ("Jumlah Maksimalnya adalah 45 liter")
+     st.info ("Jumlah Maksimalnya adalah 35 liter")
      
 elif asal == "Kota Bekasi" and tujuan == "Kab. Cianjur":
      st.info ("Jumlah Maksimalnya adalah 35 liter")
 
 elif asal == "Kota Bekasi" and tujuan == "Kab. Cirebon":
-     st.info ("Jumlah Maksimalnya adalah 45 liter")
+     st.info ("Jumlah Maksimalnya adalah 55 liter")
 
 elif asal == "Kota Bekasi" and tujuan == "Kab. Garut":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")
+     st.info ("Jumlah Maksimalnya adalah 15 liter")
      
 elif asal == "Kota Bekasi" and tujuan == "Kab. Indramayu":
      st.info ("Jumlah Maksimalnya adalah 45 liter")
 
 elif asal == "Kota Bekasi" and tujuan == "Kab. Karawang":
-     st.info ("Jumlah Maksimalnya adalah 20 liter")
+     st.info ("Jumlah Maksimalnya adalah 56 liter")
 
 elif asal == "Kota Bekasi" and tujuan == "Kab. Kuningan":
-     st.info ("Jumlah Maksimalnya adalah 50 liter")
-     
-elif asal == "Kota Bekasi" and tujuan == "Kab. Majalengka":
-     st.info ("Jumlah Maksimalnya adalah 50 liter")
-
-elif asal == "Kota Bekasi" and tujuan == "Kab. Pangandaran":
-     st.info ("Jumlah Maksimalnya adalah 50 liter")
-
-elif asal == "Kota Bekasi" and tujuan == "Kab. Purwakarta":
-     st.info ("Jumlah Maksimalnya adalah 0 liter")
-     
-elif asal == "Kota Bekasi" and tujuan == "Kab. Subang":
-     st.info ("Jumlah Maksimalnya adalah 25 liter")
-
-elif asal == "Kota Bekasi" and tujuan == "Kab. Sukabumi":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")
-
-elif asal == "Kota Bekasi" and tujuan == "Kab. Sumedang":
-     st.info ("Jumlah Maksimalnya adalah 40 liter")
-     
-elif asal == "Kota Bekasi" and tujuan == "Kab. Tasikmalaya":
-     st.info ("Jumlah Maksimalnya adalah 30 liter")
-
-elif asal == "Kota Bekasi" and tujuan == "Kota Bandung":
-     st.info ("Jumlah Maksimalnya adalah 25 liter")
-
-elif asal == "Kota Bekasi" and tujuan == "Kota Banjar":
-     st.info ("Jumlah Maksimalnya adalah 56 liter")
-     
-elif asal == "Kota Bekasi" and tujuan == "Kota Bekasi":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")
-
-elif asal == "Kota Bekasi" and tujuan == "Kota Bogor":
-     st.info ("Jumlah Maksimalnya adalah 45 liter")
-
-elif asal == "Kota Bekasi" and tujuan == "Kota Cimahi":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")     
-
-elif asal == "Kota Bekasi" and tujuan == "Kota Cirebon":
      st.info ("Jumlah Maksimalnya adalah 61 liter")
      
+elif asal == "Kota Bekasi" and tujuan == "Kab. Majalengka":
+     st.info ("Jumlah Maksimalnya adalah 40 liter")
+
+elif asal == "Kota Bekasi" and tujuan == "Kab. Pangandaran":
+     st.info ("Jumlah Maksimalnya adalah 65 liter")
+
+elif asal == "Kota Bekasi" and tujuan == "Kab. Purwakarta":
+     st.info ("Jumlah Maksimalnya adalah 35 liter")
+     
+elif asal == "Kota Bekasi" and tujuan == "Kab. Subang":
+     st.info ("Jumlah Maksimalnya adalah 40 liter")
+
+elif asal == "Kota Bekasi" and tujuan == "Kab. Sukabumi":
+     st.info ("Jumlah Maksimalnya adalah 40 liter")
+
+elif asal == "Kota Bekasi" and tujuan == "Kab. Sumedang":
+     st.info ("Jumlah Maksimalnya adalah 55 liter")
+     
+elif asal == "Kota Bekasi" and tujuan == "Kab. Tasikmalaya":
+     st.info ("Jumlah Maksimalnya adalah 41 liter")
+
+elif asal == "Kota Bekasi" and tujuan == "Kota Bandung":
+     st.info ("Jumlah Maksimalnya adalah 35 liter")
+
+elif asal == "Kota Bekasi" and tujuan == "Kota Banjar":
+     st.info ("Jumlah Maksimalnya adalah 55 liter")
+     
+elif asal == "Kota Bekasi" and tujuan == "Kota Bekasi":
+     st.info ("Jumlah Maksimalnya adalah 0 liter")
+
+elif asal == "Kota Bekasi" and tujuan == "Kota Bogor":
+     st.info ("Jumlah Maksimalnya adalah 55 liter")
+
+elif asal == "Kota Bekasi" and tujuan == "Kota Cimahi":
+     st.info ("Jumlah Maksimalnya adalah 50 liter")     
+
+elif asal == "Kota Bekasi" and tujuan == "Kota Cirebon":
+     st.info ("Jumlah Maksimalnya adalah 45 liter")
+     
 elif asal == "Kota Bekasi" and tujuan == "Kota Depok":
-     st.info ("Jumlah Maksimalnya adalah 30 liter")
+     st.info ("Jumlah Maksimalnya adalah 47 liter")
 
 elif asal == "Kota Bekasi" and tujuan == "Kota Sukabumi":
-     st.info ("Jumlah Maksimalnya adalah 46 liter")
+     st.info ("Jumlah Maksimalnya adalah 30 liter")
 
 elif asal == "Kota Bekasi" and tujuan == "Kota Tasikmalaya":
-     st.info ("Jumlah Maksimalnya adalah 40 liter")
+     st.info ("Jumlah Maksimalnya adalah 50 liter")
 
 elif asal == "Kota Bekasi" and tujuan == "DKI Jakarta":
      st.info ("Jumlah Maksimalnya adalah 35 liter")
@@ -1827,10 +1913,10 @@ elif asal == "Kota Bekasi" and tujuan == "DKI Jakarta":
 
 
 elif asal == "Kota Bogor" and tujuan == "Kab. Bandung":
-     st.info ("Jumlah Maksimalnya adalah 20 liter")
+     st.info ("Jumlah Maksimalnya adalah 35 liter")
 
 elif asal == "Kota Bogor" and tujuan == "Kab. Bandung Barat":
-     st.info ("Jumlah Maksimalnya adalah 10 liter")
+     st.info ("Jumlah Maksimalnya adalah 35 liter")
      
 elif asal == "Kota Bogor" and tujuan == "Kab. Bekasi":
      st.info ("Jumlah Maksimalnya adalah 35 liter")
@@ -1839,61 +1925,61 @@ elif asal == "Kota Bogor" and tujuan == "Kab. Bogor":
      st.info ("Jumlah Maksimalnya adalah 35 liter")
 
 elif asal == "Kota Bogor" and tujuan == "Kab. Ciamis":
-     st.info ("Jumlah Maksimalnya adalah 45 liter")
+     st.info ("Jumlah Maksimalnya adalah 35 liter")
      
 elif asal == "Kota Bogor" and tujuan == "Kab. Cianjur":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")
+     st.info ("Jumlah Maksimalnya adalah 56 liter")
 
 elif asal == "Kota Bogor" and tujuan == "Kab. Cirebon":
-     st.info ("Jumlah Maksimalnya adalah 45 liter")
+     st.info ("Jumlah Maksimalnya adalah 40 liter")
 
 elif asal == "Kota Bogor" and tujuan == "Kab. Garut":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")
+     st.info ("Jumlah Maksimalnya adalah 50 liter")
      
 elif asal == "Kota Bogor" and tujuan == "Kab. Indramayu":
      st.info ("Jumlah Maksimalnya adalah 45 liter")
 
 elif asal == "Kota Bogor" and tujuan == "Kab. Karawang":
-     st.info ("Jumlah Maksimalnya adalah 20 liter")
+     st.info ("Jumlah Maksimalnya adalah 35 liter")
 
 elif asal == "Kota Bogor" and tujuan == "Kab. Kuningan":
-     st.info ("Jumlah Maksimalnya adalah 50 liter")
+     st.info ("Jumlah Maksimalnya adalah 40 liter")
      
 elif asal == "Kota Bogor" and tujuan == "Kab. Majalengka":
      st.info ("Jumlah Maksimalnya adalah 50 liter")
 
 elif asal == "Kota Bogor" and tujuan == "Kab. Pangandaran":
-     st.info ("Jumlah Maksimalnya adalah 50 liter")
+     st.info ("Jumlah Maksimalnya adalah 65 liter")
 
 elif asal == "Kota Bogor" and tujuan == "Kab. Purwakarta":
-     st.info ("Jumlah Maksimalnya adalah 0 liter")
+     st.info ("Jumlah Maksimalnya adalah 45 liter")
      
 elif asal == "Kota Bogor" and tujuan == "Kab. Subang":
-     st.info ("Jumlah Maksimalnya adalah 25 liter")
+     st.info ("Jumlah Maksimalnya adalah 20 liter")
 
 elif asal == "Kota Bogor" and tujuan == "Kab. Sukabumi":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")
+     st.info ("Jumlah Maksimalnya adalah 50 liter")
 
 elif asal == "Kota Bogor" and tujuan == "Kab. Sumedang":
-     st.info ("Jumlah Maksimalnya adalah 40 liter")
+     st.info ("Jumlah Maksimalnya adalah 50 liter")
      
 elif asal == "Kota Bogor" and tujuan == "Kab. Tasikmalaya":
-     st.info ("Jumlah Maksimalnya adalah 30 liter")
+     st.info ("Jumlah Maksimalnya adalah 50 liter")
 
 elif asal == "Kota Bogor" and tujuan == "Kota Bandung":
-     st.info ("Jumlah Maksimalnya adalah 25 liter")
+     st.info ("Jumlah Maksimalnya adalah 38 liter")
 
 elif asal == "Kota Bogor" and tujuan == "Kota Banjar":
-     st.info ("Jumlah Maksimalnya adalah 56 liter")
+     st.info ("Jumlah Maksimalnya adalah 50 liter")
      
 elif asal == "Kota Bogor" and tujuan == "Kota Bekasi":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")
+     st.info ("Jumlah Maksimalnya adalah 55 liter")
 
 elif asal == "Kota Bogor" and tujuan == "Kota Bogor":
-     st.info ("Jumlah Maksimalnya adalah 45 liter")
+     st.info ("Jumlah Maksimalnya adalah 0 liter")
 
 elif asal == "Kota Bogor" and tujuan == "Kota Cimahi":
-     st.info ("Jumlah Maksimalnya adalah 35 liter")     
+     st.info ("Jumlah Maksimalnya adalah 50 liter")     
 
 elif asal == "Kota Bogor" and tujuan == "Kota Cirebon":
      st.info ("Jumlah Maksimalnya adalah 61 liter")
