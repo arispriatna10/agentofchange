@@ -7,10 +7,10 @@ Ini adalah aplikasi untuk mengecek Dokumen Kelengkapan SPJ
 
 
 original_list = ["Pilih Jenis Belanja",
-                 "Paket Meeting Fullday", 
-                 "Paket Meeting Fullboard",
-                 "Perjalanan Dinas Paket Meeting",
-                 "Perjalanan Dinas Luar Kota Dalam Provinsi",
+                 "Honorarium Panitia/Pejabat Pengadaan/Penerima Barang dan Jasa PNS Provinsi", 
+                 "Honorarium PNS Non Provinsi dan Non PNS (Peserta)",
+                 "Upah Harian Lepas",
+                 "Uang Hadiah",
                  "Perjalanan Dinas Luar Provinsi",
                  "Perjalanan Dinas Luar Negeri",
                  "Makanan dan Minuman Rapat",
@@ -19,27 +19,20 @@ original_list = ["Pilih Jenis Belanja",
                  "Tenaga Ahli Non Sertifikat",
                  "Makanan dan Minuman Rapat (Platform GRATIS ONGKIR)",
                  "Makanan dan Minuman Tamu (Platform GRATIS ONGKIR)"]
-original_lists = ["Pilih Mekanisme Pembayaran", "LS", "UP"]
                  
 
 asal = st.selectbox(''':blue[Masukan Jenis Belanja]''',original_list)
-mekanisme = st.selectbox(''':blue[Masukan Mekanisme Pembayaran]''',original_lists)
 
-if asal == "Paket Meeting Fullday" and mekanisme == "LS":
+
+if asal == "Paket Meeting Fullday":
   st.info ("Dokumen Kelengkapan:")
-  st.info ("1. Ringkasan Kontrak")
-  st.info ("2. Surat Pesanan (SP)/Surat Perintah Kerja (SPK)")
-  st.info ("3. Surat Perintah Mulai Kerja (SPMK)")
-  st.info ("4. Berita Acara Pemeriksaan dan Serah Terima Pekerjaan (BAST)")
-  st.info ("5. Permohonan Pembayaran")
-  st.info ("6. Berita Acara Persetujuan Pembayaran (BAPP)")
-  st.info ("7. E-Bupot PPh Pasal 23")
-  st.info ("8. Id Billing PPh Pasal 23")
-  st.info ("9. Rekening Koran")
-  st.info ("10. Daftar Menu Makanan")
-  st.info ("11. Daftar Hadir")
-  st.info ("12. Undangan dan Rundown Acara")
-  st.info ("13. Notulensi dan Dokumentasi Kegiatan")
+  st.info ("1. Daftar Penerimaan Pembayaran Honor Kuitansi")
+  st.info ("2. SK Pejabat/Panitia Pengadaan dan Pejabat/Panitian Penerima Barang dan Jasa")
+  st.info ("3. Rekapitulasi paket pekerjaan yang berisi Informasi tentang nilai dan jenis pekerjaan khusus untuk Pejabat/ Panitia
+pengadaan Dan Pejabat/ Panitia Penerima Barang/Jasa, Kecuali yang 1 (satu) paket pekerjaan melampirkan Fotokopi SPK dan Berita Acara Serah Terima Barang/Jasa khusus untuk
+pembayaran Honorarium Panitia/Pejabat Penerima Barang/Jasa")
+  st.info ("4. Bukti transfer/SPPT jika pembayarannya melalui transfer")
+  st.info ("5. e-Billing dari Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
 elif asal == "Paket Meeting Fullboard" and mekanisme == "LS":
   st.info ("Dokumen Kelengkapan:")
