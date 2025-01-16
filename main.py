@@ -26,11 +26,11 @@ asal = st.selectbox(''':blue[Masukan Jenis Belanja]''',original_list)
 
 if asal == "Honorarium Panitia/Pejabat Pengadaan/Penerima Barang dan Jasa PNS Provinsi":
   st.info ("Dokumen Kelengkapan:")
-  st.info ("Daftar Penerimaan Pembayaran Honor Kuitansi")
-  st.info ("SK Pejabat/Panitia Pengadaan dan Pejabat/Panitia Penerima Barang dan Jasa")
-  st.info ("Rekapitulasi paket pekerjaan yang berisi Informasi tentang nilai dan jenis pekerjaan khusus untuk Pejabat/Panitia pengadaan Dan Pejabat/Panitia Penerima Barang/Jasa, Kecuali yang 1 (satu) paket pekerjaan melampirkan Fotokopi SPK dan Berita Acara Serah Terima Barang/Jasa khusus untuk pembayaran Honorarium Panitia/Pejabat Penerima Barang/Jasa")
-  st.info ("Bukti transfer/SPPT jika pembayarannya melalui transfer")
-  st.info ("e-Billing dari Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
+  st.info ("- Daftar Penerimaan Pembayaran Honor Kuitansi")
+  st.info ("- SK Pejabat/Panitia Pengadaan dan Pejabat/Panitia Penerima Barang dan Jasa")
+  st.info ("- Rekapitulasi paket pekerjaan yang berisi Informasi tentang nilai dan jenis pekerjaan khusus untuk Pejabat/Panitia pengadaan Dan Pejabat/Panitia Penerima Barang/Jasa, Kecuali yang 1 (satu) paket pekerjaan melampirkan Fotokopi SPK dan Berita Acara Serah Terima Barang/Jasa khusus untuk pembayaran Honorarium Panitia/Pejabat Penerima Barang/Jasa")
+  st.info ("- Bukti transfer/SPPT jika pembayarannya melalui transfer")
+  st.info ("- e-Billing dari Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
 elif asal == "Honorarium PNS Non Provinsi dan Non PNS (Peserta)":
   st.info ("Dokumen Kelengkapan:")
