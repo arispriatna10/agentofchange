@@ -24,7 +24,7 @@ original_list = ["Pilih Jenis Belanja",
 asal = st.selectbox(''':blue[Masukan Jenis Belanja]''',original_list)
 
 
-if asal == "Paket Meeting Fullday":
+if asal == "Honorarium Panitia/Pejabat Pengadaan/Penerima Barang dan Jasa PNS Provinsi":
   st.info ("Dokumen Kelengkapan:")
   st.info ("1. Daftar Penerimaan Pembayaran Honor Kuitansi")
   st.info ("2. SK Pejabat/Panitia Pengadaan dan Pejabat/Panitia Penerima Barang dan Jasa")
