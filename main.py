@@ -10,10 +10,55 @@ original_list = ["Pilih Jenis Belanja",
                  "Honorarium Panitia/Pejabat Pengadaan/Penerima Barang dan Jasa PNS Provinsi", 
                  "Honorarium PNS Non Provinsi dan Non PNS (Peserta)",
                  "Upah Harian Lepas",
-                 "Uang Hadiah"]
+                 "Uang Hadiah",
+                "Belanja Bahan Pakai Habis",
+                "Belanja Bahan/Material",
+                "Belanja langganan Telepon/Listrik/Air/Internet/TV Kabel",
+                "Belanja Lengganan Surat Kabar/ Majalah/ Buletin",
+                "Belanja Jasa Paket Pengiriman/ Kebersihan/ Keamanan/ Pengelolaan Aset",
+                "Belanja Pajak Buml dan Bangunan (PBB)",
+                "Belanja Surat Tanda Nomor Kendaraan",
+                "Belanja Jasa KIR",
+                "Belanja Surat Tanda Nomor Kendaraan",
+                "Belanja Jasa Profesi (tenaga pengajar, penceramah/ narasumber / notulen/ Instruktur/ Wakll Instruktur/ Pembina Instruktur/ Moderator/ Pengamat Kelas)",
+                "Belanja Jasa Pengumuman Lelang melalui Media Surat Kabar)",
+                "Belanja Jasa Akomodasi)",
+                "Belanja Premi Asuransi",
+                "Belanja Jasa Penerangan/ Iklan/ Reklame/ Film/ Pemotretan (Media Cetak))",
+                "Belanja Jasa Penerangan/ Iklan/ Reklame/ Film/ Pemotretan (Media Elektronik)",
+                "Belanja Perawatan Kendaraan Bermotor (belanja servis, penggantian suku cadang, pelumas)",
+                "Belanja Perawatan Perlengkapan Kantor",
+                "Belanja Pemeliharaan Taman",
+                "Belanja Cetak dan Penggandaan",
+                "Belanja Sewa Rumah/ Gedung/ Gudang/ Parkir/ Tempat",
+                "Belanja Paket Meeting)",
+                "Belanja Sewa Sarana Mobilitas)",
+                "Belanja Sewa Alat Berat)",
+                "Belanja Sewa Perlengkapan dan Peralatan Kantor)",
+                "Belanja Sewa Perlengkapan dan Peralatan Kantor)",
+                "Perjalanan Dinas Dalam Kota/ Kabupaten)",
+                "Belanja Perjalanan Dinas Paket Meeting)",
+                "Perjalanan Dinas Dalam Daerah (Kabupaten/ Kota))",
+                "Belanja Perjalanan Dinas Luar Provinsi)",
+                "Belanja Perjalanan Dinas Luar Negeri)",
+                "Belanja Perjalanan Dinas Bagi Non PNS Dinas Dalam dan Luar Daerah)",
+                "Belanja PNS yang mengikuti Diklat Jabatan Struktural/ Fungsional yang dilaksanakan oleh Instansi Daerah lain, Instansi Provinsi, Instansi Pusat maupun Organisasi Diklat lainnya)",
+                "PNS yang mengikuti Diklat/ Bimtek apabila lebih dari 3 (tiga) hari yang harus ada biaya kontribusi)",
+                "Biaya sewa stand pameran tingkat provinsi dan tingkat nasional)",
+                "Belanja Paket Meeting)",
+                "Perjalanan Dinas Paket Meeting)",
+                "Belanja Makan minum rapat)",
+                "Belanja Makan minum tamu)",
+                "Belanja Konstruksi)",
+                "Belanja Tenaga Ahli Non Sertifikat)",
+                "Belanja Modal Pengadaan Tanah)",
+                "Belanja Modal Pengadaan Perlengkapan Kantor/Peralatan dan Mesin/Alat-alat Bengkel/Peralatan Dapur/Penghias Ruangan/Alat-alat Studio/Buku/ Perpustakaan/Belanja Model sejenis lainnya)"
+                ]
                  
 
 asal = st.selectbox(''':blue[Masukan Jenis Belanja]''',original_list)
+
+
 
 
 if asal == "Honorarium Panitia/Pejabat Pengadaan/Penerima Barang dan Jasa PNS Provinsi":
@@ -77,7 +122,7 @@ elif asal == "Belanja Lengganan Surat Kabar/ Majalah/ Buletin":
   st.info ("- Bukti Transfer/SPPT ke pihak penyedia barang/ jasa jika pembayarannya melalui transfer")
   st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
   
-elif asal == "Belanja Jasa Paket Pengiriman/ Kebersihan/ Keamanan/ Pengelolaa Aset":
+elif asal == "Belanja Jasa Paket Pengiriman/ Kebersihan/ Keamanan/ Pengelolaan Aset":
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Bukti Pembayaran")
   st.info ("- Surat Pejanjian Kerjasama/ Kontrak (MoU) jika melalui Kerjasama/ Kontrak (MoU)")
