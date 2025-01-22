@@ -402,7 +402,7 @@ elif asal == "Belanja Perjalanan Dinas Bagi Non PNS Dinas Dalam dan Luar Daerah)
   st.info ("- Daftar Penerimaan Uang Harian dan atau Uang Saku dan Uang Taksi")
   st.info ("- Tanda Bukti Akomodasi meliputi: Kuitansi/ Nota/ Faktur/ Bill yang memuat nama Pelaksana perjalanan dinas dari Hotel yang telah distempel oleh penyedia atau dari situs penyedia jasa akomodasi (jika lebih dari 1 hari)")
   st.info ("- Tanda Bukti Transportasi Tiket Bus/ Tiket Pesawat beserta Boarding Pass/ Tiket Kereta Api beserta Boarding pass/ Kuitansi Sewa Kendaraan (Sewa kendaraan hanya diperbolehkan jika kegiatan dilaksanakan di luar Ibu Kota Provinsi dan dilengkapi dengan Surat Keterangan yang rnenjelaskan lokasi tujuan pejalanan dinas)")
-  st.info ("- Bukti Transfer/ SPPT dan atau kuitansi pembayaran sesuai dengan jumlah pada SPD Rampung)
+  st.info ("- Bukti Transfer/ SPPT dan atau kuitansi pembayaran sesuai dengan jumlah pada SPD Rampung")
   st.info ("- Surat Perjalanan Dinas (SPD)/ Visum ditandatangani dan dicap/ stempel oleh pejabat yang berwenang/ pihak terkait (tempat tujuan/ tempat pelaksanaan kegiatan)")
   st.info ("- Laporan pejalanan dinas dibuat, dilaporkan kepada pemberi perintah dan diarsipkan")
 
