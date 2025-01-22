@@ -356,7 +356,7 @@ elif asal == "Belanja Perjalanan Dinas Luar Provinsi)":
   st.info ("- Daftar Nominatif")
   st.info ("- Uang Refresentatif")
   st.info ("- Bukti transport")
-   st.info ("- E_tiket dari maskapai")
+  st.info ("- E-tiket dari maskapai")
   st.info ("- Boardingpass")
   st.info ("- Invoice Hotel")
   st.info ("- Laporan Perjalanan Dinas")
