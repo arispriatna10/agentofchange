@@ -45,6 +45,12 @@ elif asal == "Uang Hadiah":
   st.info ("- Bukti Transfer ke pihak penyedia barang/ jasa jika pembayarannya melalui transfer")
   st.info ("- e-Billing dan Buktti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
+elif asal == "Uang Hadiah":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Bukti Pembelian/ Pembayaran")
+  st.info ("- Daftar pembayaran dan atau tanda terima uang hadiah/penghargaan")
+  st.info ("- Bukti Transfer ke pihak penyedia barang/ jasa jika pembayarannya melalui transfer")
+  st.info ("- e-Billing dan Buktti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
 
 
