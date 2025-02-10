@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.dark("""
+st.light("""
 # Aplikasi Cek BBM
 Ini adalah aplikasi mengecek kebutuhan BBM Perjalanan Dinas
 """)
