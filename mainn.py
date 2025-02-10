@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.info("""
+st.dark("""
 # Aplikasi Cek BBM
 Ini adalah aplikasi mengecek kebutuhan BBM Perjalanan Dinas
 """)
@@ -41,7 +41,7 @@ asal = st.selectbox(''':blue[Masukan Tempat Asal]''',original_list)
 tujuan = st.selectbox(''':blue[Masukan Tempat Tujuan]''',original_list)
 
 if asal == "Kota Bandung" and tujuan == "Kab. Bandung":
-  st.dark ("Jumlah Maksimalnya adalah 18 liter")
+  st.info ("Jumlah Maksimalnya adalah 18 liter")
 
 elif asal == "Kota Bandung" and tujuan == "Kab. Bandung Barat":
      st.info ("Jumlah Maksimalnya adalah 19 liter")
