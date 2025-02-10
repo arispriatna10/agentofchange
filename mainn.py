@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.light("""
+st.exception("""
 # Aplikasi Cek BBM
 Ini adalah aplikasi mengecek kebutuhan BBM Perjalanan Dinas
 """)
