@@ -9,7 +9,7 @@ st.markdown("""
     <style>
     /* Gaya umum selectbox */
     section[data-testid="stSelectbox"] {
-        background-color: #1E2A38; /* Warna latar dropdown */
+        background-color: #FFFFFF; /* Warna latar dropdown */
         border-radius: 8px;
         padding: 5px;
     }
