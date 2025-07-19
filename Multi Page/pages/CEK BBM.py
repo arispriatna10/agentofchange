@@ -22,7 +22,7 @@ st.markdown("""
 
     /* Teks dalam dropdown */
     section[data-testid="stSelectbox"] span {
-        color: white !important;   /* Warna teks dropdown */
+        color: #FFA500 !important;   /* Warna teks dropdown */
     }
 
     /* Border ketika aktif */
