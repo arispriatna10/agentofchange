@@ -1,5 +1,10 @@
 import streamlit as st
 
+st.set_page_config(
+    page_title="Aplikasi Cek Kelengkapan SPJ", 
+    page_icon="📑",
+)
+
 st.info("""
 # Aplikasi Cek Kelengkapan Dokumen SPJ
 Ini adalah aplikasi untuk mengecek Dokumen Kelengkapan SPJ
