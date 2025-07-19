@@ -5,7 +5,40 @@ st.info("""
 Ini adalah aplikasi mengecek kebutuhan BBM Perjalanan Dinas
 """)
 
-st.text("INi TEKS")
+st.markdown("""
+    <style>
+    /* Gaya untuk dropdown Asal */
+    div[data-testid="selectbox-container-0"] {
+        background-color: #1E3A8A;  /* biru tua */
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    div[data-testid="selectbox-container-0"] label {
+        color: #93C5FD !important;  /* biru muda */
+        font-weight: bold;
+    }
+    div[data-testid="selectbox-container-0"] span {
+        color: white !important;    /* teks putih */
+    }
+
+    /* Gaya untuk dropdown Tujuan */
+    div[data-testid="selectbox-container-1"] {
+        background-color: #166534;  /* hijau tua */
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    div[data-testid="selectbox-container-1"] label {
+        color: #BBF7D0 !important;  /* hijau muda */
+        font-weight: bold;
+    }
+    div[data-testid="selectbox-container-1"] span {
+        color: white !important;    /* teks putih */
+    }
+    </style>
+""", unsafe_allow_html=True)
+
 
 original_list = ["Pilih Kabupaten/Kota",
                  "Kab. Bandung",
@@ -38,8 +71,8 @@ original_list = ["Pilih Kabupaten/Kota",
                  "DKI Jakarta"]
 
 
-asal = st.selectbox(''':blue[Masukan Tempat Asal]''',original_list)
-tujuan = st.selectbox(''':blue[Masukan Tempat Tujuan]''',original_list)
+asal = st.selectbox('Masukan Tempat Asal', original_list)
+tujuan = st.selectbox('Masukan Tempat Tujuan', original_list)
 
 if asal == "Kota Bandung" and tujuan == "Kab. Bandung":
   st.info ("Jumlah Maksimalnya adalah 18 liter")
