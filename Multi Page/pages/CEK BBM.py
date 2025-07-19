@@ -7,41 +7,42 @@ Ini adalah aplikasi mengecek kebutuhan BBM Perjalanan Dinas
 
 st.markdown("""
     <style>
-    /* Styling untuk dropdown pertama (Asal) */
-    div[data-testid="stSelectbox"]:nth-of-type(1) {
-        background-color: #1E3A8A;  /* biru tua */
-        padding: 12px;
-        border-radius: 12px;
-        margin-bottom: 10px;
+    /* Class untuk dropdown asal */
+    .dropdown-asal {
+        background-color: #1E3A8A;
+        border-radius: 10px;
+        padding: 8px 10px;
+        margin-bottom: 12px;
     }
-
-    div[data-testid="stSelectbox"]:nth-of-type(1) label {
-        color: #93C5FD !important; /* label biru muda */
+    .dropdown-asal label {
+        color: #C7D2FE !important;
         font-weight: bold;
+        font-size: 14px;
     }
-
-    div[data-testid="stSelectbox"]:nth-of-type(1) span {
-        color: white !important;   /* teks putih */
-    }
-
-    /* Styling untuk dropdown kedua (Tujuan) */
-    div[data-testid="stSelectbox"]:nth-of-type(2) {
-        background-color: #166534;  /* hijau tua */
-        padding: 12px;
-        border-radius: 12px;
-        margin-bottom: 10px;
-    }
-
-    div[data-testid="stSelectbox"]:nth-of-type(2) label {
-        color: #BBF7D0 !important;  /* label hijau muda */
-        font-weight: bold;
-    }
-
-    div[data-testid="stSelectbox"]:nth-of-type(2) span {
+    .dropdown-asal span {
         color: white !important;
+        font-size: 16px;
+    }
+
+    /* Class untuk dropdown tujuan */
+    .dropdown-tujuan {
+        background-color: #166534;
+        border-radius: 10px;
+        padding: 8px 10px;
+        margin-bottom: 12px;
+    }
+    .dropdown-tujuan label {
+        color: #BBF7D0 !important;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .dropdown-tujuan span {
+        color: white !important;
+        font-size: 16px;
     }
     </style>
 """, unsafe_allow_html=True)
+
 
 original_list = ["Pilih Kabupaten/Kota",
                  "Kab. Bandung",
@@ -74,8 +75,16 @@ original_list = ["Pilih Kabupaten/Kota",
                  "DKI Jakarta"]
 
 
-asal = st.selectbox('Masukan Tempat Asal', original_list)
-tujuan = st.selectbox('Masukan Tempat Tujuan', original_list)
+with st.container():
+    st.markdown('<div class="dropdown-asal">', unsafe_allow_html=True)
+    asal = st.selectbox("Masukan Tempat Asal", original_list, key="asal")
+    st.markdown("</div>", unsafe_allow_html=True)
+
+with st.container():
+    st.markdown('<div class="dropdown-tujuan">', unsafe_allow_html=True)
+    tujuan = st.selectbox("Masukan Tempat Tujuan", original_list, key="tujuan")
+    st.markdown("</div>", unsafe_allow_html=True)
+
 
 if asal == "Kota Bandung" and tujuan == "Kab. Bandung":
   st.info ("Jumlah Maksimalnya adalah 18 liter")
