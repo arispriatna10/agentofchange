@@ -12,8 +12,8 @@ st.markdown("[CEK BBM](https://multipagetools.streamlit.app/CEK_BBM)")
 st.markdown("""
     <style>
     .warna-kustom {
-        background-color: #113F67;
-        color: #58A0C8;
+        background-color: #66D2CE;
+        color: #183B4E;
         padding: 10px;
         border-radius: 10px;
     }
