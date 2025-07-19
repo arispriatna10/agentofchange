@@ -55,3 +55,11 @@ st.markdown("""
 
 
 st.sidebar.info("Pilih Halaman di atas")
+
+st.markdown('<div class="big-font">Aplikasi Cek BBM</div>', unsafe_allow_html=True)
+st.markdown("Ini adalah aplikasi mengecek kebutuhan BBM Perjalanan Dinas")
+
+asal = st.selectbox("Masukkan Tempat Asal", ["Kota Bandung", "Kab. Bekasi"])
+tujuan = st.selectbox("Masukkan Tempat Tujuan", ["Kab. Cianjur", "Kota Sukabumi"])
+
+st.markdown('<div class="result-box">Jumlah Maksimalnya adalah 56 liter</div>', unsafe_allow_html=True)
