@@ -7,38 +7,41 @@ Ini adalah aplikasi mengecek kebutuhan BBM Perjalanan Dinas
 
 st.markdown("""
     <style>
-    /* Gaya untuk dropdown Asal */
-    div[data-testid="selectbox-container-0"] {
+    /* Styling untuk dropdown pertama (Asal) */
+    div[data-testid="stSelectbox"]:nth-of-type(1) {
         background-color: #1E3A8A;  /* biru tua */
-        padding: 10px;
-        border-radius: 10px;
+        padding: 12px;
+        border-radius: 12px;
         margin-bottom: 10px;
-    }
-    div[data-testid="selectbox-container-0"] label {
-        color: #93C5FD !important;  /* biru muda */
-        font-weight: bold;
-    }
-    div[data-testid="selectbox-container-0"] span {
-        color: white !important;    /* teks putih */
     }
 
-    /* Gaya untuk dropdown Tujuan */
-    div[data-testid="selectbox-container-1"] {
-        background-color: #166534;  /* hijau tua */
-        padding: 10px;
-        border-radius: 10px;
-        margin-bottom: 10px;
-    }
-    div[data-testid="selectbox-container-1"] label {
-        color: #BBF7D0 !important;  /* hijau muda */
+    div[data-testid="stSelectbox"]:nth-of-type(1) label {
+        color: #93C5FD !important; /* label biru muda */
         font-weight: bold;
     }
-    div[data-testid="selectbox-container-1"] span {
-        color: white !important;    /* teks putih */
+
+    div[data-testid="stSelectbox"]:nth-of-type(1) span {
+        color: white !important;   /* teks putih */
+    }
+
+    /* Styling untuk dropdown kedua (Tujuan) */
+    div[data-testid="stSelectbox"]:nth-of-type(2) {
+        background-color: #166534;  /* hijau tua */
+        padding: 12px;
+        border-radius: 12px;
+        margin-bottom: 10px;
+    }
+
+    div[data-testid="stSelectbox"]:nth-of-type(2) label {
+        color: #BBF7D0 !important;  /* label hijau muda */
+        font-weight: bold;
+    }
+
+    div[data-testid="stSelectbox"]:nth-of-type(2) span {
+        color: white !important;
     }
     </style>
 """, unsafe_allow_html=True)
-
 
 original_list = ["Pilih Kabupaten/Kota",
                  "Kab. Bandung",
