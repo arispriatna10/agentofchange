@@ -5,4 +5,4 @@ st.set_page_config(
 )
 
 st.title("Home")
-st.sidebar.success("Pilih Halaman di atas")
+st.sidebar.info("Pilih Halaman di atas")
