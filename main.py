@@ -57,7 +57,28 @@ original_list = ["Pilih Jenis Belanja",
                 "Belanja Konstruksi",
                 "Belanja Tenaga Ahli Non Sertifikat",
                 "Belanja Modal Pengadaan Tanah",
-                "Belanja Modal Pengadaan Perlengkapan Kantor/Peralatan dan Mesin/Alat-alat Bengkel/Peralatan Dapur/Penghias Ruangan/Alat-alat Studio/Buku/ Perpustakaan/Belanja Model sejenis lainnya"
+                "Belanja Modal Pengadaan Perlengkapan Kantor/Peralatan dan Mesin/Alat-alat Bengkel/Peralatan Dapur/Penghias Ruangan/Alat-alat Studio/Buku/ Perpustakaan/Belanja Model sejenis lainnya",
+                
+                "Pembayaran Honorarium dan Transport untuk Narasumber atau Pembahas, Moderator dan Pembawa Acara",
+                "Biaya uang saku/transport kegiatan sosialisasi/penyuluhan kepada Masyarakat serta uang saku/transport kegiatan Pendidikan dan pelatihan",
+                "Honorarium Tenaga Teknis Pelaksana Kegiatan dan Tenaga Ahli",
+                "Upah Tenaga Harian Lepas dan Honorarium Non ASN Lainnya",
+                "Honorarium Rohaniwan dan Penceramah",
+                "Honorarium Pengawalan Kepala Daerah dan Wakil Kepala Daerah",
+                "Belanja Barang dan Jasa",
+                "Belanja Makanan dan Minuman Rapat/Peserta/Petugas/Panitia",
+                "Belanja Telepon, Air, Listrik, Koran/Majalah/Surat Kabar dan Sejenisnya",
+                "Perpanjangan STNK (Tahunan/Lima Tahunan)",
+                "Belanja Jasa KIR",
+                "Belanja Jasa Uji Laboratorium/Uji Sampling",
+                "Belanja Pajak Bumi dan Bangunan (PBB)",
+                "Instalasi PAM/Pemasangan Baru Listrik/Penambahan Daya Listrik/ Jaringan Internet/ TV Kabel",
+                "Bahan Bakar Kendaraan Dinas dan Alat Berat",
+                "Belanja pembayaran jasa jalan Tol",
+                "Belanja Sewa Hotel (Paket Meeting)",
+                "Belanja perawatan kendaraan bermotor",
+                "Belanja Jasa Penerangan/Iklan/Reklame/Film/Pemotretan",
+                 
                 ]
                  
 
@@ -520,3 +541,233 @@ elif asal == "Belanja Modal Pengadaan Perlengkapan Kantor/Peralatan dan Mesin/Al
   st.info ("- Bukti Transfer/ SPPT ke pihak penyedia barang/ jasa jika pembayarannya melalui transfer")
   st.info ("- e-Billing, e-faktur PPN dan bukti penerimaan pajak negara sesuai ketentuan peraturan perundang-undang")
  
+elif asal == "Pembayaran Honorarium dan Transport untuk Narasumber atau Pembahas, Moderator dan Pembawa Acara":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Surat permohonan narasumber atau undangan/ disposisi")
+  st.info ("- Laporan hasil kegiatan")
+  st.info ("- Daftar Hadir")
+  st.info ("- Kuitansi")
+  st.info ("- Biodata Narasumber")
+  st.info ("- Daftar Nominatif Honorarium")
+  st.info ("- Bukti transfer kepada penerima")
+  st.info ("- Billing pajak")
+  st.info ("- Bukti penerimaan negara")
+
+elif asal == "Biaya uang saku/transport kegiatan sosialisasi/penyuluhan kepada Masyarakat serta uang saku/transport kegiatan Pendidikan dan pelatihan":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Undangan dan/atau surat tugas")
+  st.info ("- Daftar hadir/bukti kehadiran/laporan (untuk peserta sosialisasi/penyuluhan kepada Masyarakat)")
+  st.info ("- Laporan hasil kegiatan (untuk peserta Pendidikan dan pelatihan)")
+  st.info ("- Daftar uang transportasi")
+
+elif asal == "Honorarium Tenaga Teknis Pelaksana Kegiatan dan Tenaga Ahli":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+
+elif asal == "":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+
+
+elif asal == "":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+
+elif asal == "":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+
+
+elif asal == "":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+    
+elif asal == "":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+
+
+elif asal == "":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+    
+elif asal == "":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+
+
+elif asal == "":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+
+elif asal == "":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+
+
+elif asal == "":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+
+elif asal == "":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+
+
+elif asal == "":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+
+elif asal == "":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+
+
+elif asal == "":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+
+elif asal == "":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+
+
+elif asal == "":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
+  st.info ("- ")
