@@ -5,6 +5,37 @@ st.info("""
 Ini adalah aplikasi mengecek kebutuhan BBM Perjalanan Dinas
 """)
 
+st.markdown("""
+    <style>
+    /* Gaya umum selectbox */
+    section[data-testid="stSelectbox"] {
+        background-color: #1E2A38; /* Warna latar dropdown */
+        border-radius: 8px;
+        padding: 5px;
+    }
+
+    /* Gaya label dan teks */
+    section[data-testid="stSelectbox"] label {
+        color: #00BFFF !important; /* Warna label input */
+        font-weight: bold;
+    }
+
+    /* Teks dalam dropdown */
+    section[data-testid="stSelectbox"] span {
+        color: white !important;   /* Warna teks dropdown */
+    }
+
+    /* Border ketika aktif */
+    div[data-baseweb="select"] > div {
+        border-color: #00BFFF !important; /* Border biru saat aktif */
+    }
+
+    /* Warna teks pilihan yang aktif */
+    div[data-testid="DropdownOption"] {
+        color: black !important;
+    }
+    </style>
+""", unsafe_allow_html=True)
 
 original_list = ["Pilih Kabupaten/Kota",
                  "Kab. Bandung",
