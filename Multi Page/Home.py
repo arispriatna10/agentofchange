@@ -5,10 +5,8 @@ st.set_page_config(
 )
 
 
-st.info("""
-# SELAMAT DATANG DI MULTI APPS TOOLS
-Aplikasi ini berisi tools untuk cek bbm dan cek kelengkapan spj
-""")
-st.title("Selamat Menggunakan, Enjoys our apps")
+
+st.title("SELAMAT DATANG DI MULTI APP TOOLS")
+st.text("Disini anda bisa mengecek tools bbm dan tools kelengkapan spj")
 
 st.sidebar.info("Pilih Halaman di atas")
