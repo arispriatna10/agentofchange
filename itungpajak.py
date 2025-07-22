@@ -17,46 +17,44 @@ def calculate_pph22(dpp):
 def calculate_pph23(dpp):
     return 0.02 * dpp
 
-def calculate_pph4a2(dpp):
-    return 0.0175 * dpp
+st.title("🧾 Kalkulator Pajak")
 
-st.info("""
-# Aplikasi Hitung Pajak
-Ini adalah aplikasi untuk menghitung pajak secara online
-""")
+# Input area
+kena_ppn = st.radio("Apakah transaksi dikenakan PPN?", ["Ya", "Tidak"]) == "Ya"
+jenis_pph = st.selectbox("Pilih Jenis PPh", ["PPh 22", "PPh 23", "Tidak Ada"])
+nilai_str = st.text_input("Masukkan Nilai Transaksi (misal: 1.000.000)")
 
+# Tombol eksekusi
+if st.button("Hitung Pajak"):
+    if nilai_str:
+        try:
+            nilai = float(nilai_str.replace(".", "").replace(",", "."))
+            dpp = calculate_dpp(nilai, kena_ppn)
 
+            st.markdown(f"**📌 Nilai Transaksi:** Rp {format_ribuan(nilai)}")
+            st.markdown(f"**📌 DPP (Dasar Pengenaan Pajak):** Rp {format_ribuan(dpp)}")
 
-# Langkah 1: Apakah kena PPN?
-kena_ppn = st.radio(":yellow[Apakah transaksi dikenakan PPN?]", ["Ya", "Tidak"]) == "Ya"
+            total_pajak = 0
 
-# Langkah 2: Pilih jenis PPh
-jenis_pph = st.selectbox(":yellow[Pilih Jenis PPh]", ["Pilih Jenis PPh", "PPh 22", "PPh 23", "PPh 4 Ayat 2"])
+            if kena_ppn:
+                ppn = calculate_ppn(dpp)
+                total_pajak += ppn
+                st.markdown(f"🟡 **PPN (11%) = Rp {format_ribuan(ppn)}**")
 
-# Langkah 3: Input nilai transaksi
-nilai_str = st.text_input(":blue[Masukkan Nilai Transaksi (misal: 1.000.000)]")
+            if jenis_pph == "PPh 22":
+                pph22 = calculate_pph22(dpp)
+                total_pajak += pph22
+                st.markdown(f"🟢 **PPh 22 (1,5%) = Rp {format_ribuan(pph22)}**")
+            elif jenis_pph == "PPh 23":
+                pph23 = calculate_pph23(dpp)
+                total_pajak += pph23
+                st.markdown(f"🟢 **PPh 23 (2%) = Rp {format_ribuan(pph23)}**")
 
-if nilai_str:
-    try:
-        nilai = float(nilai_str.replace(".", "").replace(",", "."))
-        dpp = calculate_dpp(nilai, kena_ppn)
+            st.divider()
+            st.markdown(f"🧮 **Total Pajak: Rp {format_ribuan(total_pajak)}**")
+            st.markdown(f"💰 **Nilai Setelah Pajak: Rp {format_ribuan(nilai - total_pajak)}**")
 
-        st.write(f"**Nilai Transaksi:** Rp {format_ribuan(nilai)}")
-        st.write(f"**DPP (Dasar Pengenaan Pajak):** Rp {format_ribuan(dpp)}")
-
-        if kena_ppn:
-            ppn = calculate_ppn(dpp)
-            st.success(f"**PPN (11%) = Rp {format_ribuan(ppn)}**")
-
-        if jenis_pph == "PPh 22":
-            pph22 = calculate_pph22(dpp)
-            st.success(f"**PPh 22 (1,5%) = Rp {format_ribuan(pph22)}**")
-        elif jenis_pph == "PPh 23":
-            pph23 = calculate_pph23(dpp)
-            st.success(f"**PPh 23 (2%) = Rp {format_ribuan(pph23)}**")
-        elif jenis_pph == "PPh 4 Ayat 2":
-            pph4a2 = calculate_pph4a2(dpp)
-            st.success(f"**PPh 4 Ayat 2 (1,75%) = Rp {format_ribuan(pph4a2)}**")
-
-    except ValueError:
-        st.error("Masukkan angka yang valid.")
+        except ValueError:
+            st.error("Masukkan angka transaksi yang valid.")
+    else:
+        st.warning("Masukkan nilai transaksi terlebih dahulu.")
