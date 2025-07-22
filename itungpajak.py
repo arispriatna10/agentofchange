@@ -1,48 +1,84 @@
 import streamlit as st
-from docxtpl import DocxTemplate
+from docxtpl import DocxTemplate, InlineImage, DocxTemplate
 from io import BytesIO
 from datetime import date
+from docx import Document
 
-st.set_page_config(page_title="Pembuat Surat Otomatis", layout="centered")
-st.title("📄 Pembuat Surat Otomatis")
+# Fungsi bantu buat template docx dari string
+def create_template(content: str):
+    doc = Document()
+    for line in content.split("\n"):
+        doc.add_paragraph(line)
+    buffer = BytesIO()
+    doc.save(buffer)
+    buffer.seek(0)
+    return buffer
 
-# Input data dasar
-st.subheader("🔹 Data Dasar Surat")
-nama = st.text_input("Nama Pegawai")
-jabatan = st.text_input("Jabatan")
-kegiatan = st.text_area("Nama Kegiatan")
-tanggal = st.date_input("Tanggal Surat", value=date.today())
-jenis_surat = st.selectbox("Pilih Jenis Surat", ["Surat Tugas", "SPTJM", "Kwitansi", "Berita Acara"])
+st.set_page_config(page_title="Template Surat Otomatis", layout="centered")
+st.title("📄 Generator Template Surat")
 
-# Tombol generate surat
-if st.button("📝 Buat Surat"):
-    # Template path
-    template_path = f"{jenis_surat.lower().replace(' ', '_')}.docx"
-    try:
-        doc = DocxTemplate(template_path)
+# Definisi isi dasar dokumen dengan placeholder
+templates = {
+    "Surat Tugas": """SURAT TUGAS
 
-        context = {
-            "nama": nama,
-            "jabatan": jabatan,
-            "kegiatan": kegiatan,
-            "tanggal": tanggal.strftime("%d %B %Y")
-        }
+Yang bertanda tangan di bawah ini:
 
-        doc.render(context)
+Nama    : {{ nama }}
+Jabatan : {{ jabatan }}
 
-        buffer = BytesIO()
-        doc.save(buffer)
-        buffer.seek(0)
+Menugaskan untuk kegiatan:
+{{ kegiatan }}
 
-        st.success(f"{jenis_surat} berhasil dibuat!")
+Tanggal: {{ tanggal }}
+
+(ditandatangani)""",
+    "SPTJM": """SURAT PERNYATAAN TANGGUNG JAWAB MUTLAK (SPTJM)
+
+Saya yang bertanda tangan di bawah ini:
+
+Nama    : {{ nama }}
+Jabatan : {{ jabatan }}
+
+Menyatakan bahwa kegiatan:
+{{ kegiatan }}
+
+Tanggal: {{ tanggal }}
+
+Segala sesuatu sesuai dengan ketentuan yang berlaku.""",
+    "Kwitansi": """KWITANSI
+
+Telah diterima dari: {{ nama }}
+Jabatan: {{ jabatan }}
+
+Sejumlah uang untuk keperluan:
+{{ kegiatan }}
+
+Tanggal: {{ tanggal }}
+
+Terbilang: ______________________
+
+Tanda tangan penerima: __________""",
+    "Berita Acara": """BERITA ACARA
+
+Pada hari ini, {{ tanggal }}, bertempat di tempat kegiatan.
+
+Nama    : {{ nama }}
+Jabatan : {{ jabatan }}
+
+Telah melakukan kegiatan:
+{{ kegiatan }}
+
+Demikian berita acara ini dibuat dengan sebenar‑benarnya."""
+}
+
+st.write("Pilih template yang ingin dibuat:")
+
+for surat_name, content in templates.items():
+    if st.button(f"📥 Unduh template {surat_name}"):
+        buffer = create_template(content)
         st.download_button(
-            label=f"⬇️ Unduh {jenis_surat}.docx",
+            label=f"⬇️ {surat_name}.docx",
             data=buffer,
-            file_name=f"{jenis_surat.lower().replace(' ', '_')}.docx",
+            file_name=f"{surat_name.lower().replace(' ', '_')}_template.docx",
             mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
         )
-    except Exception as e:
-        st.error("Template tidak ditemukan atau gagal membuat surat.")
-        st.exception(e)
-
-st.info("Pastikan file template DOCX sudah tersedia di folder `template/` dengan nama sesuai jenis surat.")
