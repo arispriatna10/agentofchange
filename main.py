@@ -50,6 +50,13 @@ if asal == "Pembayaran Honorarium dan Transport untuk Narasumber atau Pembahas, 
   st.info ("- Bukti transfer kepada penerima")
   st.info ("- Billing pajak")
   st.info ("- Bukti penerimaan negara")
+  st.text (" ")
+  st.text ("Honorarium narasumber atau pembahas, moderator dan pembawa acara dikenakan Pajak Penghasilan Pasal 21 Final dengan ketentuan:")
+  st.text ("- 0% untuk PNS gol. II, Anggota TNI & POLRI dengan pangkat Tamtama atau Bintara dan pensiunannya")
+  st.text ("- 5% untuk PNS gol. III, Anggota TNI, & POLRI dengan pangkat Perwira Pertama dan Pensiunannya")
+  st.text ("- 15% untuk PNS gol. IV, Anggota TNI, & POLRI dengan pangkat Perwira menengah dan perwira tinggi dan Pensiunannya")
+  st.text ("Pajak Penghasilan untuk non ASN dikenakan tarif UU PPh pasal 17 x (50% x Penghasilan Bruto)")
+
 
 elif asal == "Biaya uang saku/transport kegiatan sosialisasi/penyuluhan kepada Masyarakat serta uang saku/transport kegiatan Pendidikan dan pelatihan":
   st.info ("Dokumen Kelengkapan:")
@@ -84,6 +91,12 @@ elif asal == "Honorarium Rohaniwan dan Penceramah":
   st.info ("- Surat Permohonan sebagai Penceramah")
   st.info ("- Billing PPh")
   st.info ("- Bukti Penerimaan Negara")
+  st.text (" ")
+  st.text ("Honorarium rohaniwan dan penceramah dikenakan Pajak Penghasilan Pasal 21 Final dengan ketentuan:")
+  st.text ("- 0% untuk PNS gol. II, Anggota TNI & POLRI dengan pangkat Tamtama atau Bintara dan pensiunannya")
+  st.text ("- 5% untuk PNS gol. III, Anggota TNI, & POLRI dengan pangkat Perwira Pertama dan Pensiunannya")
+  st.text ("- 15% untuk PNS gol. IV, Anggota TNI, & POLRI dengan pangkat Perwira menengah dan perwira tinggi dan Pensiunannya")
+  st.text ("Pajak Penghasilan untuk non ASN dikenakan tarif UU PPh pasal 17 x (50% x Penghasilan Bruto)")
 
 elif asal == "Honorarium Pengawalan Kepala Daerah dan Wakil Kepala Daerah":
   st.info ("Dokumen Kelengkapan:")
@@ -92,6 +105,10 @@ elif asal == "Honorarium Pengawalan Kepala Daerah dan Wakil Kepala Daerah":
   st.info ("- Dokumen lain sesuai Peraturan Perundang-undangan")
   st.info ("- Billing PPh")
   st.info ("- Bukti Penerimaan Negara")
+  st.text ("Honorarium Pengawalan Kepala Daerah dan Wakil Kepala Daerah dikenakan Pajak Penghasilan Pasal 21 Final dengan ketentuan:")
+  st.text ("- 0% untuk PNS gol. II, Anggota TNI & POLRI dengan pangkat Tamtama atau Bintara dan pensiunannya")
+  st.text ("- 5% untuk PNS gol. III, Anggota TNI, & POLRI dengan pangkat Perwira Pertama dan Pensiunannya")
+  st.text ("- 15% untuk PNS gol. IV, Anggota TNI, & POLRI dengan pangkat Perwira menengah dan perwira tinggi dan Pensiunannya")
 
 elif asal == "Belanja Barang dan Jasa":
   st.info ("Dokumen Kelengkapan:")
@@ -117,7 +134,14 @@ elif asal == "Belanja Barang dan Jasa":
   st.info ("- Berita Acara Penyelesaian Pekerjaan dari PPK ke PA/KPA")
   st.info ("- Surat Permintaan PA/KPA kepada PJPHP/PPHP untuk melakukan pemeriksaan Administrasi")
   st.info ("- Berita Acara Pemeriksaan Administrasi oleh PJPHP (tidak menjadi syarat pembayaran")
-    
+  st.text (" ")
+  st.text ("**Perhitungan Pajak:**")
+  st.text ("Pengadaan Barang dikenakan PPN untuk PKP dan PPh Pasal 22 jika jumlah belanja di atas Rp2.000.000,- ")
+  st.text ("Pengadaan Jasa dikenakan: ")
+  st.text ("-PPN")
+  st.text ("-Dipotong PPh 23, khusus Sewa dipungut PPh Pasal 4 ayat (2)")
+  st.text ("-PPh Pasal 4 ayat (2) untuk Jasa Konstruksi dan Jasa Konsultansi Konstruksi Perencanaan dan Pengawasan")
+
 elif asal == "Belanja Makanan dan Minuman Rapat/Peserta/Petugas/Panitia":
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Bukti Pembayaran/Kuitansi/SPK/Surat Perjanjian")
@@ -130,6 +154,10 @@ elif asal == "Belanja Makanan dan Minuman Rapat/Peserta/Petugas/Panitia":
   st.text (" ")
   st.info ("Untuk Belanja Makanan dan Minuman Harian Pegawai/Tamu/ di atas Rp50.000.000,- maka perlu dibuat : ")
   st.info ("- Berita Acara Serah Terima PPK dengan Penyedia")  
+  st.text (" ")
+  st.text ("Pajak : ")
+  st.text ("- Dikenakan PPh 22 dengan tarif 1,5%  untuk Belanja makanan dan minuman di toko atau minimarket atau semacamnya yang telah dikemas dan memiliki merk produk atau branding. (3% apabila rekanan tanpa NPWP) dan PPN ")
+  st.text ("- Dikenakan PPh Pasal 23 untuk sebesar 2% dari jumlah jasa boga atau katering, tanpa PPN")
 
 elif asal == "Belanja Telepon, Air, Listrik, Koran/Majalah/Surat Kabar dan Sejenisnya":
   st.info ("Dokumen Kelengkapan:")
@@ -168,6 +196,8 @@ elif asal == "Instalasi PAM/Pemasangan Baru Listrik/Penambahan Daya Listrik/ Jar
   st.info ("- Tagihan/Invoice")
   st.info ("- Billing PPh")
   st.info ("- Bukti Penerimaan Negara")
+  st.text (" ")
+  st.text ("Pajak yang dikenakan yaitu PPN, PPh Pasal 23 untuk instalansi jaringan internet, tv kabel, PPh Pasal 4 ayat (2) untuk instalansi PAM, instalasi listrik dan untuk penambahan daya listrik tidak dikenakan PPN dan PPh")
 
 elif asal == "Bahan Bakar Kendaraan Dinas dan Alat Berat":
   st.info ("Dokumen Kelengkapan:")
@@ -199,6 +229,10 @@ elif asal == "Belanja perawatan kendaraan bermotor":
   st.info ("- Billing PPh")
   st.info ("- Bukti Penerimaan Negara")
   st.info ("- Perjanjian kerjasama Pengguna Anggaran/ Kuasa Pengguna Anggaran / Pejabat Pembuat Komitmen dengan penyedia (dibuat oleh PPTK)")
+  st.text (" ")
+  st.text ("- PPN")
+  st.text ("- PPh Pasal 23 untuk jasa service")
+  st.text ("- PPh Pasal 22 untuk Pembelian Sparepart")
  
 elif asal == "Belanja Jasa Penerangan/Iklan/Reklame/Film/Pemotretan":
   st.info ("Dokumen Kelengkapan:")
