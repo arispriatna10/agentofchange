@@ -17,7 +17,10 @@ def calculate_pph22(dpp):
 def calculate_pph23(dpp):
     return 0.02 * dpp
 
-st.title("Kalkulator Pajak")
+st.info("""
+# Aplikasi Hitung Pajak
+Ini adalah aplikasi untuk menghitung pajak secara online
+""")
 
 # Langkah 1: Apakah kena PPN?
 kena_ppn = st.radio("Apakah transaksi dikenakan PPN?", ["Ya", "Tidak"]) == "Ya"
