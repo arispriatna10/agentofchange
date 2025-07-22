@@ -41,28 +41,46 @@ if st.button("📄 Simpan dan Unduh PDF"):
     status = "LENGKAP" if lengkap else "TIDAK LENGKAP"
 
     pdf = FPDF()
-    pdf.add_page()
-    pdf.set_font("Arial", "B", 14)
-    pdf.cell(200, 10, "CHECKLIST SPJ", ln=True, align="C")
-    pdf.ln(10)
+pdf.add_page()
+pdf.set_auto_page_break(auto=True, margin=15)
 
-    pdf.set_font("Arial", size=12)
-    pdf.cell(200, 10, f"Nama Kegiatan : {nama_kegiatan}", ln=True)
-    pdf.cell(200, 10, f"Tanggal       : {tanggal.strftime('%d-%m-%Y')}", ln=True)
-    pdf.cell(200, 10, f"Pemeriksa     : {pemeriksa}", ln=True)
-    pdf.ln(5)
+# Judul utama
+pdf.set_font("Arial", "B", 16)
+pdf.cell(0, 10, "CHECKLIST DOKUMEN SPJ", ln=True, align="C")
+pdf.set_font("Arial", "", 12)
+pdf.cell(0, 8, f"Tanggal Pemeriksaan: {tanggal.strftime('%d-%m-%Y')}", ln=True)
+pdf.cell(0, 8, f"Pemeriksa: {pemeriksa}", ln=True)
+pdf.cell(0, 8, f"Nama Kegiatan: {nama_kegiatan}", ln=True)
+pdf.ln(5)
 
-    pdf.set_font("Arial", "B", 12)
-    pdf.cell(200, 10, "Hasil Checklist:", ln=True)
-    pdf.set_font("Arial", size=11)
-    for item in items:
-        tanda = "[x]" if checked[item] else "[ ]"
-        pdf.cell(200, 8, f"{tanda} {item}", ln=True)
+# Garis batas
+pdf.set_draw_color(0, 0, 0)
+pdf.set_line_width(0.5)
+pdf.line(10, pdf.get_y(), 200, pdf.get_y())
+pdf.ln(5)
 
+# Header tabel
+pdf.set_font("Arial", "B", 12)
+pdf.cell(10, 8, "No", 1, 0, "C")
+pdf.cell(140, 8, "Nama Dokumen", 1, 0, "C")
+pdf.cell(40, 8, "Status", 1, 1, "C")
 
-    pdf.ln(5)
-    pdf.set_font("Arial", "B", 12)
-    pdf.cell(200, 10, f"STATUS KELENGKAPAN: {status}", ln=True)
+# Isi checklist
+pdf.set_font("Arial", "", 11)
+for i, item in enumerate(items, start=1):
+    tanda = "Sudah" if checked[item] else "Belum"
+    pdf.cell(10, 8, str(i), 1, 0, "C")
+    pdf.cell(140, 8, item, 1, 0)
+    pdf.cell(40, 8, tanda, 1, 1, "C")
+
+pdf.ln(5)
+
+# Status akhir
+status = "LENGKAP" if all(checked.values()) else "TIDAK LENGKAP"
+pdf.set_font("Arial", "B", 12)
+pdf.set_fill_color(230, 230, 0)  # warna kuning muda
+pdf.cell(0, 10, f"STATUS KELENGKAPAN: {status}", ln=True, fill=True, align="C")
+
 
     # Simpan ke BytesIO
     from io import BytesIO  
