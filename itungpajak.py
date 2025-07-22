@@ -56,8 +56,9 @@ if st.button("📄 Simpan dan Unduh PDF"):
     pdf.cell(200, 10, "Hasil Checklist:", ln=True)
     pdf.set_font("Arial", size=11)
     for item in items:
-        tanda = "[✓]" if checked[item] else "[ ]"
+        tanda = "[x]" if checked[item] else "[ ]"
         pdf.cell(200, 8, f"{tanda} {item}", ln=True)
+
 
     pdf.ln(5)
     pdf.set_font("Arial", "B", 12)
