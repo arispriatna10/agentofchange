@@ -1,0 +1,13 @@
+SURAT TUGAS
+
+Yang bertanda tangan di bawah ini:
+
+Nama    : {{ nama }}
+Jabatan : {{ jabatan }}
+
+Menugaskan untuk kegiatan:
+{{ kegiatan }}
+
+Pada tanggal: {{ tanggal }}
+
+Ditandatangani secara resmi.
