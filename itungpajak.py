@@ -3,19 +3,24 @@ import streamlit as st
 def format_ribuan(nilai):
     return f"{nilai:,.0f}".replace(",", ".")
 
-def calculate_pph22(amount):
-    return 0.015 * amount
+def calculate_dpp(nilai, kena_ppn):
+    if kena_ppn:
+        return (100 / 111) * nilai
+    return nilai
 
-def calculate_pph23(amount):
-    return 0.02 * amount
+def calculate_ppn(dpp):
+    return 0.11 * dpp
 
-def calculate_ppn(amount):
-    return 0.11 * amount
+def calculate_pph22(dpp):
+    return 0.015 * dpp
 
-st.title("Kalkulator Pajak: PPN & PPh 22/23")
+def calculate_pph23(dpp):
+    return 0.02 * dpp
 
-# Langkah 1: Pilih apakah pakai PPN
-pakai_ppn = st.radio("Apakah transaksi dikenakan PPN?", ["Ya", "Tidak"])
+st.title("Kalkulator Pajak dengan DPP")
+
+# Langkah 1: Apakah kena PPN?
+kena_ppn = st.radio("Apakah transaksi dikenakan PPN?", ["Ya", "Tidak"]) == "Ya"
 
 # Langkah 2: Pilih jenis PPh
 jenis_pph = st.selectbox("Pilih Jenis PPh", ["PPh 22", "PPh 23"])
@@ -26,18 +31,20 @@ nilai_str = st.text_input("Masukkan Nilai Transaksi (misal: 1.000.000)")
 if nilai_str:
     try:
         nilai = float(nilai_str.replace(".", "").replace(",", "."))
-        st.write(f"**Nilai Transaksi:** Rp {format_ribuan(nilai)}")
+        dpp = calculate_dpp(nilai, kena_ppn)
 
-        # Hitung dan tampilkan pajak sesuai pilihan
-        if pakai_ppn == "Ya":
-            ppn = calculate_ppn(nilai)
+        st.write(f"**Nilai Transaksi:** Rp {format_ribuan(nilai)}")
+        st.write(f"**DPP (Dasar Pengenaan Pajak):** Rp {format_ribuan(dpp)}")
+
+        if kena_ppn:
+            ppn = calculate_ppn(dpp)
             st.write(f"**PPN (11%) = Rp {format_ribuan(ppn)}**")
 
         if jenis_pph == "PPh 22":
-            pph22 = calculate_pph22(nilai)
+            pph22 = calculate_pph22(dpp)
             st.write(f"**PPh 22 (1,5%) = Rp {format_ribuan(pph22)}**")
         elif jenis_pph == "PPh 23":
-            pph23 = calculate_pph23(nilai)
+            pph23 = calculate_pph23(dpp)
             st.write(f"**PPh 23 (2%) = Rp {format_ribuan(pph23)}**")
 
     except ValueError:
