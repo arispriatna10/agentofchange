@@ -20,7 +20,7 @@ def calculate_pph23(dpp):
 def calculate_pph4a2(dpp):
     return 0.0175 * dpp
 
-st.warning("""
+st.info("""
 # Aplikasi Hitung Pajak
 Ini adalah aplikasi untuk menghitung pajak secara online
 """)
@@ -28,10 +28,10 @@ Ini adalah aplikasi untuk menghitung pajak secara online
 
 
 # Langkah 1: Apakah kena PPN?
-kena_ppn = st.radio(":blue[Apakah transaksi dikenakan PPN?]", ["Ya", "Tidak"]) == "Ya"
+kena_ppn = st.radio(":yellow[Apakah transaksi dikenakan PPN?]", ["Ya", "Tidak"]) == "Ya"
 
 # Langkah 2: Pilih jenis PPh
-jenis_pph = st.selectbox(":blue[Pilih Jenis PPh]", ["Pilih Jenis PPh", "PPh 22", "PPh 23", "PPh 4 Ayat 2"])
+jenis_pph = st.selectbox(":yellow[Pilih Jenis PPh]", ["Pilih Jenis PPh", "PPh 22", "PPh 23", "PPh 4 Ayat 2"])
 
 # Langkah 3: Input nilai transaksi
 nilai_str = st.text_input(":blue[Masukkan Nilai Transaksi (misal: 1.000.000)]")
