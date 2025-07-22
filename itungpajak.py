@@ -17,6 +17,9 @@ def calculate_pph22(dpp):
 def calculate_pph23(dpp):
     return 0.02 * dpp
 
+def calculate_pph4a2(dpp):
+    return 0.0175 * dpp
+
 st.info("""
 # Aplikasi Hitung Pajak
 Ini adalah aplikasi untuk menghitung pajak secara online
