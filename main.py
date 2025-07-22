@@ -153,7 +153,7 @@ elif asal == "Belanja Jasa Uji Laboratorium/Uji Sampling":
   st.info ("- Billing Pajak")
   st.info ("- Bukti Penerimaan Pajak Negara")
   st.text (" ")
-  st.text ("- PPN dan PPh23 dipungut dan dipotong jika dilakukan oleh Badan Usaha (Perusahaan atau Laboratorium Swasta)")
+  st.text ("PPN dan PPh 23 dipungut dan dipotong jika dilakukan oleh Badan Usaha (Perusahaan atau Laboratorium Swasta)")
 
 elif asal == "Belanja Pajak Bumi dan Bangunan (PBB)":
   st.info ("Dokumen Kelengkapan:")
