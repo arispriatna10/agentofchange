@@ -1,19 +1,23 @@
 import streamlit as st
-import pandas as pd
-import os
 
-def calculate_bmi(weight, height_cm):
-  height_m = height_cm / 100
-  if height_m == 0:
-      return 0
-  bmi = weight / (height_m ** 2)
-  return bmi
+def calculate_pph22(amount):
+    return 0.015 * amount
 
-berat = st.number_input("Masukan Berat Badan", value=0.0)
-tinggi = st.number_input("Masukan tinggi badan", value=0.0)
+def calculate_pph23(amount):
+    return 0.02 * amount
 
-if berat != 0 and tinggi > 0:
-    bmi = calculate_bmi(berat, tinggi)
-    st.write(f"**BMI Anda adalah:** {bmi:.2f}")
+def calculate_ppn(amount):
+    return 0.11 * amount
 
+st.title("Kalkulator Pajak Sederhana (PPh 22, PPh 23, PPN)")
 
+nilai = st.number_input("Masukkan Nilai Transaksi (Rp)", min_value=0.0)
+
+if nilai > 0:
+    pph22 = calculate_pph22(nilai)
+    pph23 = calculate_pph23(nilai)
+    ppn = calculate_ppn(nilai)
+
+    st.write(f"**PPh 22 (1,5%): Rp {pph22:,.0f}**")
+    st.write(f"**PPh 23 (2%): Rp {pph23:,.0f}**")
+    st.write(f"**PPN (11%): Rp {ppn:,.0f}**")
