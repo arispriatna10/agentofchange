@@ -85,7 +85,7 @@ elif asal == "Honorarium Rohaniwan dan Penceramah":
   st.info ("- Billing PPh")
   st.info ("- Bukti Penerimaan Negara")
 
- elif asal == "Honorarium Pengawalan Kepala Daerah dan Wakil Kepala Daerah":
+elif asal == "Honorarium Pengawalan Kepala Daerah dan Wakil Kepala Daerah":
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Daftar Nominatif Honorarium")
   st.info ("- Surat Keputusan Penunjukan dari Kesatuan")
