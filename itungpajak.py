@@ -28,7 +28,7 @@ Ini adalah aplikasi untuk menghitung pajak secara online
 kena_ppn = st.radio(":blue[Apakah transaksi dikenakan PPN?]", ["Ya", "Tidak"]) == "Ya"
 
 # Langkah 2: Pilih jenis PPh
-jenis_pph = st.selectbox(":blue[Pilih Jenis PPh]", ["Pilih Jenis PPh", "PPh 22", "PPh 23"])
+jenis_pph = st.selectbox(":blue[Pilih Jenis PPh]", ["Pilih Jenis PPh", "PPh 22", "PPh 23", "PPh 4 Ayat 2"])
 
 # Langkah 3: Input nilai transaksi
 nilai_str = st.text_input(":blue[Masukkan Nilai Transaksi (misal: 1.000.000)]")
@@ -51,6 +51,9 @@ if nilai_str:
         elif jenis_pph == "PPh 23":
             pph23 = calculate_pph23(dpp)
             st.info(f"**PPh 23 (2%) = Rp {format_ribuan(pph23)}**")
+        elif jenis_pph == "PPh 4 Ayat 2":
+            pph4a2 = calculate_pph23(dpp)
+            st.info(f"**PPh 4 Ayat 2 (1,75%) = Rp {format_ribuan(pph4a2)}**")
 
     except ValueError:
         st.error("Masukkan angka yang valid.")
