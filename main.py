@@ -156,7 +156,7 @@ elif asal == "Belanja Makanan dan Minuman Rapat/Peserta/Petugas/Panitia":
   st.info ("- Berita Acara Serah Terima PPK dengan Penyedia")  
   st.text (" ")
   st.text ("Pajak : ")
-  st.text ("- Dikenakan PPh 22 dengan tarif 1,5%  untuk Belanja makanan dan minuman di toko atau minimarket atau semacamnya yang telah dikemas dan memiliki merk produk atau branding. (3% apabila rekanan tanpa NPWP) dan PPN ")
+  st.text ("- Dikenakan PPh 22 dengan tarif 1,5%  untuk Belanja makanan dan minuman di toko atau minimarket atau semacamnya yang telah dikemas dan memiliki merk produk atau branding (3% apabila rekanan tanpa NPWP) dan PPN ")
   st.text ("- Dikenakan PPh Pasal 23 untuk sebesar 2% dari jumlah jasa boga atau katering, tanpa PPN")
 
 elif asal == "Belanja Telepon, Air, Listrik, Koran/Majalah/Surat Kabar dan Sejenisnya":
