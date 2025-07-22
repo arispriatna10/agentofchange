@@ -31,7 +31,8 @@ if st.button("📝 Buat PDF"):
     pdf.cell(200, 10, txt="Ditandatangani secara resmi.", ln=True)
 
     buffer = BytesIO()
-    pdf.output(buffer, 'F')
+    pdf_data = pdf.output(dest='S').encode('latin-1')
+    buffer = BytesIO(pdf_data)
     buffer.seek(0)
 
     st.success("✅ Surat PDF berhasil dibuat!")
