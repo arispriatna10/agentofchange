@@ -17,7 +17,7 @@ jenis_surat = st.selectbox("Pilih Jenis Surat", ["Surat Tugas", "SPTJM", "Kwitan
 # Tombol generate surat
 if st.button("📝 Buat Surat"):
     # Template path
-    template_path = f"template/{jenis_surat.lower().replace(' ', '_')}.docx"
+    template_path = f"{jenis_surat.lower().replace(' ', '_')}.docx"
     try:
         doc = DocxTemplate(template_path)
 
