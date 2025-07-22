@@ -82,19 +82,19 @@ pdf.set_fill_color(230, 230, 0)  # warna kuning muda
 pdf.cell(0, 10, f"STATUS KELENGKAPAN: {status}", ln=True, fill=True, align="C")
 
 
-    # Simpan ke BytesIO
-    from io import BytesIO  
+# Simpan ke BytesIO
+from io import BytesIO  
     
-    pdf_buffer = BytesIO()
-    pdf_output = pdf.output(dest='S').encode('latin1')  # hasilkan string PDF, lalu encode
-    pdf_buffer.write(pdf_output)
-    pdf_buffer.seek(0)
+pdf_buffer = BytesIO()
+pdf_output = pdf.output(dest='S').encode('latin1')  # hasilkan string PDF, lalu encode
+pdf_buffer.write(pdf_output)
+pdf_buffer.seek(0)
 
 
-    st.success(f"Checklist berhasil dibuat. Status: {status}")
-    st.download_button(
-        label="⬇️ Unduh Checklist PDF",
-        data=pdf_output,
-        file_name="checklist_spj.pdf",
-        mime="application/pdf"
+st.success(f"Checklist berhasil dibuat. Status: {status}")
+st.download_button(
+    label="⬇️ Unduh Checklist PDF",
+    data=pdf_output,
+    file_name="checklist_spj.pdf",
+    mime="application/pdf"
     )
