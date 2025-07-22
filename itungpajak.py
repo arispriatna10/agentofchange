@@ -22,8 +22,10 @@ st.info("""
 Ini adalah aplikasi untuk menghitung pajak secara online
 """)
 
+
+
 # Langkah 1: Apakah kena PPN?
-kena_ppn = st.radio("Apakah transaksi dikenakan PPN?", ["Ya", "Tidak"]) == "Ya"
+kena_ppn = st.radio(":blue[Apakah transaksi dikenakan PPN?]", ["Ya", "Tidak"]) == "Ya"
 
 # Langkah 2: Pilih jenis PPh
 jenis_pph = st.selectbox("Pilih Jenis PPh", ["Pilih Jenis PPh", "PPh 22", "PPh 23"])
