@@ -52,7 +52,7 @@ if nilai_str:
             pph23 = calculate_pph23(dpp)
             st.info(f"**PPh 23 (2%) = Rp {format_ribuan(pph23)}**")
         elif jenis_pph == "PPh 4 Ayat 2":
-            pph4a2 = calculate_pph23(dpp)
+            pph4a2 = calculate_pph4a2(dpp)
             st.info(f"**PPh 4 Ayat 2 (1,75%) = Rp {format_ribuan(pph4a2)}**")
 
     except ValueError:
