@@ -65,9 +65,13 @@ if st.button("📄 Simpan dan Unduh PDF"):
     pdf.cell(200, 10, f"STATUS KELENGKAPAN: {status}", ln=True)
 
     # Simpan ke BytesIO
-    pdf_output = BytesIO()
-    pdf.output(pdf_output)
-    pdf_output.seek(0)
+    from io import BytesIO  
+    
+    pdf_buffer = BytesIO()
+    pdf_output = pdf.output(dest='S').encode('latin1')  # hasilkan string PDF, lalu encode
+    pdf_buffer.write(pdf_output)
+    pdf_buffer.seek(0)
+
 
     st.success(f"Checklist berhasil dibuat. Status: {status}")
     st.download_button(
