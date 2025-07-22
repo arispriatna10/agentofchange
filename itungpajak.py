@@ -7,7 +7,7 @@ import os
 def calculate_bmi(weight, height_cm):
   height_m = height_cm / 100
   if height_m == 0:
-  return 0
+      return 0
   bmi = weight / (height_m ** 2)
   return bmi
 
