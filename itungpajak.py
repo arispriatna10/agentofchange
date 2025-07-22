@@ -15,7 +15,7 @@ berat = st.number_input("Masukan Berat Badan", value=0.0)
 tinggi = st.number_input("Masukan tinggi badan", value=0.0)
 
 if berat == 0 and tinggi > 0:
-bmi = calculate_bmi(berat, tinggi)
-st.write("**BMI Anda adalah:** (bmi:.2f)")
+    bmi = calculate_bmi(berat, tinggi)
+    st.write("**BMI Anda adalah:** (bmi:.2f)")
 
 
