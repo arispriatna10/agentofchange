@@ -138,7 +138,7 @@ elif asal == "Belanja Barang dan Jasa":
   st.text ("Perhitungan Pajak:")
   st.text ("Pengadaan Barang dikenakan PPN untuk PKP dan PPh Pasal 22 jika jumlah belanja di atas Rp2.000.000,- ")
   st.text ("Pengadaan Jasa dikenakan: ")
-  st.text ("-PPN")
+  st.text ("-PPN untuk PKP")
   st.text ("-Dipotong PPh 23, khusus Sewa dipungut PPh Pasal 4 ayat (2)")
   st.text ("-PPh Pasal 4 ayat (2) untuk Jasa Konstruksi dan Jasa Konsultansi Konstruksi Perencanaan dan Pengawasan")
 
