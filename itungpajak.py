@@ -17,7 +17,7 @@ def calculate_pph22(dpp):
 def calculate_pph23(dpp):
     return 0.02 * dpp
 
-st.title("Kalkulator Pajak dengan DPP")
+st.title("Kalkulator Pajak")
 
 # Langkah 1: Apakah kena PPN?
 kena_ppn = st.radio("Apakah transaksi dikenakan PPN?", ["Ya", "Tidak"]) == "Ya"
@@ -38,14 +38,14 @@ if nilai_str:
 
         if kena_ppn:
             ppn = calculate_ppn(dpp)
-            st.write(f"**PPN (11%) = Rp {format_ribuan(ppn)}**")
+            st.info(f"**PPN (11%) = Rp {format_ribuan(ppn)}**")
 
         if jenis_pph == "PPh 22":
             pph22 = calculate_pph22(dpp)
-            st.write(f"**PPh 22 (1,5%) = Rp {format_ribuan(pph22)}**")
+            st.info(f"**PPh 22 (1,5%) = Rp {format_ribuan(pph22)}**")
         elif jenis_pph == "PPh 23":
             pph23 = calculate_pph23(dpp)
-            st.write(f"**PPh 23 (2%) = Rp {format_ribuan(pph23)}**")
+            st.info(f"**PPh 23 (2%) = Rp {format_ribuan(pph23)}**")
 
     except ValueError:
         st.error("Masukkan angka yang valid.")
