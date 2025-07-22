@@ -20,7 +20,7 @@ def calculate_pph23(dpp):
 def calculate_pph4a2(dpp):
     return 0.0175 * dpp
 
-st.info("""
+st.warning("""
 # Aplikasi Hitung Pajak
 Ini adalah aplikasi untuk menghitung pajak secara online
 """)
@@ -46,17 +46,17 @@ if nilai_str:
 
         if kena_ppn:
             ppn = calculate_ppn(dpp)
-            st.info(f"**PPN (11%) = Rp {format_ribuan(ppn)}**")
+            st.success(f"**PPN (11%) = Rp {format_ribuan(ppn)}**")
 
         if jenis_pph == "PPh 22":
             pph22 = calculate_pph22(dpp)
-            st.info(f"**PPh 22 (1,5%) = Rp {format_ribuan(pph22)}**")
+            st.success(f"**PPh 22 (1,5%) = Rp {format_ribuan(pph22)}**")
         elif jenis_pph == "PPh 23":
             pph23 = calculate_pph23(dpp)
-            st.info(f"**PPh 23 (2%) = Rp {format_ribuan(pph23)}**")
+            st.success(f"**PPh 23 (2%) = Rp {format_ribuan(pph23)}**")
         elif jenis_pph == "PPh 4 Ayat 2":
             pph4a2 = calculate_pph4a2(dpp)
-            st.info(f"**PPh 4 Ayat 2 (1,75%) = Rp {format_ribuan(pph4a2)}**")
+            st.success(f"**PPh 4 Ayat 2 (1,75%) = Rp {format_ribuan(pph4a2)}**")
 
     except ValueError:
         st.error("Masukkan angka yang valid.")
