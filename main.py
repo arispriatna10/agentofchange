@@ -135,7 +135,7 @@ elif asal == "Belanja Barang dan Jasa":
   st.info ("- Surat Permintaan PA/KPA kepada PJPHP/PPHP untuk melakukan pemeriksaan Administrasi")
   st.info ("- Berita Acara Pemeriksaan Administrasi oleh PJPHP (tidak menjadi syarat pembayaran")
   st.text (" ")
-  st.text ("***Perhitungan Pajak:***")
+  st.text ("Perhitungan Pajak:")
   st.text ("Pengadaan Barang dikenakan PPN untuk PKP dan PPh Pasal 22 jika jumlah belanja di atas Rp2.000.000,- ")
   st.text ("Pengadaan Jasa dikenakan: ")
   st.text ("-PPN")
