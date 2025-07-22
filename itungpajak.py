@@ -28,4 +28,16 @@ if st.button("📝 Buat PDF"):
     pdf.multi_cell(0, 10, txt=f"Kegiatan: {kegiatan}")
     pdf.cell(200, 10, txt=f"Tanggal : {tanggal.strftime('%d %B %Y')}", ln=True)
     pdf.ln(20)
-    pdf.
+    pdf.cell(200, 10, txt="Ditandatangani secara resmi.", ln=True)
+
+    buffer = BytesIO()
+    pdf.output(buffer, 'F')
+    buffer.seek(0)
+
+    st.success("✅ Surat PDF berhasil dibuat!")
+    st.download_button(
+        label="⬇️ Unduh PDF",
+        data=buffer,
+        file_name=f"{jenis_surat.lower().replace(' ', '_')}.pdf",
+        mime="application/pdf"
+    )
