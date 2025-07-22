@@ -23,7 +23,7 @@ st.title("Kalkulator Pajak dengan DPP")
 kena_ppn = st.radio("Apakah transaksi dikenakan PPN?", ["Ya", "Tidak"]) == "Ya"
 
 # Langkah 2: Pilih jenis PPh
-jenis_pph = st.selectbox("Pilih Jenis PPh", ["PPh 22", "PPh 23"])
+jenis_pph = st.selectbox("Pilih Jenis PPh", ["Pilih Jenis PPh", "PPh 22", "PPh 23"])
 
 # Langkah 3: Input nilai transaksi
 nilai_str = st.text_input("Masukkan Nilai Transaksi (misal: 1.000.000)")
