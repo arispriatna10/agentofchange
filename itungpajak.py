@@ -1,60 +1,77 @@
 import streamlit as st
+from fpdf import FPDF
+from io import BytesIO
 
-def format_ribuan(nilai):
-    return f"{nilai:,.0f}".replace(",", ".")
+st.set_page_config(page_title="Checklist SPJ Otomatis", layout="centered")
+st.title("✅ Checklist SPJ Otomatis")
 
-def calculate_dpp(nilai, kena_ppn):
-    if kena_ppn:
-        return (100 / 111) * nilai
-    return nilai
+st.markdown("""
+Masukkan kelengkapan dokumen SPJ berikut ini dengan mencentang jika sudah tersedia:
+""")
 
-def calculate_ppn(dpp):
-    return 0.11 * dpp
+# Daftar dokumen SPJ
+items = [
+    "Surat Permintaan Pembayaran (SPP)",
+    "Surat Perintah Membayar (SPM)",
+    "Bukti Transfer atau Bukti Pembayaran",
+    "Tanda Tangan Lengkap",
+    "Faktur Pajak PPN (jika ada)",
+    "Bukti Potong PPh (jika ada)",
+    "SPTJM / Pernyataan Tanggung Jawab",
+    "Kuitansi",
+    "Berita Acara (jika diperlukan)",
+    "Dokumentasi Kegiatan (Foto/Undangan/Daftar Hadir)"
+]
 
-def calculate_pph22(dpp):
-    return 0.015 * dpp
+# Input nama kegiatan dan tanggal
+nama_kegiatan = st.text_input("Nama Kegiatan")
+tanggal = st.date_input("Tanggal Pemeriksaan")
+pemeriksa = st.text_input("Nama Pemeriksa")
 
-def calculate_pph23(dpp):
-    return 0.02 * dpp
+# Checklist input
+checked = {}
+col1, col2 = st.columns(2)
+for i, item in enumerate(items):
+    with (col1 if i % 2 == 0 else col2):
+        checked[item] = st.checkbox(item)
 
-st.title("🧾 Kalkulator Pajak")
+# Tombol simpan & export
+if st.button("📄 Simpan dan Unduh PDF"):
+    lengkap = all(checked.values())
+    status = "LENGKAP" if lengkap else "TIDAK LENGKAP"
 
-# Input area
-kena_ppn = st.radio("Apakah transaksi dikenakan PPN?", ["Ya", "Tidak"]) == "Ya"
-jenis_pph = st.selectbox("Pilih Jenis PPh", ["PPh 22", "PPh 23", "Tidak Ada"])
-nilai_str = st.text_input("Masukkan Nilai Transaksi (misal: 1.000.000)")
+    pdf = FPDF()
+    pdf.add_page()
+    pdf.set_font("Arial", "B", 14)
+    pdf.cell(200, 10, "CHECKLIST SPJ", ln=True, align="C")
+    pdf.ln(10)
 
-# Tombol eksekusi
-if st.button("Hitung Pajak"):
-    if nilai_str:
-        try:
-            nilai = float(nilai_str.replace(".", "").replace(",", "."))
-            dpp = calculate_dpp(nilai, kena_ppn)
+    pdf.set_font("Arial", size=12)
+    pdf.cell(200, 10, f"Nama Kegiatan : {nama_kegiatan}", ln=True)
+    pdf.cell(200, 10, f"Tanggal       : {tanggal.strftime('%d-%m-%Y')}", ln=True)
+    pdf.cell(200, 10, f"Pemeriksa     : {pemeriksa}", ln=True)
+    pdf.ln(5)
 
-            st.markdown(f"**📌 Nilai Transaksi:** Rp {format_ribuan(nilai)}")
-            st.markdown(f"**📌 DPP (Dasar Pengenaan Pajak):** Rp {format_ribuan(dpp)}")
+    pdf.set_font("Arial", "B", 12)
+    pdf.cell(200, 10, "Hasil Checklist:", ln=True)
+    pdf.set_font("Arial", size=11)
+    for item in items:
+        tanda = "✔" if checked[item] else "✘"
+        pdf.cell(200, 8, f"{tanda} {item}", ln=True)
 
-            total_pajak = 0
+    pdf.ln(5)
+    pdf.set_font("Arial", "B", 12)
+    pdf.cell(200, 10, f"STATUS KELENGKAPAN: {status}", ln=True)
 
-            if kena_ppn:
-                ppn = calculate_ppn(dpp)
-                total_pajak += ppn
-                st.markdown(f"🟡 **PPN (11%) = Rp {format_ribuan(ppn)}**")
+    # Simpan ke BytesIO
+    pdf_output = BytesIO()
+    pdf.output(pdf_output)
+    pdf_output.seek(0)
 
-            if jenis_pph == "PPh 22":
-                pph22 = calculate_pph22(dpp)
-                total_pajak += pph22
-                st.markdown(f"🟢 **PPh 22 (1,5%) = Rp {format_ribuan(pph22)}**")
-            elif jenis_pph == "PPh 23":
-                pph23 = calculate_pph23(dpp)
-                total_pajak += pph23
-                st.markdown(f"🟢 **PPh 23 (2%) = Rp {format_ribuan(pph23)}**")
-
-            st.divider()
-            st.markdown(f"🧮 **Total Pajak: Rp {format_ribuan(total_pajak)}**")
-            st.markdown(f"💰 **Nilai Setelah Pajak: Rp {format_ribuan(nilai - total_pajak)}**")
-
-        except ValueError:
-            st.error("Masukkan angka transaksi yang valid.")
-    else:
-        st.warning("Masukkan nilai transaksi terlebih dahulu.")
+    st.success(f"Checklist berhasil dibuat. Status: {status}")
+    st.download_button(
+        label="⬇️ Unduh Checklist PDF",
+        data=pdf_output,
+        file_name="checklist_spj.pdf",
+        mime="application/pdf"
+    )
