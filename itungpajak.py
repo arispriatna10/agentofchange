@@ -41,8 +41,8 @@ if st.button("📄 Simpan dan Unduh PDF"):
     status = "LENGKAP" if lengkap else "TIDAK LENGKAP"
 
     pdf = FPDF()
-pdf.add_page()
-pdf.set_auto_page_break(auto=True, margin=15)
+    pdf.add_page()
+    pdf.set_auto_page_break(auto=True, margin=15)
 
 # Judul utama
 pdf.set_font("Arial", "B", 16)
