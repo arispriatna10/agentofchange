@@ -20,13 +20,13 @@ def calculate_pph23(dpp):
 st.title("Kalkulator Pajak dengan DPP")
 
 # Langkah 1: Apakah kena PPN?
-kena_ppn = st.radio("Apakah transaksi dikenakan PPN?", ["Ya", "Tidak"]) == "Ya"
+kena_ppn = st.radio(":blue[Apakah transaksi dikenakan PPN?]", ["Ya", "Tidak"]) == "Ya"
 
 # Langkah 2: Pilih jenis PPh
-jenis_pph = st.selectbox("Pilih Jenis PPh", ["PPh 22", "PPh 23"])
+jenis_pph = st.selectbox(":blue[Pilih Jenis PPh]", ["PPh 22", "PPh 23"])
 
 # Langkah 3: Input nilai transaksi
-nilai_str = st.text_input("Masukkan Nilai Transaksi (misal: 1.000.000)")
+nilai_str = st.text_input(":blue[Masukkan Nilai Transaksi (misal: 1.000.000)]")
 
 if nilai_str:
     try:
@@ -38,14 +38,14 @@ if nilai_str:
 
         if kena_ppn:
             ppn = calculate_ppn(dpp)
-            st.write(f"**PPN (11%) = Rp {format_ribuan(ppn)}**")
+            st.info(f"**PPN (11%) = Rp {format_ribuan(ppn)}**")
 
         if jenis_pph == "PPh 22":
             pph22 = calculate_pph22(dpp)
-            st.write(f"**PPh 22 (1,5%) = Rp {format_ribuan(pph22)}**")
+            st.info(f"**PPh 22 (1,5%) = Rp {format_ribuan(pph22)}**")
         elif jenis_pph == "PPh 23":
             pph23 = calculate_pph23(dpp)
-            st.write(f"**PPh 23 (2%) = Rp {format_ribuan(pph23)}**")
+            st.info(f"**PPh 23 (2%) = Rp {format_ribuan(pph23)}**")
 
     except ValueError:
         st.error("Masukkan angka yang valid.")
