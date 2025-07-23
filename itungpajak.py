@@ -34,7 +34,7 @@ if nilai_str:
         dpp = calculate_dpp(nilai, kena_ppn)
 
         st.write(f"**Nilai Transaksi:** Rp {format_ribuan(nilai)}")
-        st.write(f"**DPP (Dasar Pengenaan Pajak):** Rp {format_ribuan(dpp)}")
+        st.info(f"**DPP (Dasar Pengenaan Pajak):** Rp {format_ribuan(dpp)}")
 
         if kena_ppn:
             ppn = calculate_ppn(dpp)
