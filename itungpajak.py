@@ -1,57 +1,51 @@
 import streamlit as st
-from fpdf import FPDF
-from io import BytesIO
-from datetime import date
 
-st.set_page_config(page_title="Pembuat Surat PDF", layout="centered")
-st.title("📄 Pembuat Surat Otomatis (PDF versi tanpa logo dan ttd)")
+def format_ribuan(nilai):
+    return f"{nilai:,.0f}".replace(",", ".")
 
-# Form input
-st.subheader("📝 Data Surat")
-nama = st.text_input("Nama Pegawai")
-jabatan = st.text_input("Jabatan")
-kegiatan = st.text_area("Nama Kegiatan")
-tanggal = st.date_input("Tanggal Surat", value=date.today())
-jenis_surat = st.selectbox("Jenis Surat", ["Surat Tugas", "SPTJM", "Kwitansi", "Berita Acara"])
-instansi = st.text_input("Nama Instansi (Sebagai Logo Header)", value="PEMERINTAH KABUPATEN XYZ")
+def calculate_dpp(nilai, kena_ppn):
+    if kena_ppn:
+        return (100 / 111) * nilai
+    return nilai
 
-# Tombol buat
-if st.button("✅ Buat PDF"):
-    pdf = FPDF()
-    pdf.add_page()
-    pdf.set_font("Arial", size=12)
+def calculate_ppn(dpp):
+    return 0.11 * dpp
 
-    # "Logo" dari teks
-    pdf.set_font("Arial", 'B', 14)
-    pdf.cell(200, 10, txt=instansi, ln=True, align='L')
+def calculate_pph22(dpp):
+    return 0.015 * dpp
 
-    # Judul surat
-    pdf.set_font("Arial", 'B', 14)
-    pdf.cell(200, 10, txt=jenis_surat.upper(), ln=True, align='C')
-    pdf.ln(10)
+def calculate_pph23(dpp):
+    return 0.02 * dpp
 
-    # Isi surat
-    pdf.set_font("Arial", size=12)
-    pdf.cell(200, 10, txt=f"Nama    : {nama}", ln=True)
-    pdf.cell(200, 10, txt=f"Jabatan : {jabatan}", ln=True)
-    pdf.multi_cell(0, 10, txt=f"Kegiatan: {kegiatan}")
-    pdf.cell(200, 10, txt=f"Tanggal : {tanggal.strftime('%d %B %Y')}", ln=True)
-    pdf.ln(30)
+st.title("Kalkulator Pajak dengan DPP")
 
-    # Tanda tangan
-    pdf.cell(200, 10, txt="Hormat kami,", ln=True)
-    pdf.ln(20)
-    pdf.cell(200, 10, txt="(Tanda Tangan Digital)", ln=True)
-    pdf.cell(200, 10, txt=nama, ln=True)
+# Langkah 1: Apakah kena PPN?
+kena_ppn = st.radio("Apakah transaksi dikenakan PPN?", ["Ya", "Tidak"]) == "Ya"
 
-    # Output
-    pdf_data = pdf.output(dest='S').encode('latin-1')
-    buffer = BytesIO(pdf_data)
+# Langkah 2: Pilih jenis PPh
+jenis_pph = st.selectbox("Pilih Jenis PPh", ["PPh 22", "PPh 23"])
 
-    st.success("✅ Surat PDF berhasil dibuat!")
-    st.download_button(
-        label="⬇️ Unduh PDF",
-        data=buffer,
-        file_name=f"{jenis_surat.lower().replace(' ', '_')}.pdf",
-        mime="application/pdf"
-    )
+# Langkah 3: Input nilai transaksi
+nilai_str = st.text_input("Masukkan Nilai Transaksi (misal: 1.000.000)")
+
+if nilai_str:
+    try:
+        nilai = float(nilai_str.replace(".", "").replace(",", "."))
+        dpp = calculate_dpp(nilai, kena_ppn)
+
+        st.write(f"**Nilai Transaksi:** Rp {format_ribuan(nilai)}")
+        st.write(f"**DPP (Dasar Pengenaan Pajak):** Rp {format_ribuan(dpp)}")
+
+        if kena_ppn:
+            ppn = calculate_ppn(dpp)
+            st.write(f"**PPN (11%) = Rp {format_ribuan(ppn)}**")
+
+        if jenis_pph == "PPh 22":
+            pph22 = calculate_pph22(dpp)
+            st.write(f"**PPh 22 (1,5%) = Rp {format_ribuan(pph22)}**")
+        elif jenis_pph == "PPh 23":
+            pph23 = calculate_pph23(dpp)
+            st.write(f"**PPh 23 (2%) = Rp {format_ribuan(pph23)}**")
+
+    except ValueError:
+        st.error("Masukkan angka yang valid.")
