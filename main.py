@@ -5,11 +5,14 @@ st.set_page_config(
     page_icon="📑",
 )
 
+url = "https://drive.google.com/file/d/1Mztwn26NKliPXlurodgqX044EuJLPugd/view?usp=sharing"
+
 st.info("""
 # Aplikasi Cek Kelengkapan Dokumen SPJ
-Ini adalah aplikasi untuk mengecek Dokumen Kelengkapan SPJ
+Ini adalah aplikasi untuk mengecek Dokumen Kelengkapan SPJ yang mengacu pada Handbook Penatausahaan Keuangan. (f"Klik [ini]({url}) untuk mengunjungi Streamlit.") 
 """)
 
+st.write(f"Klik [ini]({url}) untuk mengunjungi Streamlit.")
 
 original_list = ["Pilih Jenis Belanja",
                  "Honorarium Panitia/Pejabat Pengadaan/Penerima Barang dan Jasa PNS Provinsi", 
