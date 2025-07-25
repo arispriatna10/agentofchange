@@ -65,6 +65,7 @@ asal = st.selectbox(''':blue[Masukan Jenis Belanja]''',original_list)
 
 
 if asal == "Honorarium Panitia/Pejabat Pengadaan/Penerima Barang dan Jasa PNS Provinsi":
+  st.info ("Honorarium Panitia/Pejabat Pengadaan/Penerima Barang dan Jasa PNS Provinsi ")  
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Daftar Penerimaan Pembayaran Honor Kuitansi")
   st.info ("- SK Pejabat/Panitia Pengadaan dan Pejabat/Panitia Penerima Barang dan Jasa")
@@ -73,6 +74,7 @@ if asal == "Honorarium Panitia/Pejabat Pengadaan/Penerima Barang dan Jasa PNS Pr
   st.info ("- e-Billing dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
 elif asal == "Honorarium PNS Non Provinsi dan Non PNS (Peserta)":
+  st.info ("Honorarium PNS Non Provinsi dan Non PNS (Peserta) ")   
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Daftar penerimaan pembayaran uangsaku dan atau transport")
   st.info ("- Daftar Hadir")
@@ -80,6 +82,7 @@ elif asal == "Honorarium PNS Non Provinsi dan Non PNS (Peserta)":
   st.info ("- e-Billing dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang (untuk uang saku)")
 
 elif asal == "Upah Harian Lepas":
+  st.info ("Upah Harian Lepas ")   
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Daftar Pembayaran Upah")
   st.info ("- Daftar Hadir")
@@ -87,6 +90,7 @@ elif asal == "Upah Harian Lepas":
   st.info ("- e-Billing dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
 elif asal == "Uang Hadiah":
+  st.info ("Uang Hadiah ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Keputusan Gubernur/Keputusan Kepala SKPD tentang Standar besaran Uang/Hadiah dan penetapan pemenang dan atau Keputusan Dewan Hakim/Juri Penilai perlombaan kegiatan")
   st.info ("- Daftar pembayaran dan atau tanda terima uang hadiah/penghargaan")
@@ -94,6 +98,7 @@ elif asal == "Uang Hadiah":
   st.info ("- e-Billing dan Buktti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
 elif asal == "Belanja Bahan Pakai Habis":
+  st.info ("Belanja Bahan Pakai Habis ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Bukti Pembelian/ Pembayaran")
   st.info ("- Faktur Barang")
@@ -103,6 +108,7 @@ elif asal == "Belanja Bahan Pakai Habis":
   st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimann Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
 elif asal == "Belanja Bahan/Material":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Bukti Pembelian/ Pembayaran")
   st.info ("- Faktur Barang")
@@ -112,6 +118,7 @@ elif asal == "Belanja Bahan/Material":
   st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimann Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
 elif asal == "Belanja langganan Telepon/Listrik/Air/Internet/TV Kabel":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Bukti Pembelian/ Pembayaran")
   st.info ("- Surat tagihan dari penyedia jasa")
@@ -119,6 +126,7 @@ elif asal == "Belanja langganan Telepon/Listrik/Air/Internet/TV Kabel":
   st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
 elif asal == "Belanja Lengganan Surat Kabar/ Majalah/ Buletin":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Bukti Pembelian/ Pembayaran")
   st.info ("- Surat tagihan dari penyedia jasa")
@@ -126,6 +134,7 @@ elif asal == "Belanja Lengganan Surat Kabar/ Majalah/ Buletin":
   st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
   
 elif asal == "Belanja Jasa Paket Pengiriman/ Kebersihan/ Keamanan/ Pengelolaan Aset":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Bukti Pembayaran")
   st.info ("- Surat Pejanjian Kerjasama/ Kontrak (MoU) jika melalui Kerjasama/ Kontrak (MoU)")
@@ -135,6 +144,7 @@ elif asal == "Belanja Jasa Paket Pengiriman/ Kebersihan/ Keamanan/ Pengelolaan A
   st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimann Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
 elif asal == "Belanja Pajak Buml dan Bangunan (PBB)":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Surat Pemberitahuan Pajak Terutang PBB (SPPT PBB)")
   st.info ("- Bukti Pembayaran Pajak Bumi dan Bangunan")
@@ -142,24 +152,28 @@ elif asal == "Belanja Pajak Buml dan Bangunan (PBB)":
   st.info ("- Bukti Penerimaan Pajak Bumi dan Bangunan")
 
 elif asal == "Belanja Surat Tanda Nomor Kendaraan":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Fotokopi Surat Ketetapan Pajak Daerah")
   st.info ("- Fotokopi Bukti Pembayaran Pajak")
   st.info ("- Bukti Transfer/ SPPT jika pembayarannya melalui transfer")
  
 elif asal == "Belanja Jasa KIR":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Dokumen bukti uji KIR")
   st.info ("- Bukti Pembayaran KIR")
   st.info ("- Bukti Transfer/ SPPT jika pembayarannya melalui transfer")
 
 elif asal == "Belanja Surat Tanda Nomor Kendaraan":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Bukti Pembayaran")
   st.info ("- Bukti Transfer/ SPPT ke pihak penyedia jasa jika pembayarannya melalui transfer")
   st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
 elif asal == "Belanja Jasa Profesi (tenaga pengajar, penceramah/ narasumber / notulen/ Instruktur/ Wakll Instruktur/ Pembina Instruktur/ Moderator/ Pengamat Kelas)":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Curriculum vitae (CV)/Biodata")
   st.info ("- Surat Pcrmohonan Permintaan Narasumber")
@@ -170,6 +184,7 @@ elif asal == "Belanja Jasa Profesi (tenaga pengajar, penceramah/ narasumber / no
   st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimann Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
 elif asal == "Belanja Jasa Pengumuman Lelang melalui Media Surat Kabar":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Bukti Pembayaran")
   st.info ("- Surat Pesanan")
@@ -179,6 +194,7 @@ elif asal == "Belanja Jasa Pengumuman Lelang melalui Media Surat Kabar":
   st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimann Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
 elif asal == "Belanja Jasa Akomodasi":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Bukti Pembayaran")
   st.info ("- Daftar hadir")
@@ -188,12 +204,14 @@ elif asal == "Belanja Jasa Akomodasi":
   st.info ("- Bukti Transfer/ SPPT ke pihak penyedia jasa jika pembayarannya melalui transfer")
 
 elif asal == "Belanja Premi Asuransi":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Bukti pembayaran")
   st.info ("- Fotocopy polis asuransi")
   st.info ("- Bukti Transfer/ SPPT ke pihak penvedia barang/ jasa jika pembayarannya melalui transfer")
 
 elif asal == "Belanja Jasa Penerangan/ Iklan/ Reklame/ Film/ Pemotretan (Media Cetak)":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Bukti Pembayaran")
   st.info ("- Surat Pesanan/ Surat Perjanjian Kerjasama/ Kontrak (MoU) jika belanja melalui Pesanan/ Kerjasama/ Kontrak (MoU]")
@@ -203,6 +221,7 @@ elif asal == "Belanja Jasa Penerangan/ Iklan/ Reklame/ Film/ Pemotretan (Media C
   st.info ("- Bukti Transfer/ SPPT ke pihak penyedia barang/ jasa jika pembayarannya melalui transfer")
 
 elif asal == "Belanja Jasa Penerangan/ Iklan/ Reklame/ Film/ Pemotretan (Media Elektronik)":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Bukti Pembayaran")
   st.info ("- Surat Pesanan/ Surat Perjanjian Kerjasama/ Kontrak (MoU) jika belanja melalui Pesanan/ Kerjasama/ Kontrak (MoU]")
@@ -221,6 +240,7 @@ elif asal == "Belanja Perawatan Kendaraan Bermotor (belanja servis, penggantian 
   st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
 elif asal == "Belanja Perawatan Perlengkapan Kantor":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Bukti Pembayaran")
   st.info ("- Faktur (invoice)")
@@ -228,6 +248,7 @@ elif asal == "Belanja Perawatan Perlengkapan Kantor":
   st.info ("- e-Billing. e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
 elif asal == "Belanja Pemeliharaan Taman":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Bukti Pembayaran")
   st.info ("- Faktur (invoice]")
@@ -237,6 +258,7 @@ elif asal == "Belanja Pemeliharaan Taman":
   st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
 elif asal == "Belanja Cetak dan Penggandaan":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Bukti Pembelian/ Pembayaran")
   st.info ("- Faktur Barang")
@@ -246,6 +268,7 @@ elif asal == "Belanja Cetak dan Penggandaan":
   st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
 elif asal == "Belanja Sewa Rumah/ Gedung/ Gudang/ Parkir/ Tempat":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Bukti Pembayaran")
   st.info ("- Surat Perjanjian/ Kontrak (MoU) Sewa jika sewa menyewa dilakukan melalui perjanjian/ kontrak")
@@ -254,6 +277,7 @@ elif asal == "Belanja Sewa Rumah/ Gedung/ Gudang/ Parkir/ Tempat":
   st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
 elif asal == "Belanja Paket Meeting":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Surat Pesanan (SP)")
   st.info ("- Berita Acara Pemeriksaan dan Serah Terima Pekerjaan")
@@ -264,6 +288,7 @@ elif asal == "Belanja Paket Meeting":
   st.info ("- Dokumentasi")
 
 elif asal == "Belanja Sewa Sarana Mobilitas":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Bukti Pembayaran")
   st.info ("- Fotokopi STNK")
@@ -273,6 +298,7 @@ elif asal == "Belanja Sewa Sarana Mobilitas":
   st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
 elif asal == "Belanja Sewa Alat Berat":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Bukti Pembayaran")
   st.info ("- Surat Pesanan/Surat Perjanjian Kerjasama/ Kontrak (MoU) jika belanja melalui Pesanan/ Kerjasama/ Kontrak (MoU}")
@@ -281,6 +307,7 @@ elif asal == "Belanja Sewa Alat Berat":
   st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
 elif asal == "Belanja Sewa Perlengkapan dan Peralatan Kantor":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Bukti Pembayaran")
   st.info ("- Faktur (Invoice)")
@@ -290,6 +317,7 @@ elif asal == "Belanja Sewa Perlengkapan dan Peralatan Kantor":
   st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
 elif asal == "Belanja Sewa Perlengkapan dan Peralatan Kantor":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Bukti Pembayaran/Pembayaran dan Faktur")
   st.info ("- Undangan Rapat/ Nota Dinas Permohonan/ Surat perintahLembur")
@@ -300,6 +328,7 @@ elif asal == "Belanja Sewa Perlengkapan dan Peralatan Kantor":
   st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
 elif asal == "Perjalanan Dinas Dalam Kota/ Kabupaten":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Surat Undangan/ Surat Perintah dengan jadwal yang terlampir (minimal 8 jam)")
   st.info ("- Rincian Biaya Perjalanan Dinas (SPD Rampung)")
@@ -311,6 +340,7 @@ elif asal == "Perjalanan Dinas Dalam Kota/ Kabupaten":
   st.info ("- Laporan perjalanan dinas dibuat, dilaporkan kepada pemberi perintah dan diarsipkan")
 
 elif asal == "Belanja Perjalanan Dinas Paket Meeting":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Surat Undangan")
   st.info ("- Surat Perintah")
@@ -322,6 +352,7 @@ elif asal == "Belanja Perjalanan Dinas Paket Meeting":
   st.info ("- Dokumentasi")
 
 elif asal == "Perjalanan Dinas Dalam Daerah (Kabupaten/ Kota)":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Surat Undangan/ Surat Perintah")
   st.info ("- Rincian Biaya Pejalanan Dinas (SPD Rampung)")
@@ -343,6 +374,7 @@ elif asal == "Perjalanan Dinas Dalam Daerah (Kabupaten/ Kota)":
   st.info ("- Dokumentasi")
 
 elif asal == "Belanja Perjalanan Dinas Luar Provinsi":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Surat Undangan/ Surat Perintah")
   st.info ("- Rincian Biaya Pejalanan Dinas (SPD Rampung)")
@@ -366,6 +398,7 @@ elif asal == "Belanja Perjalanan Dinas Luar Provinsi":
   st.info ("- Dokumentasi")
 
 elif asal == "Belanja Perjalanan Dinas Luar Negeri":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Surat Perintah/Surat Undangan Pejalanan Dinas ke Luar Negeri dapat dilaksanakan setelah mendapat ijin dari Gubernur")
   st.info ("- Passport Biru (Dinas)")
@@ -399,6 +432,7 @@ elif asal == "Belanja Perjalanan Dinas Luar Negeri":
   st.info ("- Dokumentasi")
 
 elif asal == "Belanja Perjalanan Dinas Bagi Non PNS Dinas Dalam dan Luar Daerah":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Surat undangan/ Surat Perintah")
   st.info ("- Rincian Biaya Pejalanan Dinas (SPD Rampung)")
@@ -410,6 +444,7 @@ elif asal == "Belanja Perjalanan Dinas Bagi Non PNS Dinas Dalam dan Luar Daerah"
   st.info ("- Laporan pejalanan dinas dibuat, dilaporkan kepada pemberi perintah dan diarsipkan")
 
 elif asal == "Belanja PNS yang mengikuti Diklat Jabatan Struktural/ Fungsional yang dilaksanakan oleh Instansi Daerah lain, Instansi Provinsi, Instansi Pusat maupun Organisasi Diklat lainnya":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Radiogram/ Surat Pemberitahuan untuk mengikuti Diklat")
   st.info ("- Surat Perintah")
@@ -420,6 +455,7 @@ elif asal == "Belanja PNS yang mengikuti Diklat Jabatan Struktural/ Fungsional y
   st.info ("- Fotocopy Sertifikat telah mengikuti Diklat")
 
 elif asal == "PNS yang mengikuti Diklat/ Bimtek apabila lebih dari 3 (tiga) hari yang harus ada biaya kontribusi":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Surat Undangan/ Radiogram dari Bagian Kepegawaian atau penyelenggara")
   st.info ("- Surat Perintah")
@@ -435,6 +471,7 @@ elif asal == "Biaya sewa stand pameran tingkat provinsi dan tingkat nasional":
   st.info ("- Bukti Dokumentasi")
 
 elif asal == "Belanja Paket Meeting":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Surat Pesanan (SP)")
   st.info ("- Berita Acara Pemeriksaan dan Serah Terima Pekerjaan")
@@ -446,6 +483,7 @@ elif asal == "Belanja Paket Meeting":
   st.info ("- Dokumentasi")
 
 elif asal == "Perjalanan Dinas Paket Meeting":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Surat Undangan")
   st.info ("- Surat Perintah")
@@ -457,6 +495,7 @@ elif asal == "Perjalanan Dinas Paket Meeting":
   st.info ("- Dokumentasi")
 
 elif asal == "Belanja Makan minum rapat":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Surat Undangan")
   st.info ("- Bukti Pembelian")
@@ -467,6 +506,7 @@ elif asal == "Belanja Makan minum rapat":
   st.info ("- Dokumentasi")
 
 elif asal == "Belanja Makan minum tamu":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Surat Undangan")
   st.info ("- Proses Pengadaan Barang dan Jasa")
@@ -476,6 +516,7 @@ elif asal == "Belanja Makan minum tamu":
   st.info ("- Dokumentasi")
 
 elif asal == "Belanja Konstruksi":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Surat Perintah Kerja/Surat Perjanjian")
   st.info ("- Surat Perintah Mulai Kerja (SPMK)")
@@ -488,6 +529,7 @@ elif asal == "Belanja Konstruksi":
   st.info ("- Dokumentasi")
 
 elif asal == "Belanja Tenaga Ahli Non Sertifikat":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Kerangka Acuan Kerja (KAK)")
   st.info ("- Curriculum Vitae/Portopolio")
@@ -499,6 +541,7 @@ elif asal == "Belanja Tenaga Ahli Non Sertifikat":
   st.info ("- e_bupot")
 
 elif asal == "Belanja Modal Pengadaan Tanah":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Keputusan Gubernur tentang Penetapan Lokasi Pengadaan Tanah")
   st.info ("- Keputusan Kepala BPN tentang Susunan Keanggotaan Pelaksana Pengadaan Tanah")
@@ -510,6 +553,7 @@ elif asal == "Belanja Modal Pengadaan Tanah":
   st.info ("- e-Billing, e-Faktur PPN dan bukti penerimaan pajak negara sesuai ketentuan peraturan perundang-undang")
 
 elif asal == "Belanja Modal Pengadaan Perlengkapan Kantor/Peralatan dan Mesin/Alat-alat Bengkel/Peralatan Dapur/Penghias Ruangan/Alat-alat Studio/Buku/ Perpustakaan/Belanja Model sejenis lainnya)":
+  st.info (" ") 
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Bukti Pembelian/Pembayaran")
   st.info ("- Faktur Barang")
