@@ -11,236 +11,512 @@ Ini adalah aplikasi untuk mengecek Dokumen Kelengkapan SPJ
 """)
 
 
-original_list = ["Pilih Jenis Belanja",                
-                "Pembayaran Honorarium dan Transport untuk Narasumber atau Pembahas, Moderator dan Pembawa Acara",
-                "Biaya uang saku/transport kegiatan sosialisasi/penyuluhan kepada Masyarakat serta uang saku/transport kegiatan Pendidikan dan pelatihan",
-                "Honorarium Tenaga Teknis Pelaksana Kegiatan dan Tenaga Ahli",
-                "Upah Tenaga Harian Lepas dan Honorarium Non ASN Lainnya",
-                "Honorarium Rohaniwan dan Penceramah",
-                "Honorarium Pengawalan Kepala Daerah dan Wakil Kepala Daerah",
-                "Belanja Barang dan Jasa",
-                "Belanja Makanan dan Minuman Rapat/Peserta/Petugas/Panitia",
-                "Belanja Telepon, Air, Listrik, Koran/Majalah/Surat Kabar dan Sejenisnya",
-                "Perpanjangan STNK (Tahunan/Lima Tahunan)",
-                "Belanja Jasa KIR",
-                "Belanja Jasa Uji Laboratorium/Uji Sampling",
+original_list = ["Pilih Jenis Belanja",
+                 "Honorarium Panitia/Pejabat Pengadaan/Penerima Barang dan Jasa PNS Provinsi", 
+                 "Honorarium PNS Non Provinsi dan Non PNS (Peserta)",
+                 "Upah Harian Lepas",
+                 "Uang Hadiah",
+                "Belanja Bahan Pakai Habis",
+                "Belanja Bahan/Material",
+                "Belanja langganan Telepon/Listrik/Air/Internet/TV Kabel",
+                "Belanja Lengganan Surat Kabar/ Majalah/ Buletin",
+                "Belanja Jasa Paket Pengiriman/ Kebersihan/ Keamanan/ Pengelolaan Aset",
                 "Belanja Pajak Bumi dan Bangunan (PBB)",
-                "Instalasi PAM/Pemasangan Baru Listrik/Penambahan Daya Listrik/ Jaringan Internet/ TV Kabel",
-                "Bahan Bakar Kendaraan Dinas dan Alat Berat",
-                "Belanja pembayaran jasa jalan Tol",
-                "Belanja Sewa Hotel (Paket Meeting)",
-                "Belanja perawatan kendaraan bermotor",
-                "Belanja Jasa Penerangan/Iklan/Reklame/Film/Pemotretan",                 
+                "Belanja Surat Tanda Nomor Kendaraan",
+                "Belanja Jasa KIR",
+                "Belanja Surat Tanda Nomor Kendaraan",
+                "Belanja Jasa Profesi (tenaga pengajar, penceramah/ narasumber / notulen/ Instruktur/ Wakil Instruktur/ Pembina Instruktur/ Moderator/ Pengamat Kelas)",
+                "Belanja Jasa Pengumuman Lelang melalui Media Surat Kabar",
+                "Belanja Jasa Akomodasi",
+                "Belanja Premi Asuransi",
+                "Belanja Jasa Penerangan/ Iklan/ Reklame/ Film/ Pemotretan (Media Cetak)",
+                "Belanja Jasa Penerangan/ Iklan/ Reklame/ Film/ Pemotretan (Media Elektronik)",
+                "Belanja Perawatan Kendaraan Bermotor (belanja servis, penggantian suku cadang, pelumas)",
+                "Belanja Perawatan Perlengkapan Kantor",
+                "Belanja Pemeliharaan Taman",
+                "Belanja Cetak dan Penggandaan",
+                "Belanja Sewa Rumah/ Gedung/ Gudang/ Parkir/ Tempat",
+                "Belanja Paket Meeting",
+                "Belanja Sewa Sarana Mobilitas",
+                "Belanja Sewa Alat Berat",
+                "Belanja Sewa Perlengkapan dan Peralatan Kantor",
+                "Belanja Sewa Perlengkapan dan Peralatan Kantor",
+                "Perjalanan Dinas Dalam Kota/ Kabupaten",
+                "Belanja Perjalanan Dinas Paket Meeting",
+                "Perjalanan Dinas Dalam Daerah (Kabupaten/ Kota)",
+                "Belanja Perjalanan Dinas Luar Provinsi",
+                "Belanja Perjalanan Dinas Luar Negeri",
+                "Belanja Perjalanan Dinas Bagi Non PNS Dinas Dalam dan Luar Daerah",
+                "Belanja PNS yang mengikuti Diklat Jabatan Struktural/ Fungsional yang dilaksanakan oleh Instansi Daerah lain, Instansi Provinsi, Instansi Pusat maupun Organisasi Diklat lainnya",
+                "PNS yang mengikuti Diklat/ Bimtek apabila lebih dari 3 (tiga) hari yang harus ada biaya kontribusi",
+                "Biaya sewa stand pameran tingkat provinsi dan tingkat nasional",
+                "Belanja Paket Meeting",
+                "Perjalanan Dinas Paket Meeting",
+                "Belanja Makan minum rapat",
+                "Belanja Makan minum tamu",
+                "Belanja Konstruksi",
+                "Belanja Tenaga Ahli Non Sertifikat",
+                "Belanja Modal Pengadaan Tanah",
+                "Belanja Modal Pengadaan Perlengkapan Kantor/Peralatan dan Mesin/Alat-alat Bengkel/Peralatan Dapur/Penghias Ruangan/Alat-alat Studio/Buku/ Perpustakaan/Belanja Model sejenis lainnya"
                 ]
                  
 
 asal = st.selectbox(''':blue[Masukan Jenis Belanja]''',original_list)
 
 
-
-
-if asal == "Pembayaran Honorarium dan Transport untuk Narasumber atau Pembahas, Moderator dan Pembawa Acara":
+if asal == "Honorarium Panitia/Pejabat Pengadaan/Penerima Barang dan Jasa PNS Provinsi":
   st.info ("Dokumen Kelengkapan:")
-  st.info ("- Surat permohonan narasumber atau undangan/ disposisi")
-  st.info ("- Laporan hasil kegiatan")
+  st.info ("- Daftar Penerimaan Pembayaran Honor Kuitansi")
+  st.info ("- SK Pejabat/Panitia Pengadaan dan Pejabat/Panitia Penerima Barang dan Jasa")
+  st.info ("- Rekapitulasi paket pekerjaan yang berisi Informasi tentang nilai dan jenis pekerjaan khusus untuk Pejabat/Panitia pengadaan Dan Pejabat/Panitia Penerima Barang/Jasa, Kecuali yang 1 (satu) paket pekerjaan melampirkan Fotokopi SPK dan Berita Acara Serah Terima Barang/Jasa khusus untuk pembayaran Honorarium Panitia/Pejabat Penerima Barang/Jasa")
+  st.info ("- Bukti transfer/SPPT jika pembayarannya melalui transfer")
+  st.info ("- e-Billing dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
+
+elif asal == "Honorarium PNS Non Provinsi dan Non PNS (Peserta)":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Daftar penerimaan pembayaran uangsaku dan atau transport")
   st.info ("- Daftar Hadir")
-  st.info ("- Kuitansi")
-  st.info ("- Biodata Narasumber")
-  st.info ("- Daftar Nominatif Honorarium")
-  st.info ("- Bukti transfer kepada penerima")
-  st.info ("- Billing pajak")
-  st.info ("- Bukti penerimaan negara")
-  st.text (" ")
-  st.text ("Honorarium narasumber atau pembahas, moderator dan pembawa acara dikenakan Pajak Penghasilan Pasal 21 Final dengan ketentuan:")
-  st.text ("- 0% untuk PNS gol. II, Anggota TNI & POLRI dengan pangkat Tamtama atau Bintara dan pensiunannya")
-  st.text ("- 5% untuk PNS gol. III, Anggota TNI, & POLRI dengan pangkat Perwira Pertama dan Pensiunannya")
-  st.text ("- 15% untuk PNS gol. IV, Anggota TNI, & POLRI dengan pangkat Perwira menengah dan perwira tinggi dan Pensiunannya")
-  st.text ("Pajak Penghasilan untuk non ASN dikenakan tarif UU PPh pasal 17 x (50% x Penghasilan Bruto)")
+  st.info ("- Bukti transfer/SPPT jika pembayarannya melalui transfer")
+  st.info ("- e-Billing dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang (untuk uang saku)")
 
-
-elif asal == "Biaya uang saku/transport kegiatan sosialisasi/penyuluhan kepada Masyarakat serta uang saku/transport kegiatan Pendidikan dan pelatihan":
+elif asal == "Upah Harian Lepas":
   st.info ("Dokumen Kelengkapan:")
-  st.info ("- Undangan dan/atau surat tugas")
-  st.info ("- Daftar hadir/bukti kehadiran/laporan (untuk peserta sosialisasi/penyuluhan kepada Masyarakat)")
-  st.info ("- Laporan hasil kegiatan (untuk peserta Pendidikan dan pelatihan)")
-  st.info ("- Daftar uang transportasi")
-
-elif asal == "Honorarium Tenaga Teknis Pelaksana Kegiatan dan Tenaga Ahli":
-  st.info ("Dokumen Kelengkapan:")
-  st.info ("- Daftar Nominatif Gaji")
+  st.info ("- Daftar Pembayaran Upah")
   st.info ("- Daftar Hadir")
-  st.info ("- Lampiran Keputusan Gubernur pada awal tahun/pada saat ada perubahan")
-  st.info ("- Laporan Kegiatan Individu")
-  st.info ("- Billing BPJS, Billing PPh")
-  st.info ("- Sertifikat Keahlian (untuk tenaga ahli)")
-  st.info ("- Bukti Penerimaan Negara")
-                               
-elif asal == "Upah Tenaga Harian Lepas dan Honorarium Non ASN Lainnya":
-  st.info ("Dokumen Kelengkapan:")
-  st.info ("- Daftar Nominatif Upah")
-  st.info ("- Rekapitulasi Pembayaran Upah")
-  st.info ("- Laporan Hasil Pekerjaan")
-  st.info ("- Dokumen lain sesuai Peraturan Perundang-undangan")
-  st.info ("- Billing PPh")
-  st.info ("- Bukti Penerimaan Negara")
- 
-elif asal == "Honorarium Rohaniwan dan Penceramah":
-  st.info ("Dokumen Kelengkapan:")
-  st.info ("- Daftar Hadir")
-  st.info ("- Daftar Honor/Kuitansi")
-  st.info ("- Surat Permohonan sebagai Penceramah")
-  st.info ("- Billing PPh")
-  st.info ("- Bukti Penerimaan Negara")
-  st.text (" ")
-  st.text ("Honorarium rohaniwan dan penceramah dikenakan Pajak Penghasilan Pasal 21 Final dengan ketentuan:")
-  st.text ("- 0% untuk PNS gol. II, Anggota TNI & POLRI dengan pangkat Tamtama atau Bintara dan pensiunannya")
-  st.text ("- 5% untuk PNS gol. III, Anggota TNI, & POLRI dengan pangkat Perwira Pertama dan Pensiunannya")
-  st.text ("- 15% untuk PNS gol. IV, Anggota TNI, & POLRI dengan pangkat Perwira menengah dan perwira tinggi dan Pensiunannya")
-  st.text ("Pajak Penghasilan untuk non ASN dikenakan tarif UU PPh pasal 17 x (50% x Penghasilan Bruto)")
+  st.info ("- Bukti transfer/SPPT jika pembayarannya melalui transfer")
+  st.info ("- e-Billing dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
-elif asal == "Honorarium Pengawalan Kepala Daerah dan Wakil Kepala Daerah":
+elif asal == "Uang Hadiah":
   st.info ("Dokumen Kelengkapan:")
-  st.info ("- Daftar Nominatif Honorarium")
-  st.info ("- Surat Keputusan Penunjukan dari Kesatuan")
-  st.info ("- Dokumen lain sesuai Peraturan Perundang-undangan")
-  st.info ("- Billing PPh")
-  st.info ("- Bukti Penerimaan Negara")
-  st.text ("Honorarium Pengawalan Kepala Daerah dan Wakil Kepala Daerah dikenakan Pajak Penghasilan Pasal 21 Final dengan ketentuan:")
-  st.text ("- 0% untuk PNS gol. II, Anggota TNI & POLRI dengan pangkat Tamtama atau Bintara dan pensiunannya")
-  st.text ("- 5% untuk PNS gol. III, Anggota TNI, & POLRI dengan pangkat Perwira Pertama dan Pensiunannya")
-  st.text ("- 15% untuk PNS gol. IV, Anggota TNI, & POLRI dengan pangkat Perwira menengah dan perwira tinggi dan Pensiunannya")
+  st.info ("- Keputusan Gubernur/Keputusan Kepala SKPD tentang Standar besaran Uang/Hadiah dan penetapan pemenang dan atau Keputusan Dewan Hakim/Juri Penilai perlombaan kegiatan")
+  st.info ("- Daftar pembayaran dan atau tanda terima uang hadiah/penghargaan")
+  st.info ("- Bukti Transfer ke pihak penyedia barang/ jasa jika pembayarannya melalui transfer")
+  st.info ("- e-Billing dan Buktti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
-elif asal == "Belanja Barang dan Jasa":
+elif asal == "Belanja Bahan Pakai Habis":
   st.info ("Dokumen Kelengkapan:")
-  st.info ("Belanja barang dan jasa s.d Rp10.000.000,- dilampirkan bukti pembelian/pembayaran (Bukti Pembelian dapat berupa faktur/bon/invoice, struk, dan nota kontan) / Surat Pesanan")
-  st.info ("Belanja barang dan jasa Rp 10.000.000,- s.d Rp50.000.000,- dilengkapi kuitansi / Surat Pesanan")
-  st.info ("Belanja barang dan jasa Rp 50.000.000,- s.d Rp200.000.000,- atau Belanja Jasa Konsultansi s.d Rp100.000.000,- dan Belanja Jasa Konstruksi s.d Rp200.000.000,- dilengkapi Surat Perintah Kerja (SPK) / Surat Pesanan")
-  st.info ("Belanja barang dan jasa di atas Rp 200.000.000,- dan Belanja Jasa Konsultansi di atas Rp100.000.000,- dilengkapi dengan Surat Perjanjian / Surat Pesanan")
-  st.info ("- E-Faktur untuk yang dikenakan PPN dan Penyedia PKP")
-  st.info ("- Billing PPh")
-  st.info ("- Bukti Penerimaan Negara")
-  st.info ("- Berita Acara Hasil Pemeriksaan PPK dengan Penyedia")
-  st.info ("- Berita Acara Serah Terima PPK dengan Penyedia")
-  st.text (" ")
-  st.info ("Dokumen kelengkapan pertanggungjawaban yang menjadi tanggung jawab PPTK sesuai tugasnya, diantaranya :")
-  st.info ("- Surat Permohonan kebutuhan dari PPTK ke PA/KPA/PPK (dibuat sekaligus di awal tahun/kebutuhan")
-  st.info ("- Surat Permintaan dari PPK ke Pejabat Pengadaan (dibuat sekaligus di awal tahun/kebutuhan")
-  st.info ("- Salinan Bukti Pembelian/Pembayaran")
-  st.info ("- Salinan e-Faktur untuk yang dikenakan PPN dan Penyedia merupakan PKP")
-  st.text (" ")
-  st.info ("Dalam hal belanja barang modal, maka perlu dibuat :")
-  st.info ("- Berita Acara Hasil Pemeriksaan PPK dengan Penyedia")
-  st.info ("- Berita Acara Serah Terima PPK dengan Penyedia")
-  st.info ("- Berita Acara Penyelesaian Pekerjaan dari PPK ke PA/KPA")
-  st.info ("- Surat Permintaan PA/KPA kepada PJPHP/PPHP untuk melakukan pemeriksaan Administrasi")
-  st.info ("- Berita Acara Pemeriksaan Administrasi oleh PJPHP (tidak menjadi syarat pembayaran")
-  st.text (" ")
-  st.text ("Perhitungan Pajak:")
-  st.text ("Pengadaan Barang dikenakan PPN untuk PKP dan PPh Pasal 22 jika jumlah belanja di atas Rp2.000.000,- ")
-  st.text ("Pengadaan Jasa dikenakan: ")
-  st.text ("-PPN untuk PKP")
-  st.text ("-Dipotong PPh 23, khusus Sewa dipungut PPh Pasal 4 ayat (2)")
-  st.text ("-PPh Pasal 4 ayat (2) untuk Jasa Konstruksi dan Jasa Konsultansi Konstruksi Perencanaan dan Pengawasan")
+  st.info ("- Bukti Pembelian/ Pembayaran")
+  st.info ("- Faktur Barang")
+  st.info ("- Surat Pesanan/ Surat Perjanjian Kerjasma/Kontrak (MoU) jika belanja melalui Pesanan/ Kerjasama/ Kontrak (MoU)")
+  st.info ("- Surat Tagihan jika belanja melalui Surat Pesanan/ Surat Perjanjian Kerjasama/ Kontrak (MoU)")
+  st.info ("- Bukti Transfer/ SPPT ke pihak penvedia barang/jasa jika pembayarannya melalui transfer")
+  st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimann Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
-elif asal == "Belanja Makanan dan Minuman Rapat/Peserta/Petugas/Panitia":
+elif asal == "Belanja Bahan/Material":
   st.info ("Dokumen Kelengkapan:")
-  st.info ("- Bukti Pembayaran/Kuitansi/SPK/Surat Perjanjian")
-  st.info ("- Notulensi dan Dokumentasi")
-  st.info ("- Daftar Hadir")
-  st.info ("- Undangan Rapat")
-  st.info ("- Billing PPh")
-  st.info ("- Bukti Penerimaan Negara")
-  st.info ("- Nota Pengiriman Barang / Surat Jalan untuk nilai di bawah Rp50.000.000,- dan ditandatangani PPK sebagai serah PPK dengan Penyedia")
-  st.text (" ")
-  st.info ("Untuk Belanja Makanan dan Minuman Harian Pegawai/Tamu/ di atas Rp50.000.000,- maka perlu dibuat : ")
-  st.info ("- Berita Acara Serah Terima PPK dengan Penyedia")  
-  st.text (" ")
-  st.text ("Pajak : ")
-  st.text ("- Dikenakan PPh 22 dengan tarif 1,5%  untuk Belanja makanan dan minuman di toko atau minimarket atau semacamnya yang telah dikemas dan memiliki merk produk atau branding (3% apabila rekanan tanpa NPWP) dan PPN ")
-  st.text ("- Dikenakan PPh Pasal 23 untuk sebesar 2% dari jumlah jasa boga atau katering, tanpa PPN")
+  st.info ("- Bukti Pembelian/ Pembayaran")
+  st.info ("- Faktur Barang")
+  st.info ("- Surat Pesanan/ Surat Pejanjian Kejasama/ Kontrak (MoU) jika belanja melalui Pesanan/ Kerjasama/Kontrak (MoU]")
+  st.info ("- Surat tagihan jika belanja melalui surat pesanan/ kontrak (MoU)")
+  st.info ("- Bukti Transfer ke pihak penyedia barang/jasa jika pembayarannya melalui transfer")
+  st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimann Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
-elif asal == "Belanja Telepon, Air, Listrik, Koran/Majalah/Surat Kabar dan Sejenisnya":
+elif asal == "Belanja langganan Telepon/Listrik/Air/Internet/TV Kabel":
   st.info ("Dokumen Kelengkapan:")
-  st.info ("- Surat atau Tagihan / Invocie dari Penyedia Jasa")
-  st.info ("- Berita Acara Serah Terima Tagihan")
-    
-elif asal == "Perpanjangan STNK (Tahunan/Lima Tahunan)":
+  st.info ("- Bukti Pembelian/ Pembayaran")
+  st.info ("- Surat tagihan dari penyedia jasa")
+  st.info ("- Bukti Transfer/SPPT ke pihak penyedia barang/ jasa jika pembayarannya melalui transfer")
+  st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
+
+elif asal == "Belanja Lengganan Surat Kabar/ Majalah/ Buletin":
   st.info ("Dokumen Kelengkapan:")
-  st.info ("- Bukti Pembayaran Pajak")
-  st.info ("- Salinan Surat Ketetapan Kewajiban Pembayaran (SKKP)")
+  st.info ("- Bukti Pembelian/ Pembayaran")
+  st.info ("- Surat tagihan dari penyedia jasa")
+  st.info ("- Bukti Transfer/SPPT ke pihak penyedia barang/ jasa jika pembayarannya melalui transfer")
+  st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
   
+elif asal == "Belanja Jasa Paket Pengiriman/ Kebersihan/ Keamanan/ Pengelolaan Aset":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Bukti Pembayaran")
+  st.info ("- Surat Pejanjian Kerjasama/ Kontrak (MoU) jika melalui Kerjasama/ Kontrak (MoU)")
+  st.info ("- Surat Tagihan jika pembayaran melalui Kerjasama/ Kontrak (MoU)")
+  st.info ("- Surat tagihan dari penyedia jasa")
+  st.info ("- Bukti Transfer/ SPPT ke pihak penyedia barang/ jasa jika pembayarannya melalui transfer")
+  st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimann Pajak Negara sesuai ketentuan peraturan perundang-undang")
+
+elif asal == "Belanja Pajak Buml dan Bangunan (PBB)":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Surat Pemberitahuan Pajak Terutang PBB (SPPT PBB)")
+  st.info ("- Bukti Pembayaran Pajak Bumi dan Bangunan")
+  st.info ("- Bukti Transfer/ SPPT jika pembayarannya melalui transfer")
+  st.info ("- Bukti Penerimaan Pajak Bumi dan Bangunan")
+
+elif asal == "Belanja Surat Tanda Nomor Kendaraan":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Fotokopi Surat Ketetapan Pajak Daerah")
+  st.info ("- Fotokopi Bukti Pembayaran Pajak")
+  st.info ("- Bukti Transfer/ SPPT jika pembayarannya melalui transfer")
+ 
 elif asal == "Belanja Jasa KIR":
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Dokumen bukti uji KIR")
   st.info ("- Bukti Pembayaran KIR")
-   
-elif asal == "Belanja Jasa Uji Laboratorium/Uji Sampling":
+  st.info ("- Bukti Transfer/ SPPT jika pembayarannya melalui transfer")
+
+elif asal == "Belanja Surat Tanda Nomor Kendaraan":
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Bukti Pembayaran")
-  st.info ("- Hasil Uji Lab / Uji Sampling")
-  st.info ("- Billing Pajak")
-  st.info ("- Bukti Penerimaan Pajak Negara")
-  st.text (" ")
-  st.text ("PPN dan PPh 23 dipungut dan dipotong jika dilakukan oleh Badan Usaha (Perusahaan atau Laboratorium Swasta)")
+  st.info ("- Bukti Transfer/ SPPT ke pihak penyedia jasa jika pembayarannya melalui transfer")
+  st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
-elif asal == "Belanja Pajak Bumi dan Bangunan (PBB)":
+elif asal == "Belanja Jasa Profesi (tenaga pengajar, penceramah/ narasumber / notulen/ Instruktur/ Wakll Instruktur/ Pembina Instruktur/ Moderator/ Pengamat Kelas)":
   st.info ("Dokumen Kelengkapan:")
-  st.info ("- Surat Pemberitahuan Pajak Terhutang PBB (SPPT PBB)")
-  st.info ("- Bukti Pembayaran Pajak Bumi dan Bangunan")
-  st.info ("- Bukti Penerimaan Pajak Bumi dan Bangunan")
-     
-elif asal == "Instalasi PAM/Pemasangan Baru Listrik/Penambahan Daya Listrik/ Jaringan Internet/ TV Kabel":
-  st.info ("Dokumen Kelengkapan:")
-  st.info ("- Surat Permintaan Kepala SKPD")
-  st.info ("- Surat Kesepakatan")
-  st.info ("- Tagihan/Invoice")
-  st.info ("- Billing PPh")
-  st.info ("- Bukti Penerimaan Negara")
-  st.text (" ")
-  st.text ("Pajak yang dikenakan yaitu PPN, PPh Pasal 23 untuk instalansi jaringan internet, tv kabel, PPh Pasal 4 ayat (2) untuk instalansi PAM, instalasi listrik dan untuk penambahan daya listrik tidak dikenakan PPN dan PPh")
+  st.info ("- Curriculum vitae (CV)/Biodata")
+  st.info ("- Surat Pcrmohonan Permintaan Narasumber")
+  st.info ("- Daftar Hadir")
+  st.info ("- Jadwal acara")
+  st.info ("- Kuitansi / Daftar penerimaan pembayaran")
+  st.info ("- Bukti Transfer/SPPT ke pihak penyedia barang/ jasa jika pembayarannya melalui transfer")
+  st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimann Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
-elif asal == "Bahan Bakar Kendaraan Dinas dan Alat Berat":
-  st.info ("Dokumen Kelengkapan:")
-  st.info ("- Invoice dan/atau Rekap penggunaan Bahan Bakar dari penyedia")
-  st.info ("- Berita Acara Hasil Pemeriksaan dan berita acara serah terima (bila diperlukan)")
-  st.info ("- Billing PPh untuk PPh 23 atas jasa pengangkutan atau pengiriman")
-  st.info ("- Bukti Penerimaan Negara")
- 
-elif asal == "Belanja pembayaran jasa jalan Tol":
-  st.info ("Dokumen Kelengkapan:")
-  st.info ("- Struk pembayaran Tol")
-  st.info ("- Rekapitulasi pembayaran Tol")
- 
-elif asal == "Belanja Sewa Hotel (Paket Meeting)":
-  st.info ("Dokumen Kelengkapan:")
-  st.info ("- Pesanan dari Pejabat Pengadaan/Pokja Pemilihan kepada penyedia")
-  st.info ("- Penawaran dari penyedia")
-  st.info ("- Invoice/kuitansi/bukti pembayaran/SPK/Surat Perjanjian dari penyedia")
-  st.info ("- Daftar hadir")
-  st.info ("- Undangan rapat/kegiatan")
-  st.info ("- Billing PPh Pasal 23")
-  st.info ("- Bukti Pembayaran Negara")
-  
-elif asal == "Belanja perawatan kendaraan bermotor":
-  st.info ("Dokumen Kelengkapan:")
-  st.info ("- Surat Permohonan Pemeliharaan Kendaraan yang diajukan oleh Pengguna")
-  st.info ("- Surat Jalan dari pengurus barang SKPD/UPTD dan di tanda tangani oleh penyedia")
-  st.info ("- Invoice, kuitansi dan faktur")
-  st.info ("- Billing PPh")
-  st.info ("- Bukti Penerimaan Negara")
-  st.info ("- Perjanjian kerjasama Pengguna Anggaran/ Kuasa Pengguna Anggaran / Pejabat Pembuat Komitmen dengan penyedia (dibuat oleh PPTK)")
-  st.text (" ")
-  st.text ("- PPN")
-  st.text ("- PPh Pasal 23 untuk jasa service")
-  st.text ("- PPh Pasal 22 untuk Pembelian Sparepart")
- 
-elif asal == "Belanja Jasa Penerangan/Iklan/Reklame/Film/Pemotretan":
+elif asal == "Belanja Jasa Pengumuman Lelang melalui Media Surat Kabar":
   st.info ("Dokumen Kelengkapan:")
   st.info ("- Bukti Pembayaran")
-  st.info ("- Surat Pesanan/Surat Perjanjian/Kontrak (MoU)")
+  st.info ("- Surat Pesanan")
   st.info ("- Surat Tagihan")
-  st.info ("- e-Faktur PPN, Billing PPN dan PPh 23, dan bukti penerimaan negara")
-  st.info ("- Bukti Terbit (untuk media cetak)")
-  st.info ("- Bukti Tayang: Jadwal siaran/penayangan, rekaman film, VCD, DVD dan CD (untuk media elektronik)")
+  st.info ("- Bukti Transfer/ SPPT ke pihak penyedia jasa jika pembayarannva melalui transfer")
+  st.info ("- Surat Kabar Hasil Pengumuman Lelang {dilampirkan)")
+  st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimann Pajak Negara sesuai ketentuan peraturan perundang-undang")
+
+elif asal == "Belanja Jasa Akomodasi":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Bukti Pembayaran")
+  st.info ("- Daftar hadir")
+  st.info ("- Surat undangan dari penyelenggara")
+  st.info ("- Surat pesanan")
+  st.info ("- Surat tagihan")
+  st.info ("- Bukti Transfer/ SPPT ke pihak penyedia jasa jika pembayarannya melalui transfer")
+
+elif asal == "Belanja Premi Asuransi":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Bukti pembayaran")
+  st.info ("- Fotocopy polis asuransi")
+  st.info ("- Bukti Transfer/ SPPT ke pihak penvedia barang/ jasa jika pembayarannya melalui transfer")
+
+elif asal == "Belanja Jasa Penerangan/ Iklan/ Reklame/ Film/ Pemotretan (Media Cetak)":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Bukti Pembayaran")
+  st.info ("- Surat Pesanan/ Surat Perjanjian Kerjasama/ Kontrak (MoU) jika belanja melalui Pesanan/ Kerjasama/ Kontrak (MoU]")
+  st.info ("- Surat Tagihan jika belanja melalui Surat Pesanan/ Surat Perjanjian Kerjasama/ Kontrak (MoU)")
+  st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
+  st.info ("- Bukti Terbit")
+  st.info ("- Bukti Transfer/ SPPT ke pihak penyedia barang/ jasa jika pembayarannya melalui transfer")
+
+elif asal == "Belanja Jasa Penerangan/ Iklan/ Reklame/ Film/ Pemotretan (Media Elektronik)":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Bukti Pembayaran")
+  st.info ("- Surat Pesanan/ Surat Perjanjian Kerjasama/ Kontrak (MoU) jika belanja melalui Pesanan/ Kerjasama/ Kontrak (MoU]")
+  st.info ("- Surat Tagihan jika belanja melalui Surat Pesanan/ Surat Perjanjian Kerjasama/ Kontrak (MoU)")
+  st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
+  st.info ("- Bukti Tayang : Jadwal Siaran/ Penayangan Rekaman Film, VCD, DVD, CD")
+  st.info ("- Bukti Transfer/ SPPT ke pihak penyedia barang/ jasa jika pembayarannya melalui transfer")
+
+elif asal == "Belanja Perawatan Kendaraan Bermotor (belanja servis, penggantian suku cadang, pelumas)":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Nota Dinas Usulan dari pengguna kendaraan operasional")
+  st.info ("- Bukti Pembelian/ Pembayaran")
+  st.info ("- Surat Pesanan/ Surat Perjanjian Kerjasama/ Kontrak (MoU) jika belanja melalui Pesanan/ Kerjasama/ Kontrak (MoU]")
+  st.info ("- Surat Tagihan jika belanja melalui Surat Pesanan/ Surat Perjanjian Kerjasama/ Kontrak (MoU)")
+  st.info ("- Bukti Transfer/ SPPT ke pihak penyedia barang/ jasa jika pembayarannya melalui transfer")
+  st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
+
+elif asal == "Belanja Perawatan Perlengkapan Kantor":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Bukti Pembayaran")
+  st.info ("- Faktur (invoice)")
+  st.info ("- Bukti Transfer/ SPPT ke pihak penyedia barang/ jasa jika pembayarannya melalui transfer")
+  st.info ("- e-Billing. e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
+
+elif asal == "Belanja Pemeliharaan Taman":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Bukti Pembayaran")
+  st.info ("- Faktur (invoice]")
+  st.info ("- Surat Pesanan/ Surat Perjanjian Kerjasama/ Kontrak (MoU) jika belanja melalui Pesanan/ Kerjasama/ Kontrak (MoU)")
+  st.info ("- Surat Tagihan jika belanja melalui Surat Pesanan/ Surat Perjanjian Kerjasama/ Kontrak (MoU)")
+  st.info ("- Bukti Transfer/ SPPT ke pihak penyedia barang/ jasa jika pembayarannya melalui transfer")
+  st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
+
+elif asal == "Belanja Cetak dan Penggandaan":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Bukti Pembelian/ Pembayaran")
+  st.info ("- Faktur Barang")
+  st.info ("- Surat Pesanan/ Surat Perjanjian Kerjasama/ Kontrak (MoU) jika belanja melalui Pesanan/ Kerjasama/ Kontrak (MoU)")
+  st.info ("- Surat Tagihan jika belanja melalui Surat Pesanan/ Surat Perjanjian Kerjasama/ Kontrak (MoU)")
+  st.info ("- Bukti Transfer/ SPPT ke pihak penyedia barang/ jasa jika pembayarannya melalui transfer")
+  st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
+
+elif asal == "Belanja Sewa Rumah/ Gedung/ Gudang/ Parkir/ Tempat":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Bukti Pembayaran")
+  st.info ("- Surat Perjanjian/ Kontrak (MoU) Sewa jika sewa menyewa dilakukan melalui perjanjian/ kontrak")
+  st.info ("- Surat Tagihan jika belanja melalui Surat Pesanan/ Surat Perjanjian Kerjasama/ Kontrak (MoU)")
+  st.info ("- Bukti Transfer/ SPPT jika pembayarannya melalui transfer")
+  st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
+
+elif asal == "Belanja Paket Meeting":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Surat Pesanan (SP)")
+  st.info ("- Berita Acara Pemeriksaan dan Serah Terima Pekerjaan")
+  st.info ("- Berita Acara Persetujuan Pembayaran")
+  st.info ("- Invoice/Kuitansi")
+  st.info ("- Daftar Kamar")
+  st.info ("- Daftar menu makanan")
+  st.info ("- Dokumentasi")
+
+elif asal == "Belanja Sewa Sarana Mobilitas":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Bukti Pembayaran")
+  st.info ("- Fotokopi STNK")
+  st.info ("- Surat Pesanan/ Surat Pejanjian Kerjasama/ Kontrak (MoU) jika belanja melalui Pesanan/ Kerjasama/ Kontrak (MoU)")
+  st.info ("- Surat Tagihan jika belanja melalui Surat Pesanan/ Surat Perjanjian Kerjasama/ Kontrak (MoU)")
+  st.info ("- Bukti Transfer/ SPPT jika pembayarannva melalui transfer")
+  st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
+
+elif asal == "Belanja Sewa Alat Berat":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Bukti Pembayaran")
+  st.info ("- Surat Pesanan/Surat Perjanjian Kerjasama/ Kontrak (MoU) jika belanja melalui Pesanan/ Kerjasama/ Kontrak (MoU}")
+  st.info ("- Surat Tagihan jika belanja melalui Surat Pesanan/ Surat Perjanjian Kerjasama/ Kontrak (MoU)")
+  st.info ("- Bukti Transfer/ SPPT jika pembayarannya melalui transfer")
+  st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
+
+elif asal == "Belanja Sewa Perlengkapan dan Peralatan Kantor":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Bukti Pembayaran")
+  st.info ("- Faktur (Invoice)")
+  st.info ("- Surat Pesanan/ Surat Pejanjian Kerjasama/ Kontrak (MoU) jika belanja melalui Pesanan/ Kerjasama/ Kontrak (MoU)")
+  st.info ("- Surat Tagihan jika belanja melalui Surat Pesanan/ Surat Perjanjian Kerjasama/ Kontrak (MoU)")
+  st.info ("- Bukti Transfer/ SPPT ke pihak penyedia barang/ jasa jika pembayarannya melalui transfer")
+  st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
+
+elif asal == "Belanja Sewa Perlengkapan dan Peralatan Kantor":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Bukti Pembayaran/Pembayaran dan Faktur")
+  st.info ("- Undangan Rapat/ Nota Dinas Permohonan/ Surat perintahLembur")
+  st.info ("- Surat Pesanan/ Surat Pejanjian Kerjasama/ Kontrak (MoU) jika belanja melalui Pesanan/ Kerjasama/ Kontrak (MoU)")
+  st.info ("- Surat Tagihan jika belanja melalui Surat Pesanan/ Surat Perjanjian Kerjasama/ Kontrak (MoU)")
+  st.info ("- Daftar Hadir")
+  st.info ("- Bukti Transfer/ SPPT ke pihak penyedia barang/ jasa jika pembayarannya melalui transfer")
+  st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
+
+elif asal == "Perjalanan Dinas Dalam Kota/ Kabupaten":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Surat Undangan/ Surat Perintah dengan jadwal yang terlampir (minimal 8 jam)")
+  st.info ("- Rincian Biaya Perjalanan Dinas (SPD Rampung)")
+  st.info ("- Daftar Penerimaan Uang Harian dan atau Uang Saku")
+  st.info ("- Tanda Bukti Akomodasi meliputi Kuitansi/ Nota/ Faktur/ Bill/ yang memuat nama Pelaksana perjalanan dinas dari Hotel yang telah distempel oleh penyedia atau dari situs penyedia jasa akomodasi (jika lebih dari 4 hari)")
+  st.info ("- Tanda Bukti Transportasi meliputi: Struk BBM dan Struk Tol")
+  st.info ("- Bukti Transfer/ SPPT dan atau kuitansi pembayaran sesuai dengan jumlah pada SPD Rampung")
+  st.info ("- Surat Perjalanan Dinas (SPD)/ Visum ditandatangani dan dicap/ stempel oleh pejabat yang berwenang/ pihak terkait (tempat tujuan/ tempat pelaksanaan kegiatan)")
+  st.info ("- Laporan perjalanan dinas dibuat, dilaporkan kepada pemberi perintah dan diarsipkan")
+
+elif asal == "Belanja Perjalanan Dinas Paket Meeting":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Surat Undangan")
+  st.info ("- Surat Perintah")
+  st.info ("- Visum")
+  st.info ("- Rampung")
+  st.info ("- Daftar Nominatif")
+  st.info ("- BBM + Tol")
+  st.info ("- Laporan Perjalanan Dinas")
+  st.info ("- Dokumentasi")
+
+elif asal == "Perjalanan Dinas Dalam Daerah (Kabupaten/ Kota)":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Surat Undangan/ Surat Perintah")
+  st.info ("- Rincian Biaya Pejalanan Dinas (SPD Rampung)")
+  st.info ("- Daftar Penerimaan Uang Harian dan atau Uang Saku")
+  st.info ("- Tanda Bukti Akomodasi meliputi: Kuitansi / Nota/ Faktur/ Bill yang memuat nama Pelaksana perjalanan dinas dari Hotel yang telah distempel oleh penyedia atau dari situs penyedia jasa akomodasi (jika lebih dari 1 hari)")
+  st.info ("- Tanda Bukti Transportasi meliputi: 1.Perjalanan Dinas Dalam Daerah (Kabupaten/ Kota) Tiket Bus/ Bukti Pembelian Tiket Kereta Api dan atau Tiket Kereta Api beserta Boarding Pass, 2.Jika menggunakan kendaraan dinas/ operasional, laınpirkan: Struk atau Nota BBM dan Bukti Tol, 3. Jika menggunakan Sewa Kendaraan, lampirkan: 1.Kuitansi/ Nota/ Faktur Sewa Kendaraan, 2.Fotocopy STNK Kendaraan: Sewa kendaraan hanya diperuntukkan bagi Pejabat Negara yang melakukan pejalanan dinas dalam negeri di tempat tujuan dan Pelaksanaan Kegiatan yang membutuhkan mobilitas tînggi, berskala besar, dan tidak tersedia kendaraan dinas serta dilakukan secara selektif dan efisien; Satuan biaya sewa kendaraan sııdah termasuk bahan bakar dan pengemudi)")
+  st.info ("- Bukti Transfer/ SPPT dan atau kuitansi pembayaran sesuai dengan jumlah pada SPD Rampung")
+  st.info ("- Surat Pejalanan Dinas (SPD)/ Visum ditandatangani dan dicap/ stempel oleh pejabat yang berwenang/ pihak terkait (tempat tujuan/ tempat pelaksanaan Kegiatan)")
+  st.info ("- Laporan pejalanan dinas dibuat, dilaporkan kepada pemberi perintah dan diarsipkan")
+  st.info ("- Surat Undangan")
+  st.info ("- Surat Perintah")
+  st.info ("- Visum")
+  st.info ("- Rampung")
+  st.info ("- Daftar Nominatif")
+  st.info ("- Uang Refresentatif")
+  st.info ("- BBM + Tol")
+  st.info ("- Invoice Hotel")
+  st.info ("- Laporan Perjalanan Dinas")
+  st.info ("- Dokumentasi")
+
+elif asal == "Belanja Perjalanan Dinas Luar Provinsi":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Surat Undangan/ Surat Perintah")
+  st.info ("- Rincian Biaya Pejalanan Dinas (SPD Rampung)")
+  st.info ("- Daftar Penerimaan Uang Harian dan atau Uang Saku dan Uang Taksi")
+  st.info ("- Tanda Bukti Akomodasi meliputi: Kuitansi / Nota/ Faktur/ Bill yang memuat nama Pelaksana perjalanan dinas dari Hotel yang telah distempel oleh penyedia atau dari situs penyedia jasa akomodasi (jika lebih dari 1 hari)")
+  st.info ("- Tanda Bukti Transportasi Tiket Bus/ Tiket Pesawat beserta Boarding Pass/ Tiket Kereta Api beserta Boarding pass/ Kuitansi Sewa Kendaraan (Sewa kendaraan hanya diperbolehkan jika kegiatan dilaksanakan di luar Ibu Kota Provinsi dan dilengkapi dengan Surat Keterangan yang rnenjelaskan lokasi tujuan pejalanan dinas)")
+  st.info ("- Bukti Transfer/ SPPT dan atau kuitansi pembayaran sesuai dengan jumlah pada SPD Rampung")
+  st.info ("- Surat Pejalanan Dinas (SPD)/ Visum ditandatangani dan dicap/ stempel oleh pejabat yang berwenang/ pihak terkait (tempat tujuan/ tempat pelaksanaan Kegiatan)")
+  st.info ("- Laporan pejalanan dinas dibuat, dilaporkan kepada pemberi perintah dan diarsipkan")
+  st.info ("- Surat Undangan")
+  st.info ("- Surat Perintah")
+  st.info ("- Visum")
+  st.info ("- Rampung")
+  st.info ("- Daftar Nominatif")
+  st.info ("- Uang Refresentatif")
+  st.info ("- Bukti transport")
+  st.info ("- E-tiket dari maskapai")
+  st.info ("- Boardingpass")
+  st.info ("- Invoice Hotel")
+  st.info ("- Laporan Perjalanan Dinas")
+  st.info ("- Dokumentasi")
+
+elif asal == "Belanja Perjalanan Dinas Luar Negeri":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Surat Perintah/Surat Undangan Pejalanan Dinas ke Luar Negeri dapat dilaksanakan setelah mendapat ijin dari Gubernur")
+  st.info ("- Passport Biru (Dinas)")
+  st.info ("- Rincian Biaya Pejalanan Dinas (SPD Rampung)")
+  st.info ("- Daftar Penerimaan Uang Harian")
+  st.info ("- Bukti Pembayaran pengurusan Passport/Visa/Exit Permitted yang dibubuhi tandatangan keberangkatan dan kepulangan (Imigrasi)")
+  st.info ("- Tanda Bukti Transportasi : Tiket Bus /Tiket Pesawat beserta Boording pass/ Tiket Kereta Api beserta boarding pass/ Kuitansi Sewa Kendaraan")
+  st.info ("- Tanda Bukti akomodasi meliputi Kuitansi/ Nota/ Faktur/Bill yang memuat nama Pelaksana perjalanan dinas dari Hotel yang telah distempel oleh penyedia atau dari situs penyedia jasa akomodasi (jika lebih dari 1 hari)")
+  st.info ("- Bukti Transfer/ SPPT dan atau kuitansi pembayaran sesuai dengan jumlah pada SPD Rampung")
+  st.info ("- Surat Pejalanan Dinas (SPD)/ Visum ditandatangani dan dicap/ stempel oleh pejabat yang berwenang/ pihak terkait (tempat tujuan/ tempat pelaksanaan Kegiatan)")
+  st.info ("- Laporan pejalanan dinas dibuat, dilaporkan kepada pemberi perintah dan diarsipkan")
+  st.info ("- Kerangka Acuan Kerja (KAK)")
+  st.info ("- Persuratan")
+  st.info ("- SK Tim")
+  st.info ("- Usulan peserta ke Kemendagri")
+  st.info ("- Rekomendasi dari Kemendagri ke Setneg")
+  st.info ("- Surat Ijin dari Setneg")
+  st.info ("- Surat Perintah")
+  st.info ("- Visum")
+  st.info ("- Rampung")
+  st.info ("- Daftar Nominatif")
+  st.info ("- Uang Refresentatif")
+  st.info ("- Bukti transport")
+  st.info ("- Paspor Biru (foto copy yang ada cap kedatangan/ kepulangan)")
+  st.info ("- Visa (foto copy yang ada cap kedatangan/kepulangan)")
+  st.info ("- E_tiket dari maskapai")
+  st.info ("- Boardingpass")
+  st.info ("- Invoice Hotel")
+  st.info ("- Laporan Perjalanan Dinas")
+  st.info ("- Bukti penyampaian laporan ke Kemendagri")
+  st.info ("- Dokumentasi")
+
+elif asal == "Belanja Perjalanan Dinas Bagi Non PNS Dinas Dalam dan Luar Daerah":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Surat undangan/ Surat Perintah")
+  st.info ("- Rincian Biaya Pejalanan Dinas (SPD Rampung)")
+  st.info ("- Daftar Penerimaan Uang Harian dan atau Uang Saku dan Uang Taksi")
+  st.info ("- Tanda Bukti Akomodasi meliputi: Kuitansi/ Nota/ Faktur/ Bill yang memuat nama Pelaksana perjalanan dinas dari Hotel yang telah distempel oleh penyedia atau dari situs penyedia jasa akomodasi (jika lebih dari 1 hari)")
+  st.info ("- Tanda Bukti Transportasi Tiket Bus/ Tiket Pesawat beserta Boarding Pass/ Tiket Kereta Api beserta Boarding pass/ Kuitansi Sewa Kendaraan (Sewa kendaraan hanya diperbolehkan jika kegiatan dilaksanakan di luar Ibu Kota Provinsi dan dilengkapi dengan Surat Keterangan yang rnenjelaskan lokasi tujuan pejalanan dinas)")
+  st.info ("- Bukti Transfer/ SPPT dan atau kuitansi pembayaran sesuai dengan jumlah pada SPD Rampung")
+  st.info ("- Surat Perjalanan Dinas (SPD)/ Visum ditandatangani dan dicap/ stempel oleh pejabat yang berwenang/ pihak terkait (tempat tujuan/ tempat pelaksanaan kegiatan)")
+  st.info ("- Laporan pejalanan dinas dibuat, dilaporkan kepada pemberi perintah dan diarsipkan")
+
+elif asal == "Belanja PNS yang mengikuti Diklat Jabatan Struktural/ Fungsional yang dilaksanakan oleh Instansi Daerah lain, Instansi Provinsi, Instansi Pusat maupun Organisasi Diklat lainnya":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Radiogram/ Surat Pemberitahuan untuk mengikuti Diklat")
+  st.info ("- Surat Perintah")
+  st.info ("- Surat Perjalanan Dinas (SPD)/ Visum ditandatangani oleh pejabat yang berwenang")
+  st.info ("- Rincian Biaya Perjalanan Dinas dilengkapi dengan Daftar Penerimaan Uang harian dan Uang Taksi, Akomodasi, dan sewa kendaraan/ Tiket")
+  st.info ("- Jadwal Diklat")
+  st.info ("- Bukti Transfer/ SPPT dan atau kuitansi pembayaran sesuai dengan jumlah pada SPD Rampung")
+  st.info ("- Fotocopy Sertifikat telah mengikuti Diklat")
+
+elif asal == "PNS yang mengikuti Diklat/ Bimtek apabila lebih dari 3 (tiga) hari yang harus ada biaya kontribusi":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Surat Undangan/ Radiogram dari Bagian Kepegawaian atau penyelenggara")
+  st.info ("- Surat Perintah")
+  st.info ("- Kuitansi uang harian dan uang saku")
+  st.info ("- Fotokopi sertifikat")
+
+elif asal == "Biaya sewa stand pameran tingkat provinsi dan tingkat nasional":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Surat Undangan dari penyelenggara")
+  st.info ("- Surat Perintah")
+  st.info ("- Bukti Pembayaran")
+  st.info ("- Bukti Transfer/ SPPT ke pihak penyedia barang/ jasa jika pembayarannya melalui transfer")
+  st.info ("- Bukti Dokumentasi")
+
+elif asal == "Belanja Paket Meeting":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Surat Pesanan (SP)")
+  st.info ("- Berita Acara Pemeriksaan dan Serah Terima Pekerjaan")
+  st.info ("- Permohonan Pembayaran")
+  st.info ("- Berita Acara Persetujuan Pembayaran")
+  st.info ("- Invoice/Kuitansi")
+  st.info ("- Daftar Kamar")
+  st.info ("- Daftar menu makanan")
+  st.info ("- Dokumentasi")
+
+elif asal == "Perjalanan Dinas Paket Meeting":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Surat Undangan")
+  st.info ("- Surat Perintah")
+  st.info ("- Visum")
+  st.info ("- Rampung")
+  st.info ("- Daftar Nominatif")
+  st.info ("- BBM + Tol")
+  st.info ("- Laporan Perjalanan Dinas")
+  st.info ("- Dokumentasi")
+
+elif asal == "Belanja Makan minum rapat":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Surat Undangan")
+  st.info ("- Bukti Pembelian")
+  st.info ("- Daftar Hadir")
+  st.info ("- Notulensi Rapat")
+  st.info ("- ID Billing PPh 22/PPh 23")
+  st.info ("- e-bupot")
+  st.info ("- Dokumentasi")
+
+elif asal == "Belanja Makan minum tamu":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Surat Undangan")
+  st.info ("- Proses Pengadaan Barang dan Jasa")
+  st.info ("- Bukti Pembelian")
+  st.info ("- ID Billing PPh 22/PPh 23")
+  st.info ("- e-bupot")
+  st.info ("- Dokumentasi")
+
+elif asal == "Belanja Konstruksi":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Surat Perintah Kerja/Surat Perjanjian")
+  st.info ("- Surat Perintah Mulai Kerja (SPMK)")
+  st.info ("- Berita Acara Serah Terima Pekerjaan")
+  st.info ("- Permohonan Pembayaran")
+  st.info ("- Berita Acara Persetujuan Pembayaran")
+  st.info ("- Kuitansi")
+  st.info ("- Faktur Pajak")
+  st.info ("- ID Billing PPN dan PPh Ps.4 ayat 2")
+  st.info ("- Dokumentasi")
+
+elif asal == "Belanja Tenaga Ahli Non Sertifikat":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Kerangka Acuan Kerja (KAK)")
+  st.info ("- Curriculum Vitae/Portopolio")
+  st.info ("- Surat Perjanjian Kerja")
+  st.info ("- Laporan Pekerjaan")
+  st.info ("- Daftar Hadir")
+  st.info ("- Daftar Nominatif (Tanda Terima)")
+  st.info ("- ID Billing PPh 21")
+  st.info ("- e_bupot")
+
+elif asal == "Belanja Modal Pengadaan Tanah":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Keputusan Gubernur tentang Penetapan Lokasi Pengadaan Tanah")
+  st.info ("- Keputusan Kepala BPN tentang Susunan Keanggotaan Pelaksana Pengadaan Tanah")
+  st.info ("- Laporan Appraisal")
+  st.info ("- Berita cara Kesepakatan Harga")
+  st.info ("- Validasi pemberian Ganti Kerugian dari BPN")
+  st.info ("- Daftar penerimaan pembayaran dan atau bukti penerimaan konsinyasi dalam hal penyelesaian pengadaan lahan melalui pengadilan")
+  st.info ("- Bukti Transfer/ SPPT ke pihak pemilik")
+  st.info ("- e-Billing, e-Faktur PPN dan bukti penerimaan pajak negara sesuai ketentuan peraturan perundang-undang")
+
+elif asal == "Belanja Modal Pengadaan Perlengkapan Kantor/Peralatan dan Mesin/Alat-alat Bengkel/Peralatan Dapur/Penghias Ruangan/Alat-alat Studio/Buku/ Perpustakaan/Belanja Model sejenis lainnya)":
+  st.info ("Dokumen Kelengkapan:")
+  st.info ("- Bukti Pembelian/Pembayaran")
+  st.info ("- Faktur Barang")
+  st.info ("- Surat Pesanan/ Surat Perjanjian Ker]jasama/ Kontrak (MoU) jika belanja melalui Pesanan/ Kerjasama/ Kontra (MoU)")
+  st.info ("- Surat Tagihan jika belanja melalui Surat Pesanan/ Surat Perjanjian Kerjasama/ Kontrak (MoU}")
+  st.info ("- Bukti Transfer/ SPPT ke pihak penyedia barang/ jasa jika pembayarannya melalui transfer")
+  st.info ("- e-Billing, e-faktur PPN dan bukti penerimaan pajak negara sesuai ketentuan peraturan perundang-undang")
+ 
   st.info ("- Bukti Transfer")
   
