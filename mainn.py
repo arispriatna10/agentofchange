@@ -7,7 +7,7 @@ st.set_page_config(
 
 st.info("""
 # Aplikasi Cek BBM
-Ini adalah aplikasi mengecek kebutuhan Bahan Bakar Perjalanan Dinas yang mengacu pada Standar Biaya Kebutuhan Bahan Bakar Kendaraan Perjalanan Dinas yang dapat diakses pada link berikut https://drive.google.com/file/d/1bdTsk07F3s_nfRUEd6_uDbTR0fru7Tks/view?usp=sharing
+Ini adalah aplikasi mengecek kebutuhan besaran maksimal liter bahan bakar yang dapat digunakan pada saat melaksanakan perjalanan dinas luar kota dalam Provinsi Jawa Barat yang mengacu pada Standar Biaya Kebutuhan Bahan Bakar Kendaraan Perjalanan Dinas yang dapat diakses pada link berikut https://drive.google.com/file/d/1bdTsk07F3s_nfRUEd6_uDbTR0fru7Tks/view?usp=sharing
 """)
 
 
