@@ -509,7 +509,7 @@ elif asal == "Belanja Modal Pengadaan Tanah":
   st.info ("- Bukti Transfer/ SPPT ke pihak pemilik")
   st.info ("- e-Billing, e-Faktur PPN dan bukti penerimaan pajak negara sesuai ketentuan peraturan perundang-undang")
 
-elif asal == "Belanja Modal Pengadaan Perlengkapan Kantor/Peralatan dan Mesin/Alat-alat Bengkel/Peralatan Dapur/Penghias Ruangan/Alat-alat Studio/Buku/ Perpustakaan/Belanja Model sejenis lainnya)":
+elif asal == "Belanja Modal Pengadaan Perlengkapan Kantor/Peralatan dan Mesin/Alat-alat Bengkel/Peralatan Dapur/Penghias Ruangan/Alat-alat Studio/Buku/ Perpustakaan/Belanja Model sejenis lainnya":
   st.info ("Dokumen yang perlu dilengkapi untuk Belanja Modal Pengadaan Perlengkapan Kantor/Peralatan dan Mesin/Alat-alat Bengkel/Peralatan Dapur/Penghias Ruangan/Alat-alat Studio/Buku/ Perpustakaan/Belanja Model sejenis lainnya):")
   st.info ("- Bukti Pembelian/Pembayaran")
   st.info ("- Faktur Barang")
