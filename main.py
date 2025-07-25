@@ -24,7 +24,7 @@ original_list = ["Pilih Jenis Belanja",
                 "Belanja Pajak Bumi dan Bangunan (PBB)",
                 "Belanja Surat Tanda Nomor Kendaraan",
                 "Belanja Jasa KIR",
-                "Belanja Surat Tanda Nomor Kendaraan",
+                "Belanja Jasa Uji Laboratorium/ Uji Sampling",
                 "Belanja Jasa Profesi (tenaga pengajar, penceramah/ narasumber / notulen/ Instruktur/ Wakil Instruktur/ Pembina Instruktur/ Moderator/ Pengamat Kelas)",
                 "Belanja Jasa Pengumuman Lelang melalui Media Surat Kabar",
                 "Belanja Jasa Akomodasi",
@@ -153,7 +153,7 @@ elif asal == "Belanja Jasa KIR":
   st.info ("- Bukti Pembayaran KIR")
   st.info ("- Bukti Transfer/ SPPT jika pembayarannya melalui transfer")
 
-elif asal == "Belanja Surat Tanda Nomor Kendaraan":
+elif asal == "Belanja Jasa Uji Laboratorium/ Uji Sampling":
   st.info ("Dokumen yang perlu dilengkapi untuk Belanja Surat Tanda Nomor Kendaraan:")
   st.info ("- Bukti Pembayaran")
   st.info ("- Bukti Transfer/ SPPT ke pihak penyedia jasa jika pembayarannya melalui transfer")
