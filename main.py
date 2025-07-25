@@ -134,7 +134,7 @@ elif asal == "Belanja Jasa Paket Pengiriman/ Kebersihan/ Keamanan/ Pengelolaan A
   st.info ("- Bukti Transfer/ SPPT ke pihak penyedia barang/ jasa jika pembayarannya melalui transfer")
   st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimann Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
-elif asal == "Belanja Pajak Buml dan Bangunan (PBB)":
+elif asal == "Belanja Pajak Bumi dan Bangunan (PBB)":
   st.info ("Dokumen yang perlu dilengkapi untuk Belanja Pajak Buml dan Bangunan (PBB):")
   st.info ("- Surat Pemberitahuan Pajak Terutang PBB (SPPT PBB)")
   st.info ("- Bukti Pembayaran Pajak Bumi dan Bangunan")
