@@ -9,7 +9,7 @@ st.set_page_config(
 
 st.info("""
 # Aplikasi Cek Kelengkapan Dokumen SPJ
-Ini adalah aplikasi untuk mengecek Dokumen Kelengkapan SPJ yang mengacu pada Handbook Penatausahaan Keuangan yang dapat diakses pada link berikut "https://drive.google.com/file/d/1Mztwn26NKliPXlurodgqX044EuJLPugd/view?usp=sharing"
+Ini adalah aplikasi untuk mengecek Dokumen Kelengkapan SPJ yang mengacu pada Handbook Penatausahaan Keuangan yang dapat diakses pada link berikut https://drive.google.com/file/d/1Mztwn26NKliPXlurodgqX044EuJLPugd/view?usp=sharing
 """)
 
 original_list = ["Pilih Jenis Belanja",
