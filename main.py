@@ -154,7 +154,7 @@ elif asal == "Belanja Jasa KIR":
   st.info ("- Bukti Transfer/ SPPT jika pembayarannya melalui transfer")
 
 elif asal == "Belanja Jasa Uji Laboratorium/ Uji Sampling":
-  st.info ("Dokumen yang perlu dilengkapi untuk Belanja Surat Tanda Nomor Kendaraan:")
+  st.info ("Dokumen yang perlu dilengkapi untuk Belanja Jasa Uji Laboratorium/ Uji Sampling:")
   st.info ("- Bukti Pembayaran")
   st.info ("- Bukti Transfer/ SPPT ke pihak penyedia jasa jika pembayarannya melalui transfer")
   st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
