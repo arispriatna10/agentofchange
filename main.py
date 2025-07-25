@@ -159,7 +159,7 @@ elif asal == "Belanja Surat Tanda Nomor Kendaraan":
   st.info ("- Bukti Transfer/ SPPT ke pihak penyedia jasa jika pembayarannya melalui transfer")
   st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
-elif asal == "Belanja Jasa Profesi (tenaga pengajar, penceramah/ narasumber / notulen/ Instruktur/ Wakll Instruktur/ Pembina Instruktur/ Moderator/ Pengamat Kelas)":
+elif asal == "Belanja Jasa Profesi (tenaga pengajar, penceramah/ narasumber / notulen/ Instruktur/ Wakil Instruktur/ Pembina Instruktur/ Moderator/ Pengamat Kelas)":
   st.info ("Dokumen yang perlu dilengkapi untuk Belanja Jasa Profesi (tenaga pengajar, penceramah/ narasumber / notulen/ Instruktur/ Wakll Instruktur/ Pembina Instruktur/ Moderator/ Pengamat Kelas):")
   st.info ("- Curriculum vitae (CV)/Biodata")
   st.info ("- Surat Pcrmohonan Permintaan Narasumber")
