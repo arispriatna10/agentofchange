@@ -43,7 +43,7 @@ if nilai_str:
         
         if kena_ppn:
             ppn = calculate_ppn(dppcoretax)
-            st.info(f"**DPP (Dasar Pengenaan Pajak) PPN - Faktur Pajak Coretax = ** Rp {format_ribuan(dppcoretax)}")
+            st.info(f"**DPP (Dasar Pengenaan Pajak) PPN - Faktur Pajak Coretax =** Rp {format_ribuan(dppcoretax)}")
             st.info(f"**PPN (12%) = Rp {format_ribuan(ppn)}**")
             st.write("")    
             st.write("")
