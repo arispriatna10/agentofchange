@@ -8,8 +8,13 @@ def calculate_dpp(nilai, kena_ppn):
         return (100 / 111) * nilai
     return nilai
 
+def calculate_dppcoretax(nilai, kena_ppncoretax):
+    if kena_ppn:
+        return (100 / 111) * (11 / 12) * nilai
+    return nilai     
+
 def calculate_ppn(dpp):
-    return 0.11 * dpp
+    return 0.12 * dppcoretax
 
 def calculate_pph22(dpp):
     return 0.015 * dpp
@@ -32,13 +37,15 @@ if nilai_str:
     try:
         nilai = float(nilai_str.replace(".", "").replace(",", "."))
         dpp = calculate_dpp(nilai, kena_ppn)
+        dppcoretax = calculate_dppcoretax(nilai, kena_ppncoretax)
 
         st.write(f"**Nilai Transaksi:** Rp {format_ribuan(nilai)}")
-        st.info(f"**DPP (Dasar Pengenaan Pajak):** Rp {format_ribuan(dpp)}")
-
+        st.info(f"**DPP (Dasar Pengenaan Pajak) PPh:** Rp {format_ribuan(dpp)}")
+        st.info(f"**DPP (Dasar Pengenaan Pajak) Coretax:** Rp {format_ribuan(dppcoretax)}")
+        
         if kena_ppn:
-            ppn = calculate_ppn(dpp)
-            st.info(f"**PPN (11%) = Rp {format_ribuan(ppn)}**")
+            ppn = calculate_ppn(dppcoretax)
+            st.info(f"**PPN (12%) = Rp {format_ribuan(ppn)}**")
 
         if jenis_pph == "PPh 22":
             pph22 = calculate_pph22(dpp)
