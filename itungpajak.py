@@ -47,6 +47,7 @@ if nilai_str:
             st.info(f"**PPN (12%) = Rp {format_ribuan(ppn)}**")
             
         st.write("")    
+        st.write("")    
         st.info(f"**DPP (Dasar Pengenaan Pajak) PPh:** Rp {format_ribuan(dpp)}")        
         if jenis_pph == "PPh 22":
             pph22 = calculate_pph22(dpp)
