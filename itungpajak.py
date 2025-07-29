@@ -8,7 +8,7 @@ def calculate_dpp(nilai, kena_ppn):
         return (100 / 111) * nilai
     return nilai
 
-def calculate_dppcoretax(nilai, kena_ppncoretax):
+def calculate_dppcoretax(nilai, kena_ppn):
     if kena_ppn:
         return (100 / 111) * (11 / 12) * nilai
     return nilai     
@@ -37,7 +37,7 @@ if nilai_str:
     try:
         nilai = float(nilai_str.replace(".", "").replace(",", "."))
         dpp = calculate_dpp(nilai, kena_ppn)
-        dppcoretax = calculate_dppcoretax(nilai, kena_ppncoretax)
+        dppcoretax = calculate_dppcoretax(nilai, kena_ppn)
 
         st.write(f"**Nilai Transaksi:** Rp {format_ribuan(nilai)}")
         st.info(f"**DPP (Dasar Pengenaan Pajak) PPh:** Rp {format_ribuan(dpp)}")
