@@ -324,23 +324,15 @@ elif asal == "Belanja Perjalanan Dinas Paket Meeting":
 
 elif asal == "Perjalanan Dinas Dalam Daerah (Kabupaten/ Kota)":
   st.info ("Dokumen yang perlu dilengkapi untuk Perjalanan Dinas Dalam Daerah (Kabupaten/ Kota):")
-  st.info ("- Surat Undangan/ Surat Perintah")
+  st.info ("- Surat Undangan (Jika menghadiri rapat)")
+  st.info ("- Surat Perintah")
   st.info ("- Rincian Biaya Pejalanan Dinas (SPD Rampung)")
   st.info ("- Daftar Penerimaan Uang Harian dan atau Uang Saku")
   st.info ("- Tanda Bukti Akomodasi meliputi: Kuitansi / Nota/ Faktur/ Bill yang memuat nama Pelaksana perjalanan dinas dari Hotel yang telah distempel oleh penyedia atau dari situs penyedia jasa akomodasi (jika lebih dari 1 hari)")
   st.info ("- Tanda Bukti Transportasi meliputi: 1.Perjalanan Dinas Dalam Daerah (Kabupaten/ Kota) Tiket Bus/ Bukti Pembelian Tiket Kereta Api dan atau Tiket Kereta Api beserta Boarding Pass, 2.Jika menggunakan kendaraan dinas/ operasional, laınpirkan: Struk atau Nota BBM dan Bukti Tol, 3. Jika menggunakan Sewa Kendaraan, lampirkan: 1.Kuitansi/ Nota/ Faktur Sewa Kendaraan, 2.Fotocopy STNK Kendaraan: Sewa kendaraan hanya diperuntukkan bagi Pejabat Negara yang melakukan pejalanan dinas dalam negeri di tempat tujuan dan Pelaksanaan Kegiatan yang membutuhkan mobilitas tînggi, berskala besar, dan tidak tersedia kendaraan dinas serta dilakukan secara selektif dan efisien; Satuan biaya sewa kendaraan sııdah termasuk bahan bakar dan pengemudi)")
   st.info ("- Bukti Transfer/ SPPT dan atau kuitansi pembayaran sesuai dengan jumlah pada SPD Rampung")
   st.info ("- Surat Pejalanan Dinas (SPD)/ Visum ditandatangani dan dicap/ stempel oleh pejabat yang berwenang/ pihak terkait (tempat tujuan/ tempat pelaksanaan Kegiatan)")
-  st.info ("- Laporan pejalanan dinas dibuat, dilaporkan kepada pemberi perintah dan diarsipkan")
-  st.info ("- Surat Undangan")
-  st.info ("- Surat Perintah")
-  st.info ("- Visum")
-  st.info ("- Rampung")
-  st.info ("- Daftar Nominatif")
-  st.info ("- Uang Refresentatif")
-  st.info ("- BBM + Tol")
-  st.info ("- Invoice Hotel")
-  st.info ("- Laporan Perjalanan Dinas")
+  st.info ("- Laporan pejalanan dinas dibuat, dilaporkan kepada pemberi perintah dan diarsipkan")    
   st.info ("- Dokumentasi")
 
 elif asal == "Belanja Perjalanan Dinas Luar Provinsi":
