@@ -39,11 +39,11 @@ if nilai_str:
         dpp = calculate_dpp(nilai, kena_ppn)
         dppcoretax = calculate_dppcoretax(nilai, kena_ppn)
 
-        st.write(f"**Nilai Transaksi:** Rp {format_ribuan(nilai)}")        
-        st.info(f"**DPP (Dasar Pengenaan Pajak) PPN Coretax:** Rp {format_ribuan(dppcoretax)}")
+        st.write(f"**Nilai Transaksi:** Rp {format_ribuan(nilai)}")                
         
         if kena_ppn:
             ppn = calculate_ppn(dppcoretax)
+            st.info(f"**DPP (Dasar Pengenaan Pajak) PPN Coretax:** Rp {format_ribuan(dppcoretax)}")
             st.info(f"**PPN (12%) = Rp {format_ribuan(ppn)}**")
             
         st.write("")    
