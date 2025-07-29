@@ -49,7 +49,7 @@ if nilai_str:
             st.write("")
           
             
-        st.success(f"**DPP (Dasar Pengenaan Pajak) PPh - e-bupot = ** Rp {format_ribuan(dpp)}")        
+        st.success(f"**DPP (Dasar Pengenaan Pajak) PPh - e-bupot :** Rp {format_ribuan(dpp)}")        
         if jenis_pph == "PPh 22":
             pph22 = calculate_pph22(dpp)
             st.warning(f"**PPh 22 (1,5%) = Rp {format_ribuan(pph22)}**")
