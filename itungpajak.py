@@ -61,7 +61,7 @@ if nilai_str:
                 pph22 = calculate_pph22(dpp)
                 st.warning(f"**PPh 22 (1,5%) = Rp {format_ribuan(pph22)}**")
             else:
-                st.info("PPh 22 tidak dikenakan untuk transaksi ≤ Rp 2.000.000.")
+                st.error("PPh 22 tidak dikenakan untuk transaksi ≤ Rp 2.000.000.")
         elif jenis_pph == "PPh 23":
             st.success(f"**DPP (Dasar Pengenaan Pajak) PPh - e-bupot =** Rp {format_ribuan(dpp)}") 
             pph23 = calculate_pph23(dpp)
