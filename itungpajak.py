@@ -35,21 +35,30 @@ nilai_str = st.text_input(":blue[Masukkan Nilai Transaksi (misal: 1.000.000)]")
 
 if nilai_str:
     try:
-        nilai = float(nilai_str.replace(".", "").replace(",", "."))
+        nilai = float(nilai_str.replace(".", "").replace(",", "."))       
         dpp = calculate_dpp(nilai, kena_ppn)
-        dppcoretax = calculate_dppcoretax(nilai, kena_ppn)
+        dppcoretax = calculate_dppcoretax(nilai, kena_ppn)          
 
-        st.write(f"**Nilai Transaksi:** Rp {format_ribuan(nilai)}")                
+        st.write(f"**Nilai Transaksi:** Rp {format_ribuan(nilai)}")   
+
+        dppcoretax_kena_ppn = dppcoretax > 2_000_000
+        dpp_kena_pph22 = dpp > 2_000_000
+
         
-        if kena_ppn:
+        if kena_ppn and dppcoretax_kena_ppn:
             ppn = calculate_ppn(dppcoretax)
             st.info(f"**DPP (Dasar Pengenaan Pajak) PPN - Faktur Pajak Coretax =** Rp {format_ribuan(dppcoretax)}")
             st.info(f"**PPN (12%) = Rp {format_ribuan(ppn)}**")          
+        elif kena_ppn:
+            st.info(f"**DPP PPN (Coretax) = Rp {format_ribuan(dppcoretax)}** → Tidak dikenakan PPN karena ≤ Rp 2.000.000")
             
         st.success(f"**DPP (Dasar Pengenaan Pajak) PPh - e-bupot =** Rp {format_ribuan(dpp)}")        
         if jenis_pph == "PPh 22":
-            pph22 = calculate_pph22(dpp)
-            st.warning(f"**PPh 22 (1,5%) = Rp {format_ribuan(pph22)}**")
+            if dpp_kena_pph22:
+                pph22 = calculate_pph22(dpp)
+                st.warning(f"**PPh 22 (1,5%) = Rp {format_ribuan(pph22)}**")
+            else:
+                st.info(f"DPP = Rp {format_ribuan(dpp)} → Tidak dikenakan PPh 22 karena ≤ Rp 2.000.000")
         elif jenis_pph == "PPh 23":
             pph23 = calculate_pph23(dpp)
             st.warning(f"**PPh 23 (2%) = Rp {format_ribuan(pph23)}**")
