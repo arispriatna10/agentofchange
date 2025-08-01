@@ -39,12 +39,6 @@ if nilai_str:
         dpp = calculate_dpp(nilai, kena_ppn)
         dppcoretax = calculate_dppcoretax(nilai, kena_ppn)
 
-        # ⬇⬇⬇ Tambahan dimulai dari sini (tidak mengganti kode manapun di atasnya)
-        if kena_ppn and dppcoretax <= 2_000_000:
-            st.info(f"**DPP Coretax = Rp {format_ribuan(dppcoretax)} → Tidak kena PPN karena ≤ Rp 2.000.000**")
-            dpp = nilai  # DPP PPh kembali ke nilai transaksi 100%
-        # ⬆⬆⬆ Tambahan berakhir di sini
-
         st.write(f"**Nilai Transaksi:** Rp {format_ribuan(nilai)}")                
         
         if kena_ppn:
