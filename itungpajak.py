@@ -7,7 +7,7 @@ def format_ribuan(nilai):
 def is_dpp_100persen(nilai):
     return nilai <= 2_000_000
 
-# TAMBAHAN: sesuaikan logika DPP
+# TAMBAHAN: logika DPP umum
 def calculate_dpp(nilai, kena_ppn):
     if is_dpp_100persen(nilai):
         return nilai
@@ -15,7 +15,7 @@ def calculate_dpp(nilai, kena_ppn):
         return (100 / 111) * nilai
     return nilai
 
-# TAMBAHAN: sesuaikan logika DPP coretax (untuk faktur PPN)
+# TAMBAHAN: logika DPP untuk faktur PPN (coretax)
 def calculate_dppcoretax(nilai, kena_ppn):
     if is_dpp_100persen(nilai):
         return nilai
@@ -24,7 +24,7 @@ def calculate_dppcoretax(nilai, kena_ppn):
     return nilai     
 
 def calculate_ppn(dpp):
-    return 0.12 * dppcoretax  # Catatan: dppcoretax akan didefinisikan di bawah
+    return 0.12 * dppcoretax  # Catatan: dppcoretax didefinisikan di bawah
 
 def calculate_pph22(dpp):
     return 0.015 * dpp
@@ -47,20 +47,21 @@ if nilai_str:
     try:
         nilai = float(nilai_str.replace(".", "").replace(",", "."))
 
-        # Hitung DPP dan DPP untuk PPN coretax
+        # Hitung DPP
         dpp = calculate_dpp(nilai, kena_ppn)
         dppcoretax = calculate_dppcoretax(nilai, kena_ppn)
 
         st.write(f"**Nilai Transaksi:** Rp {format_ribuan(nilai)}")                
 
-        # Tampilkan DPP dan PPN hanya jika nilai > 2 juta dan dikenakan PPN
+        # Tampilkan PPN hanya jika > 2 juta dan kena PPN
         if kena_ppn and not is_dpp_100persen(nilai):
             ppn = calculate_ppn(dppcoretax)
             st.info(f"**DPP (Dasar Pengenaan Pajak) PPN - Faktur Pajak Coretax =** Rp {format_ribuan(dppcoretax)}")
             st.info(f"**PPN (12%) = Rp {format_ribuan(ppn)}**")          
 
-        # Tampilkan DPP untuk PPh
-        st.success(f"**DPP (Dasar Pengenaan Pajak) PPh - e-bupot =** Rp {format_ribuan(dpp)}")        
+        # Tampilkan DPP PPh hanya jika bukan PPh 22 yang tidak kena
+        if not (jenis_pph == "PPh 22" and dpp <= 2_000_000):
+            st.success(f"**DPP (Dasar Pengenaan Pajak) PPh - e-bupot =** Rp {format_ribuan(dpp)}")        
 
         # Hitung dan tampilkan PPh
         if jenis_pph == "PPh 22":
