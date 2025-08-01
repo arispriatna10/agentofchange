@@ -52,7 +52,7 @@ if nilai_str:
             st.info(f"**DPP (Dasar Pengenaan Pajak) PPN - Faktur Pajak Coretax =** Rp {format_ribuan(dppcoretax)}")
             st.info(f"**PPN (12%) = Rp {format_ribuan(ppn)}**")    
         elif kena_ppn and dpp <= 2000000:
-            st.info("PPN tidak dikenakan untuk transaksi ≤ Rp 2.000.000.")
+            st.error("PPN tidak dikenakan untuk transaksi ≤ Rp 2.000.000.")
 
         # Perhitungan PPh 22 dan 23
         if jenis_pph == "PPh 22":
