@@ -41,13 +41,12 @@ if nilai_str:
         st.write(f"**Nilai Transaksi:** Rp {format_ribuan(nilai)}")                
 
         # PPN & DPP Coretax
-        if kena_ppn:
-            if dppcoretax > 2000000:
-                ppn = calculate_ppn(dppcoretax)
-                st.info(f"**DPP (Dasar Pengenaan Pajak) PPN - Faktur Pajak Coretax =** Rp {format_ribuan(dppcoretax)}")
-                st.info(f"**PPN (12%) = Rp {format_ribuan(ppn)}**")    
-            else:
-                st.info("PPN tidak dikenakan untuk transaksi ≤ Rp 2.000.000.")
+        if kena_ppn and dpp > 2000000:
+            ppn = calculate_ppn(dppcoretax)
+            st.info(f"**DPP (Dasar Pengenaan Pajak) PPN - Faktur Pajak Coretax =** Rp {format_ribuan(dppcoretax)}")
+            st.info(f"**PPN (12%) = Rp {format_ribuan(ppn)}**")    
+        elif kena_ppn and dpp <= 2000000:
+            st.info("PPN tidak dikenakan untuk transaksi ≤ Rp 2.000.000.")
 
         # PPh
         if jenis_pph == "PPh 22":
