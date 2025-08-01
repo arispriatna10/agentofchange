@@ -3,12 +3,22 @@ import streamlit as st
 def format_ribuan(nilai):
     return f"{nilai:,.0f}".replace(",", ".")
 
+# TAMBAHAN: logika agar DPP 100% kalau nilai ≤ 2 juta
+def is_dpp_100persen(nilai):
+    return nilai <= 2_000_000
+
+# TAMBAHAN: sesuaikan logika agar jika nilai ≤ 2 juta, DPP tetap 100%
 def calculate_dpp(nilai, kena_ppn):
+    if is_dpp_100persen(nilai):
+        return nilai
     if kena_ppn:
         return (100 / 111) * nilai
     return nilai
 
+# TAMBAHAN: sesuaikan logika agar jika nilai ≤ 2 juta, DPP coretax tetap 100%
 def calculate_dppcoretax(nilai, kena_ppn):
+    if is_dpp_100persen(nilai):
+        return nilai
     if kena_ppn:
         return (100 / 111) * (11 / 12) * nilai
     return nilai     
@@ -41,7 +51,7 @@ if nilai_str:
 
         st.write(f"**Nilai Transaksi:** Rp {format_ribuan(nilai)}")                
         
-        if kena_ppn:
+        if kena_ppn and not is_dpp_100persen(nilai):  # TAMBAHAN: supaya PPN tidak muncul kalau DPP 100%
             ppn = calculate_ppn(dppcoretax)
             st.info(f"**DPP (Dasar Pengenaan Pajak) PPN - Faktur Pajak Coretax =** Rp {format_ribuan(dppcoretax)}")
             st.info(f"**PPN (12%) = Rp {format_ribuan(ppn)}**")          
